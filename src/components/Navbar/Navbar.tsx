@@ -1,10 +1,9 @@
 import React from 'react';
-import { Container, Content, Links } from './styles';
+import { Content, Links } from './styles';
 import contactSvg from '../../assets/contact.svg';
 import detailSvg from '../../assets/detail.svg';
 
 const Navbar: React.FC = () => (
-  <Container>
     <Content>
       <a className="pedro-siqueira-logo" href="http://pedrosiqueira.com.br">
         pedro siqueira
@@ -21,7 +20,6 @@ const Navbar: React.FC = () => (
         </a>
       </Links>
     </Content>
-  </Container>
 );
 
 export default Navbar;

@@ -6,10 +6,10 @@ const Header: React.FC = () => (
   <Container>
     <Content>
       <Navbar />
-      <BackgroundText>
+      {/* <BackgroundText>
         <Background />
         <h1>desenvolvedor full-stack</h1>
-      </BackgroundText>
+      </BackgroundText> */}
     </Content>
   </Container>
 );

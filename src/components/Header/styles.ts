@@ -13,6 +13,8 @@ export const Content = styled.div`
 
 export const BackgroundText = styled.div`
   display: flex;
+  top: 177px;
+  left: 220px;
 `;
 
 export const Background = styled.img`

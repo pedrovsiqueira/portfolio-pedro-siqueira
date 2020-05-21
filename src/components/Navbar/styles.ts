@@ -1,9 +1,5 @@
 import styled from 'styled-components';
 
-export const Container = styled.nav`
-  width: 100vw;
-`;
-
 export const Content = styled.div`
   height: 80px;
   background: #272727 0% 0% no-repeat padding-box;
