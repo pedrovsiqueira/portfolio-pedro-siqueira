@@ -1,14 +1,15 @@
 import React from 'react';
-import { Container, Content, Background } from './styles';
+import { Container, Content, Background, BackgroundText } from './styles';
 import Navbar from '../Navbar/Navbar';
 
 const Header: React.FC = () => (
   <Container>
     <Content>
       <Navbar />
-      <h1>hello</h1>
-      <Background />
-      <h1>hello</h1>
+      <BackgroundText>
+        <Background />
+        <h1>desenvolvedor full-stack</h1>
+      </BackgroundText>
     </Content>
   </Container>
 );

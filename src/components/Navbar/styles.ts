@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.nav`
-  margin: 30px 0;
   width: 100vw;
-  max-width: 1366px;
-  height: 80px;
 `;
 
 export const Content = styled.div`
+  height: 80px;
+  background: #272727 0% 0% no-repeat padding-box;
   position: fixed;
   width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 2;
 
   .pedro-siqueira-logo {
     background: -webkit-linear-gradient(82deg, #00dcec 0%, #53f3ff 100%);

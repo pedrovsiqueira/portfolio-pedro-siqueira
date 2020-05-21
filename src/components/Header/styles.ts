@@ -1,15 +1,25 @@
 import styled from 'styled-components';
 import bgImg from '../../assets/bg-img.jpg';
 
-export const Container = styled.nav`
-  height: 768px;
+export const Container = styled.div`
+  height: 100vh;
   width: 100vw;
+  max-width: 1366px;
 `;
 
-export const Content = styled.nav`
-
+export const Content = styled.div`
+  width: 100vh;
 `;
 
-export const Background = styled.nav`
-  background-image: url(${bgImg});
+export const BackgroundText = styled.div`
+  display: flex;
+`;
+
+export const Background = styled.img`
+  background: url(${bgImg}) no-repeat;
+  background-size: cover;
+  width: 492px;
+  height: 492px;
+  border-radius: 50%;
+  transform: scaleX(-1);
 `;
