@@ -1,10 +1,12 @@
 import React from 'react';
 import GlobalStyle from './styles/global';
-import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer'
 
 const App: React.FC = () => (
   <>
-    <Navbar />
+    <Header />
+    <Footer />
     <GlobalStyle />
   </>
 );
