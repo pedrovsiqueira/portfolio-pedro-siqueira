@@ -25,5 +25,7 @@ export default createGlobalStyle`
   a{
     text-decoration: none;
     color: #FFF;
+    letter-spacing: 0px;
+    opacity: 1;
   }
 `;

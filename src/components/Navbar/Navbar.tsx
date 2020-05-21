@@ -6,15 +6,19 @@ import detailSvg from '../../assets/detail.svg';
 const Navbar: React.FC = () => (
   <Container>
     <Content>
-      <a href="http://pedrosiqueira.com.br">pedro siqueira</a>
+      <a className="pedro-siqueira-logo" href="http://pedrosiqueira.com.br">
+        pedro siqueira
+      </a>
 
       <Links>
         <a href="teste">sobre mim</a>
         <a href="teste">portfólio</a>
-        <img src={detailSvg} alt="Details logo" />
+        <img id="details-logo" src={detailSvg} alt="Details logo" />
         <Contact>
-          <img src={contactSvg} alt="Contact logo" />
-          <a href="teste">entre em contato</a>
+          <a href="teste">
+            <img id="contact-logo" src={contactSvg} alt="Contact logo" />
+            entre em contato
+          </a>
         </Contact>
       </Links>
     </Content>
