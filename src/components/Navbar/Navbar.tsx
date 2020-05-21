@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Content, Links, Contact } from './styles';
+import { Container, Content, Links } from './styles';
 import contactSvg from '../../assets/contact.svg';
 import detailSvg from '../../assets/detail.svg';
 
@@ -14,12 +14,11 @@ const Navbar: React.FC = () => (
         <a href="teste">sobre mim</a>
         <a href="teste">portfólio</a>
         <img id="details-logo" src={detailSvg} alt="Details logo" />
-        <Contact>
-          <a href="teste">
-            <img id="contact-logo" src={contactSvg} alt="Contact logo" />
-            entre em contato
-          </a>
-        </Contact>
+
+        <a className="contact" href="teste">
+          <img id="contact-logo" src={contactSvg} alt="Contact logo" />
+          <span>entre em contato</span>
+        </a>
       </Links>
     </Content>
   </Container>
