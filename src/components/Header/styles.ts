@@ -8,13 +8,31 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 100vh;
-`;
-
-export const BackgroundText = styled.div`
+  width: 100vw;
   display: flex;
-  top: 177px;
-  left: 220px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 177px;
+  display: flex;
+
+  .background-text {
+    z-index: 1;
+    margin-left: -50px;
+
+    h1 {
+      background: -webkit-linear-gradient(82deg, #00dcec 0%, #53f3ff 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 36px;
+      /* font-weight: 600;
+      font-size: 119px */
+    }
+    p {
+      max-width: 365px;
+      font-weight: 600;
+    }
+  }
 `;
 
 export const Background = styled.img`

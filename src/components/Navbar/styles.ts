@@ -4,6 +4,7 @@ export const Content = styled.div`
   height: 80px;
   background: #272727 0% 0% no-repeat padding-box;
   position: fixed;
+  top: 0;
   width: 100vw;
   display: flex;
   justify-content: space-around;
