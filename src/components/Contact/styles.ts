@@ -12,7 +12,6 @@ export const Container = styled.section`
 export const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
-
   h5 {
     font-style: bold;
     font-size: 13px;
@@ -23,10 +22,6 @@ export const ContactInfo = styled.div`
   }
 
   h2 {
-    background: -webkit-linear-gradient(85deg, #00dcec 0%, #53f3ff 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 44px;
   }
 

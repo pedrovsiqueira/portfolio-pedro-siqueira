@@ -33,9 +33,17 @@ export default createGlobalStyle`
 
   input{
     border: none;
+    border-radius: 10px;
   }
   textarea{
     border: none;
+    border-radius: 10px;
   }
 
+  h2{
+      background: -webkit-linear-gradient(85deg, #00dcec 0%, #53f3ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 `;

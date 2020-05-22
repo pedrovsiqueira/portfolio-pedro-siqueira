@@ -17,13 +17,15 @@ const ContactForm: React.FC = () => (
       name="email"
       id="email"
     />
+
     <input
       className="input-styles"
       placeholder="Telefone"
-      type="telefone"
-      name="name"
-      id="name"
+      type="tel"
+      name="phone"
+      pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"
     />
+
     <textarea
       className="input-styles"
       placeholder="Mensagem"

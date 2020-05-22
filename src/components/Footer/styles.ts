@@ -7,8 +7,14 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.footer`
-  margin-left: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
   em {
-    font-weight: bold;
+    font-weight: 700;
   }
 `;
