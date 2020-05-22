@@ -1,13 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
-
 export default createGlobalStyle`
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 0; */
-    outline: 1px solid red;
+    outline: 0;
+    /* outline: 1px solid red; */
   }
 
   body{
@@ -22,6 +21,7 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+    border: none;
   }
 
   a{
@@ -29,6 +29,13 @@ export default createGlobalStyle`
     color: #FFF;
     letter-spacing: 0px;
     opacity: 1;
+  }
+
+  input{
+    border: none;
+  }
+  textarea{
+    border: none;
   }
 
 `;

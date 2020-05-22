@@ -1,14 +1,15 @@
-import React from 'react'
-import {Container, Content} from './styles'
+import React from 'react';
+import { Container, Content } from './styles';
 
 const Footer: React.FC = () => (
   <Container>
     <Content>
-      <footer>
-        <h1>This is my footer</h1>
-      </footer>
+      <p>
+        Copyright 2020 - Todos os direitos reservados a <em>Pedro Siqueira</em>.
+        Design por <em>Diego Tavares</em>.
+      </p>
     </Content>
   </Container>
-)
+);
 
-export default Footer
+export default Footer;

@@ -8,10 +8,13 @@ const Contact: React.FC = () => (
       <h5>contato</h5>
       <h2>quer conversar comigo?</h2>
       <p>
-        Caso tenha se interessado pelo meno trabalho, preencha o formulário que
-        em breve conversaremos.
+        Caso tenha se interessado pelo meu trabalho, preencha o formulário que
+        em breve conversaremos. <br /> <br />
+        Se preferir, pode me enviar um e-mail{' '}
+        <a href="mailto:pedro.v.siqueira@gmail.com">
+          pedro.v.siqueira@gmail.com
+        </a>
       </p>
-      <p>Se preferir, pode me enviar um e-mail pedro.v.siqueira@gmail.com</p>
     </ContactInfo>
     <ContactForm />
   </Container>

@@ -5,5 +5,10 @@ export const Container = styled.div`
   max-width: 1366px;
   height: 80px;
 `;
-export const Content = styled.div``;
-export const Footer = styled.div``;
+
+export const Content = styled.footer`
+  margin-left: 65px;
+  em {
+    font-weight: bold;
+  }
+`;
