@@ -8,7 +8,6 @@ export default createGlobalStyle`
     box-sizing: border-box;
     /* outline: 0; */
     outline: 1px solid red;
-
   }
 
   body{
@@ -31,4 +30,5 @@ export default createGlobalStyle`
     letter-spacing: 0px;
     opacity: 1;
   }
+
 `;

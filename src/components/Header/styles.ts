@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import bgImg from '../../assets/bg-img.jpg';
+import bgImg from '../../assets/bg-img2.jpg';
 
 export const Container = styled.div`
-  height: 100vh;
+  height: 768px;
   width: 100vw;
   max-width: 1366px;
 `;
@@ -12,6 +12,7 @@ export const Content = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   margin-top: 177px;
   display: flex;
 
@@ -25,12 +26,14 @@ export const Content = styled.div`
       background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 36px;
-      /* font-weight: 600;
-      font-size: 119px */
+      width: 491px;
+      font-weight: 800;
+      font-size: 60px
     }
     p {
+      font-size: 16px;
       max-width: 365px;
-      font-weight: 600;
+      font-weight: 500;
     }
   }
 `;
@@ -41,5 +44,5 @@ export const Background = styled.img`
   width: 492px;
   height: 492px;
   border-radius: 50%;
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
 `;
