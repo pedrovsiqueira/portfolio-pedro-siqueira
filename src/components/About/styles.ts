@@ -6,4 +6,8 @@ export const Container = styled.div`
   max-width: 1366px;
 `;
 
-export const Content = styled.div``;
+export const Content = styled.div`
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+`;
