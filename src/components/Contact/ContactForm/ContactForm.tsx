@@ -3,17 +3,11 @@ import { Form } from './styles';
 import Input from '../Input/Input';
 import Button from '../Button/Button';
 import TextArea from '../TextArea/TextArea';
-import { FiSmartphone, FiLogIn, FiMail, FiMessageSquare } from 'react-icons/fi';
+import { FiSmartphone, FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
 
 const ContactForm: React.FC = () => (
   <Form>
-    <Input
-      placeholder="Nome"
-      type="text"
-      name="name"
-      id="name"
-      icon={FiLogIn}
-    />
+    <Input placeholder="Nome" type="text" name="name" id="name" icon={FiUser} />
 
     <Input
       placeholder="E-mail"
@@ -27,7 +21,7 @@ const ContactForm: React.FC = () => (
       placeholder="Telefone"
       type="tel"
       name="phone"
-      pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"
+      pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"
       icon={FiSmartphone}
     />
 

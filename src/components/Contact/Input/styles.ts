@@ -1,6 +1,11 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+interface ContainerProps {
+  isFocused: boolean;
+  isFilled: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
   background: #484848 0% 0%;
   margin-bottom: 32px;
 
@@ -8,8 +13,15 @@ export const Container = styled.div`
   align-items: center;
   border-radius: 10px;
 
+  ${(props) =>
+    props.isFocused &&
+    css`
+      border: 2px solid #41ebf8;
+      color: #41ebf8;
+    `}
+
   input {
-    color: #dcdcdc;
+    color: #f4ede8;
     flex: 1;
     background: transparent;
     font-size: 14px;
@@ -18,12 +30,24 @@ export const Container = styled.div`
     height: 56px;
 
     &::placeholder {
-      color: #dcdcdc;
+      color: #f4ede8;
     }
   }
 
   svg {
-    color: #dcdcdc;
+    color: #f4ede8;
     margin-left: 16px;
+
+    ${(props) =>
+      props.isFocused &&
+      css`
+        color: #41ebf8;
+      `}
+
+    ${(props) =>
+      props.isFilled &&
+      css`
+        color: #41ebf8;
+      `}
   }
 `;
