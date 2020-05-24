@@ -12,6 +12,7 @@ const Navbar: React.FC = () => (
       <Links>
         <a href="teste">sobre mim</a>
         <a href="teste">portfólio</a>
+        <a href="teste">depoimentos</a>
         <img id="details-logo" src={detailSvg} alt="Details logo" />
 
         <a className="contact" href="teste">
