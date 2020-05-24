@@ -4,6 +4,8 @@ import { shade } from 'polished';
 export const Icons = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 104px;
+
   img {
     margin-right: 32px;
 

@@ -12,7 +12,7 @@ const SocialIcons: React.FC = () => (
     <img src={linkedinIcon} alt="Linkedin Icon" />
     <img src={instagramIcon} alt="Instagram Icon" />
     <img id="details-logo" src={detailSvg} alt="Details logo" />
-    <a href="">download CV</a>
+    <a href="teste">download CV</a>
   </Icons>
 );
 
