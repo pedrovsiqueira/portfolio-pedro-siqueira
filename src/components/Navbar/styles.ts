@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Content = styled.div`
   height: 80px;
@@ -27,6 +28,10 @@ export const Links = styled.div`
   a {
     margin-right: 38px;
     font-weight: 400;
+
+    &:hover {
+      color: ${shade(0.01, '#33E8F6')};
+    }
   }
 
   #details-logo {

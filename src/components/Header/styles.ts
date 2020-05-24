@@ -13,7 +13,7 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-top: 177px;
+  margin-top: 220px;
   display: flex;
 
   .background-text {
