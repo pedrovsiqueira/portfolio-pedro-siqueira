@@ -8,6 +8,7 @@ export const Content = styled.div`
 `;
 
 export const Card = styled.div`
+  margin-top: 104px;
   background: #353535 0% 0% no-repeat padding-box;
   border-radius: 10px;
   display: flex;

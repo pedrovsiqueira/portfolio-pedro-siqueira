@@ -5,13 +5,12 @@ export const Icons = styled.div`
   display: flex;
   align-items: center;
   align-content: center;
-  margin-bottom: 104px;
 
   svg {
     width: 20px;
     height: 20px;
     &:hover {
-      color: ${shade(0.1, '#33E8F6')};
+      color: ${shade(0.01, '#33E8F6')};
     }
   }
 
