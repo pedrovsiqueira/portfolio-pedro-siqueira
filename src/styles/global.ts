@@ -33,7 +33,6 @@ export default createGlobalStyle`
 
   input{
     border: none;
-    border-radius: 10px;
   }
   textarea{
     border: none;

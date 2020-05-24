@@ -1,38 +1,43 @@
 import React from 'react';
 import { Form } from './styles';
+import Input from '../Input/Input';
+import Button from '../Button/Button';
+import TextArea from '../TextArea/TextArea';
+import { FiSmartphone, FiLogIn, FiMail, FiMessageSquare } from 'react-icons/fi';
 
 const ContactForm: React.FC = () => (
   <Form>
-    <input
-      className="input-styles"
+    <Input
       placeholder="Nome"
       type="text"
       name="name"
       id="name"
+      icon={FiLogIn}
     />
-    <input
-      className="input-styles"
+
+    <Input
       placeholder="E-mail"
       type="email"
       name="email"
       id="email"
+      icon={FiMail}
     />
 
-    <input
-      className="input-styles"
+    <Input
       placeholder="Telefone"
       type="tel"
       name="phone"
       pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"
+      icon={FiSmartphone}
     />
 
-    <textarea
-      className="input-styles"
+    <TextArea
       placeholder="Mensagem"
       name="message"
       id="message"
+      icon={FiMessageSquare}
     />
-    <button type="submit">enviar mensagem</button>
+    <Button type="submit">enviar mensagem</Button>
   </Form>
 );
 
