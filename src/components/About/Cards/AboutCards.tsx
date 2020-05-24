@@ -1,10 +1,11 @@
 import React from 'react';
 import { Content, Card } from './styles';
+import { FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
 
 const AboutCards: React.FC = () => (
   <Content>
     <Card>
-      <img src="" alt="" />
+      <FiUser />
       <h3>desenvolvimento</h3>
       <p>
         Cada dia que passa eu fico encantando com o mundo de desenvolvimento.

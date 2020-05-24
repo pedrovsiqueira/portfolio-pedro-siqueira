@@ -39,4 +39,6 @@ export const AboutText = styled.div`
     text-align: center;
     margin-bottom: 55px;
   }
+
+  
 `;
