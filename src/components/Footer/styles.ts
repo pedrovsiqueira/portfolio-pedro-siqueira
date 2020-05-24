@@ -7,6 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.footer`
+width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;

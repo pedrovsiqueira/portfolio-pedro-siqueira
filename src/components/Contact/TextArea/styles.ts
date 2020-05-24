@@ -19,6 +19,7 @@ export const Container = styled.div<ContainerProps>`
     `}
 
   textarea {
+    resize: none;
     color: #f4ede8;
     background: transparent;
     font-size: 14px;

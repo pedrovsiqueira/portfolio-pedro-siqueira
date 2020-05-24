@@ -25,14 +25,14 @@ const ContactForm: React.FC = () => (
       required
     />
 
-    <Input
+    {/* <Input
       placeholder="Telefone"
       type="tel"
       name="phone"
       pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"
       icon={FiSmartphone}
       required
-    />
+    /> */}
 
     <TextArea
       placeholder="Mensagem"

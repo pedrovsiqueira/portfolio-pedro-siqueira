@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  height: 688px;
+  height: 550px;
   width: 100vw;
   max-width: 1366px;
+`;
+
+export const Content = styled.section`
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,6 +16,7 @@ export const Container = styled.section`
 export const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
+
   h5 {
     font-style: bold;
     font-size: 13px;
@@ -33,7 +38,7 @@ export const ContactInfo = styled.div`
     font-weight: 500;
   }
 
-  a{
+  a {
     font-weight: bold;
   }
 `;
