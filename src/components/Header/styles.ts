@@ -44,5 +44,4 @@ export const Background = styled.img`
   width: 492px;
   height: 492px;
   border-radius: 50%;
-  /* transform: scaleX(-1); */
 `;

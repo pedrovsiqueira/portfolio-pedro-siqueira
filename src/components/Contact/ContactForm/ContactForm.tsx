@@ -3,7 +3,7 @@ import { Form } from './styles';
 import Input from '../Input/Input';
 import Button from '../Button/Button';
 import TextArea from '../TextArea/TextArea';
-import { FiSmartphone, FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
+import { FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
 
 const ContactForm: React.FC = () => (
   <Form>

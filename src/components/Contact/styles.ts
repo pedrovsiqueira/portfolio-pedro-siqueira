@@ -11,6 +11,14 @@ export const Content = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  @media screen and (max-width: 414px) {
+    margin-left: 24px;
+    flex-direction: column;
+    height: 800px;
+    p{
+      width: 366px;
+    }
+  }
 `;
 
 export const ContactInfo = styled.div`
