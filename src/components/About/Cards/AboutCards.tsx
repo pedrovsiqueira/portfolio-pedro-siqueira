@@ -6,10 +6,10 @@ import { FaFootballBall, FaBookReader, FaDesktop } from 'react-icons/fa';
 const AboutCards: React.FC = () => (
   <Content>
     <Container>
-      <IconContainer>
-        <FiCode />
-      </IconContainer>
       <Card>
+        <IconContainer>
+          <FiCode />
+        </IconContainer>
         <h3>desenvolvimento</h3>
         <p>
           Cada dia que passa eu fico encantando com o mundo de desenvolvimento.
@@ -18,10 +18,10 @@ const AboutCards: React.FC = () => (
       </Card>
     </Container>
     <Container>
-      <IconContainer>
-        <FaFootballBall />
-      </IconContainer>
       <Card>
+        <IconContainer>
+          <FaFootballBall />
+        </IconContainer>
         <h3>esportes</h3>
         <p>
           Sou fã e praticante de esportes em geral, tais como: futebol, futebol
@@ -34,11 +34,10 @@ const AboutCards: React.FC = () => (
         <IconContainer>
           <FaBookReader />
         </IconContainer>
-        <img src="" alt="" />
         <h3>livros</h3>
         <p>
-          Tenho uma pequena coleção de mais de 200 livros de vários gêneros. Na minha
-          opinião ler é viajar sem sair do lugar.
+          Tenho uma pequena coleção de mais de 200 livros de vários gêneros. Na
+          minha opinião ler é viajar sem sair do lugar.
         </p>
       </Card>
     </Container>
@@ -49,8 +48,8 @@ const AboutCards: React.FC = () => (
         </IconContainer>
         <h3>novas tecnologias</h3>
         <p>
-          Estou sempre em busca de novos conhecimentos e desafios, principalmente quando se
-          trata da área de tecnologia.
+          Estou sempre em busca de novos conhecimentos e desafios,
+          principalmente quando se trata da área de tecnologia.
         </p>
       </Card>
     </Container>

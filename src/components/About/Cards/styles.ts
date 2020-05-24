@@ -18,10 +18,12 @@ export const Container = styled.div`
   width: 240px;
   height: 240px;
 
+  &:hover {
+    border: 2px solid #41ebf8;
+  }
 `;
 
 export const IconContainer = styled.div`
-
   display: flex;
   justify-content: center;
   align-items: center;
