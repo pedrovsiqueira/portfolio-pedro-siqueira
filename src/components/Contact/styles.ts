@@ -25,15 +25,6 @@ export const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
 
-  h5 {
-    font-style: bold;
-    font-size: 13px;
-    letter-spacing: 2.58px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 17px;
-  }
-
   h2 {
     margin-bottom: 44px;
   }

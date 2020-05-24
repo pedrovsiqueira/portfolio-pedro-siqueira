@@ -45,4 +45,13 @@ export default createGlobalStyle`
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+    h5 {
+    font-style: bold;
+    font-size: 13px;
+    letter-spacing: 2.58px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+  }
 `;
