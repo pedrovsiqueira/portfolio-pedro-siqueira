@@ -7,7 +7,14 @@ import { FiSmartphone, FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
 
 const ContactForm: React.FC = () => (
   <Form>
-    <Input placeholder="Nome" type="text" name="name" id="name" icon={FiUser} />
+    <Input
+      placeholder="Nome"
+      type="text"
+      name="name"
+      id="name"
+      icon={FiUser}
+      required
+    />
 
     <Input
       placeholder="E-mail"
@@ -15,6 +22,7 @@ const ContactForm: React.FC = () => (
       name="email"
       id="email"
       icon={FiMail}
+      required
     />
 
     <Input
@@ -23,6 +31,7 @@ const ContactForm: React.FC = () => (
       name="phone"
       pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"
       icon={FiSmartphone}
+      required
     />
 
     <TextArea
@@ -30,6 +39,7 @@ const ContactForm: React.FC = () => (
       name="message"
       id="message"
       icon={FiMessageSquare}
+      required
     />
     <Button type="submit">enviar mensagem</Button>
   </Form>
