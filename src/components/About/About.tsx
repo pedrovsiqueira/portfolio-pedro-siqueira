@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Content, AboutText } from './styles';
 import SocialIcons from '../SocialIcons/SocialIcons';
+import AboutCards from './Cards/AboutCards';
 
 const About: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const About: React.FC = () => {
             meu desejo era trabalhar com desenvolvimento.
           </p>
           <SocialIcons />
+          <AboutCards />
         </AboutText>
       </Content>
     </Container>
