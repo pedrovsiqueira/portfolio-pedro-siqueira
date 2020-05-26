@@ -17,8 +17,10 @@ export const Container = styled.div`
   border-radius: 10px;
   width: 240px;
   height: 240px;
-  border: 2px solid #41ebf8;
 
+  &:hover {
+    border: 2px solid #41ebf8;
+  }
 `;
 
 export const IconContainer = styled.div`

@@ -4,6 +4,7 @@ export const Container = styled.section`
   height: 550px;
   width: 100vw;
   max-width: 1366px;
+  margin-top: 30px;
 `;
 
 export const Content = styled.section`
