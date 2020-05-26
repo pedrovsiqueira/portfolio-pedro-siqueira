@@ -5,8 +5,8 @@ import Cards from './Cards/Cards';
 const Contact: React.FC = () => (
   <Container>
     <Content>
-      <h3>depoimentos</h3>
-      <h1>veja qual é a opinião dos clientes</h1>
+      <h5>depoimentos</h5>
+      <h2>veja qual é a opinião dos clientes</h2>
       <Cards />
     </Content>
   </Container>
