@@ -5,8 +5,8 @@ import Cards from './Cards/Cards';
 const Projects: React.FC = () => (
   <Container>
     <Content>
-      <h3>Portfólio</h3>
-      <h1>veja qual é a opinião dos clientes</h1>
+      <h5>portfólio</h5>
+      <h2>conheça o meu trabalho</h2>
       <Cards />
     </Content>
   </Container>
