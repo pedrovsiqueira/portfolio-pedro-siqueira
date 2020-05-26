@@ -15,5 +15,6 @@ export const Content = styled.div`
 
   h2 {
     font-size: 30px;
+    margin-bottom: 34px;
   }
 `;

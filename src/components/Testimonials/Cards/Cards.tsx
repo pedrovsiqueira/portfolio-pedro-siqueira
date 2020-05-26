@@ -1,14 +1,16 @@
 import React from 'react';
-import { Container } from './styles';
+import { Container, Card } from './styles';
 
 const Cards: React.FC = () => (
   <Container>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt non esse
-      laborum tempore fugiat animi, aut error voluptates nulla excepturi ab
-      repellendus ratione consequatur cum ipsam nisi corrupti dolor quia.
-    </p>
-    <h5>Autor</h5>
+    <Card>
+      <p>
+        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
+        um exercício muito relevante de comunicação e co-criação. É nítido como
+        seu empenho está estampado em todos os seus projetos. Sucesso!"
+      </p>
+      <h4>Bruno Araújo</h4>
+    </Card>
   </Container>
 );
 
