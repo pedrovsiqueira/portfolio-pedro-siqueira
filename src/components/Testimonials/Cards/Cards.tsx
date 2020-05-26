@@ -9,7 +9,47 @@ const Cards: React.FC = () => (
         um exercício muito relevante de comunicação e co-criação. É nítido como
         seu empenho está estampado em todos os seus projetos. Sucesso!"
       </p>
-      <h4>Bruno Araújo</h4>
+      <h3>Bruno Araújo</h3>
+    </Card>
+    <Card>
+      <p>
+        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
+        um exercício muito relevante de comunicação e co-criação. É nítido como
+        seu empenho está estampado em todos os seus projetos. Sucesso!"
+      </p>
+      <h3>Bruno Araújo</h3>
+    </Card>
+    <Card>
+      <p>
+        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
+        um exercício muito relevante de comunicação e co-criação. É nítido como
+        seu empenho está estampado em todos os seus projetos. Sucesso!"
+      </p>
+      <h3>Bruno Araújo</h3>
+    </Card>
+    <Card>
+      <p>
+        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
+        um exercício muito relevante de comunicação e co-criação. É nítido como
+        seu empenho está estampado em todos os seus projetos. Sucesso!"
+      </p>
+      <h3>Bruno Araújo</h3>
+    </Card>
+    <Card>
+      <p>
+        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
+        um exercício muito relevante de comunicação e co-criação. É nítido como
+        seu empenho está estampado em todos os seus projetos. Sucesso!"
+      </p>
+      <h3>Bruno Araújo</h3>
+    </Card>
+    <Card>
+      <p>
+        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
+        um exercício muito relevante de comunicação e co-criação. É nítido como
+        seu empenho está estampado em todos os seus projetos. Sucesso!"
+      </p>
+      <h3>Bruno Araújo</h3>
     </Card>
   </Container>
 );
