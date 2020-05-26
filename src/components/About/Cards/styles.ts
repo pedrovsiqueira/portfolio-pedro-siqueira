@@ -19,9 +19,6 @@ export const Container = styled.div`
   height: 240px;
   border: 2px solid #41ebf8;
 
-  /* &:hover {
-    border: 2px solid #41ebf8;
-  } */
 `;
 
 export const IconContainer = styled.div`
@@ -52,11 +49,6 @@ export const Card = styled.div`
   transition: border 0.2s;
 
   h3 {
-    font-weight: 600;
-    background: -webkit-linear-gradient(82deg, #00dcec 0%, #53f3ff 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
   }
 
