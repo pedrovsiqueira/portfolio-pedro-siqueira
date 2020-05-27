@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from './styles';
+import projects from '../../../data/projects'
 
 const Cards: React.FC = () => (
   <Container>
