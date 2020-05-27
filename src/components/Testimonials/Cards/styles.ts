@@ -18,6 +18,7 @@ export const Card = styled.div`
   justify-content: space-evenly;
   border-radius: 10px;
   margin-bottom: 32px;
+  /* border: 1.5px solid #41ebf8; */
   /* border: 2px solid #41ebf8; */
 
   p {
