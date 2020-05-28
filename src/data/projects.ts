@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    img: '',
+    img: '../assets/portfolio/easy-cooking.png',
     title: 'IMDB - Internet Movies Database Clone',
     summary: 'Front-end desenvolvido no desafio AceleraDev da Codenation.',
     tech: ['HTML5', 'CSS3'],

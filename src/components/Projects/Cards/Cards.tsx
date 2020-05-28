@@ -1,15 +1,21 @@
 import React from 'react';
-import { Container } from './styles';
-import projects from '../../../data/projects'
+import { Container, CardContainer, CardContent } from './styles';
+import projects from '../../../data/projects';
 
 const Cards: React.FC = () => (
   <Container>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt non esse
-      laborum tempore fugiat animi, aut error voluptates nulla excepturi ab
-      repellendus ratione consequatur cum ipsam nisi corrupti dolor quia.
-    </p>
-    <h5>Autor</h5>
+    {projects.map((item) => (
+      <CardContainer>
+        <CardContent>
+          <h4>{item.title}</h4>
+          <p>{item.summary}</p>
+          {item.tech.map((item) => (
+            <h6>{item}</h6>
+          ))}
+        </CardContent>
+        <img src={item.img} alt="Project Img" />
+      </CardContainer>
+    ))}
   </Container>
 );
 
