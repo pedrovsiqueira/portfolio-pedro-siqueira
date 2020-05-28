@@ -27,11 +27,16 @@ export const CardContainer = styled.div`
     margin: 0 15px 47px 0;
   }
 
-  .project-img {
-    filter: grayscale(100%);
+  .img-container {
     width: 512px;
     height: 304px;
+    overflow: hidden;
     border-radius: 10px;
+  }
+  
+  .project-img {
+    filter: grayscale(100%);
+    width: 100%;
     transition: filter 1.2s ease;
 
     &:hover {

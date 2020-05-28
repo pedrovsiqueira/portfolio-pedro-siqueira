@@ -7,7 +7,7 @@ const About: React.FC = () => {
   return (
     <Container>
       <Content>
-        <AboutText id="about">
+        <AboutText>
           <h5>sobre mim</h5>
           <h1>
             olá, sou o <span>Pedro Siqueira</span>

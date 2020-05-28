@@ -26,13 +26,17 @@ const Cards: React.FC = () => (
                 <a href={repo}>acessar repositório</a>
               </Links>
             </CardContent>
-            <img className="project-img" src={img} alt="Project Img" />
+            <div className="img-container">
+              <img className="project-img" src={img} alt="Project Img" />
+            </div>
           </CardContainer>
         );
       } else {
         return (
           <CardContainer>
-            <img className="project-img" src={img} alt="Project Img" />
+            <div className="img-container">
+              <img className="project-img" src={img} alt="Project Img" />
+            </div>
             <CardContent>
               <h4>{title}</h4>
               <p>{summary}</p>
