@@ -27,7 +27,7 @@ export const Links = styled.div`
 
   a {
     margin-right: 38px;
-    font-weight: 400;
+    font-weight: 500;
 
     &:hover {
       color: ${shade(0.01, '#33E8F6')};
