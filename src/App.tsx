@@ -5,6 +5,7 @@ import Projects from './components/Projects/Projects';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 
 const App: React.FC = () => (
   <>
@@ -13,6 +14,7 @@ const App: React.FC = () => (
     <Projects />
     <Testimonials />
     <Contact />
+    <Footer />
     <GlobalStyle />
   </>
 );

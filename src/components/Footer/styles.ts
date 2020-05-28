@@ -10,10 +10,10 @@ export const Content = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
-  /* position: fixed; */
-  /* left: 0px;
-  bottom: 0px; */
+  padding: 50px 0 20px 0;
+  /* margin-bottom: 40px; */
+  background-color: #484848;
+
 
   @media screen and (max-width: 414px) {
     margin: 20px 20px;

@@ -8,6 +8,7 @@ export const Container = styled.div`
 export const CardContainer = styled.div`
   width: 100%;
   display: flex;
+  /* flex-direction: row-reverse; */
   justify-content: space-between;
   margin-bottom: 80px;
 
@@ -16,7 +17,7 @@ export const CardContainer = styled.div`
     font-size: 16px;
   }
 
-  h3 {
+  h4 {
     font-size: 31px;
     margin: 41px 0px 25px 0px;
   }

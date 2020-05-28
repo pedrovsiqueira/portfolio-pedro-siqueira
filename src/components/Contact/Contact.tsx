@@ -1,7 +1,6 @@
 import React from 'react';
 import ContactForm from './ContactForm/ContactForm';
 import { Container, ContactInfo, Content } from './styles';
-import Footer from '../Footer/Footer';
 
 const Contact: React.FC = () => (
   <Container>
@@ -20,7 +19,7 @@ const Contact: React.FC = () => (
       </ContactInfo>
       <ContactForm />
     </Content>
-    <Footer />
+
   </Container>
 );
 
