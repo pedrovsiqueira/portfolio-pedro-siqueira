@@ -52,7 +52,6 @@ const Cards: React.FC = () => (
         );
       }
     })}
-    }
   </Container>
 );
 

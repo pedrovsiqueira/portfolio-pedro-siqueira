@@ -6,7 +6,7 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #484848 0% 0%;
+  background: #353535 0% 0%;
   margin-bottom: 32px;
 
   display: flex;

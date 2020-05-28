@@ -10,9 +10,8 @@ export const Content = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 0 20px 0;
-  /* margin-bottom: 40px; */
-  background-color: #484848;
+  padding: 25px 0 20px 0;
+  background-color: #353535;
 
 
   @media screen and (max-width: 414px) {

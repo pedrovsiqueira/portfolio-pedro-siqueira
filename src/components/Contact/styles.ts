@@ -4,9 +4,9 @@ export const Container = styled.section`
   height: 768px;
   width: 100vw;
   max-width: 1366px;
-display: flex;
-flex-direction: column;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 export const Content = styled.section`
