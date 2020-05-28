@@ -5,28 +5,31 @@ import projects from '../../../data/projects';
 
 const Cards: React.FC = () => (
   <Container>
-    {projects.map((item) => (
-      <CardContainer>
-        <CardContent>
-          
-          <h3>{item.title}</h3>
-          <p>{item.summary}</p>
-          {item.tech.map((item) => (
-            <h5>{item}</h5>
-          ))}
+    {projects.map((item) => {
+      const { title, summary, tech, img, repo, demo } = item;
 
-          <Links>
-            <a className="link-color" href={item.demo}>
-              acessar demo
-            </a>
-            <img id="details-logo" src={detailSvg} alt="Details logo" />
-            <a href={item.repo}>acessar repositório</a>
-          </Links>
+      return (
+        <CardContainer>
+          <CardContent>
+            <h3>{title}</h3>
+            <p>{summary}</p>
+            {tech.map((item) => (
+              <h5>{item}</h5>
+            ))}
 
-        </CardContent>
-        <img className="project-img" src={item.img} alt="Project Img" />
-      </CardContainer>
-    ))}
+            <Links>
+              <a className="link-color" href={demo}>
+                acessar demo
+              </a>
+              <img id="details-logo" src={detailSvg} alt="Details logo" />
+              <a href={repo}>acessar repositório</a>
+            </Links>
+          </CardContent>
+          <img className="project-img" src={img} alt="Project Img" />
+        </CardContainer>
+      );
+    })}
+    }
   </Container>
 );
 
