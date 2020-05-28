@@ -43,7 +43,7 @@ export const Background = styled.img`
   background-size: cover;
   width: 492px;
   height: 492px;
-  /* border: none; */
-  /* outline: none; */
+  border: none;
+  outline: none;
   border-radius: 50%;
 `;

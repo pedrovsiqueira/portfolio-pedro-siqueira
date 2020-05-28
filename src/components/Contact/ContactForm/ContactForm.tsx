@@ -6,7 +6,8 @@ import TextArea from '../TextArea/TextArea';
 import { FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
 
 const ContactForm: React.FC = () => (
-  <Form>
+  <Form name="contact" method="post">
+    <input type="hidden" name="form-name" value="contact"></input>
     <Input
       placeholder="Nome"
       type="text"
@@ -24,15 +25,6 @@ const ContactForm: React.FC = () => (
       icon={FiMail}
       required
     />
-
-    {/* <Input
-      placeholder="Telefone"
-      type="tel"
-      name="phone"
-      pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"
-      icon={FiSmartphone}
-      required
-    /> */}
 
     <TextArea
       placeholder="Mensagem"
