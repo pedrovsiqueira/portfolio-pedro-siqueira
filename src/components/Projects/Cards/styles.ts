@@ -16,7 +16,7 @@ export const CardContainer = styled.div`
     font-size: 16px;
   }
 
-  h4 {
+  h3 {
     font-size: 31px;
     margin: 41px 0px 25px 0px;
   }

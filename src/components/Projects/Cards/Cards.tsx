@@ -8,11 +8,13 @@ const Cards: React.FC = () => (
     {projects.map((item) => (
       <CardContainer>
         <CardContent>
-          <h4>{item.title}</h4>
+          
+          <h3>{item.title}</h3>
           <p>{item.summary}</p>
           {item.tech.map((item) => (
             <h5>{item}</h5>
           ))}
+
           <Links>
             <a className="link-color" href={item.demo}>
               acessar demo
@@ -20,6 +22,7 @@ const Cards: React.FC = () => (
             <img id="details-logo" src={detailSvg} alt="Details logo" />
             <a href={item.repo}>acessar repositório</a>
           </Links>
+
         </CardContent>
         <img className="project-img" src={item.img} alt="Project Img" />
       </CardContainer>

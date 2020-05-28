@@ -10,12 +10,15 @@ export const Content = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 80px;
+  /* position: fixed; */
+  /* left: 0px;
+  bottom: 0px; */
 
   @media screen and (max-width: 414px) {
     margin: 20px 20px;
 
-    p{
+    p {
       width: 100%;
       text-align: center;
       font-size: 14px;

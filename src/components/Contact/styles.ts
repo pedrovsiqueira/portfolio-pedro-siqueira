@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  height: 550px;
+  height: 768px;
   width: 100vw;
   max-width: 1366px;
-  margin-top: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
 `;
 
 export const Content = styled.section`
@@ -16,7 +18,7 @@ export const Content = styled.section`
     margin-left: 24px;
     flex-direction: column;
     height: 800px;
-    p{
+    p {
       width: 366px;
     }
   }
