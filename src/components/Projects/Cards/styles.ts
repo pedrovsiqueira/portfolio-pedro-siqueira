@@ -3,10 +3,14 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin-top: 75px;
   width: 1088px;
+
+  @media screen and (max-width: 414px) {
+    width: 366px;
+  }
 `;
 
 export const CardContainer = styled.div`
-  width: 100%;
+  width: 100vw;
   margin-bottom: 80px;
 
   .switch-projects {
@@ -53,6 +57,20 @@ export const CardContainer = styled.div`
       filter: none;
     }
   }
+
+  @media screen and (max-width: 414px) {
+    width: 366px;
+    .switch-projects {
+      flex-direction: column;
+    }
+
+    .switch-projects-reverse {
+      flex-direction: column;
+    }
+
+    p {
+    }
+  }
 `;
 
 export const CardContent = styled.div`
@@ -78,9 +96,4 @@ export const Links = styled.div`
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
-  @media screen and (max-width: 414px) {
-    
-  }
-
 `;
