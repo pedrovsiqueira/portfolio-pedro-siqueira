@@ -7,10 +7,19 @@ export const Container = styled.div`
 
 export const CardContainer = styled.div`
   width: 100%;
-  display: flex;
-  /* flex-direction: row-reverse; */
-  justify-content: space-between;
   margin-bottom: 80px;
+
+  .switch-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .switch-projects-reverse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
 
   p {
     margin-bottom: 17px;
@@ -69,4 +78,9 @@ export const Links = styled.div`
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  @media screen and (max-width: 414px) {
+    
+  }
+
 `;

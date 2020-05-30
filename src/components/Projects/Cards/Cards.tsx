@@ -7,10 +7,13 @@ const Cards: React.FC = () => (
   <Container>
     {projects.map((item, index) => {
       const { title, summary, tech, img, repo, demo } = item;
-
-      if (index % 2 === 0) {
-        return (
-          <CardContainer>
+      return (
+        <CardContainer>
+          <div
+            className={
+              index % 2 === 0 ? 'switch-projects' : 'switch-projects-reverse'
+            }
+          >
             <CardContent>
               <h4>{title}</h4>
               <p>{summary}</p>
@@ -29,32 +32,9 @@ const Cards: React.FC = () => (
             <div className="img-container">
               <img className="project-img" src={img} alt="Project Img" />
             </div>
-          </CardContainer>
-        );
-      } else {
-        return (
-          <CardContainer>
-            <div className="img-container">
-              <img className="project-img" src={img} alt="Project Img" />
-            </div>
-            <CardContent>
-              <h4>{title}</h4>
-              <p>{summary}</p>
-              {tech.map((item) => (
-                <h5>{item}</h5>
-              ))}
-
-              <Links>
-                <a className="link-color" href={demo}>
-                  acessar demo
-                </a>
-                <img id="details-logo" src={detailSvg} alt="Details logo" />
-                <a href={repo}>acessar repositório</a>
-              </Links>
-            </CardContent>
-          </CardContainer>
-        );
-      }
+          </div>
+        </CardContainer>
+      );
     })}
   </Container>
 );

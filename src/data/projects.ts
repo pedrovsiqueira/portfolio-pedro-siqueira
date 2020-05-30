@@ -50,7 +50,7 @@ const projects = [
     img: speedTyping,
     title: 'Speed Typing Game',
     summary: 'Jogo desenvolvido para testar a sua velocidade e habilidade na hora de digitar.',
-    tech: ['Javascript', 'React', 'HTML', 'CSS'],
+    tech: ['Javascript', 'React', 'HTML5', 'CSS3'],
     demo: 'https://speed-typing-game-react.netlify.app/',
     repo: 'https://github.com/pedrovsiqueira/speed-typing-game-react',
   },
