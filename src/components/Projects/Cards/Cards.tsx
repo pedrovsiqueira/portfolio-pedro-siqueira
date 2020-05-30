@@ -6,9 +6,9 @@ import projects from '../../../data/projects';
 const Cards: React.FC = () => (
   <Container>
     {projects.map((item, index) => {
-      const { title, summary, tech, img, repo, demo } = item;
+      const { title, summary, tech, img, repo, demo, id } = item;
       return (
-        <CardContainer>
+        <CardContainer key={id}>
           <div
             className={
               index % 2 === 0 ? 'switch-projects' : 'switch-projects-reverse'
@@ -18,7 +18,7 @@ const Cards: React.FC = () => (
               <h4>{title}</h4>
               <p>{summary}</p>
               {tech.map((item) => (
-                <h5>{item}</h5>
+                <h5 key={item}>{item}</h5>
               ))}
 
               <Links>
