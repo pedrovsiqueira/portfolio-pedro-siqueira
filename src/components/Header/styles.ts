@@ -36,6 +36,27 @@ export const Content = styled.div`
       font-weight: 500;
     }
   }
+
+  @media screen and (max-width: 414px) {
+    flex-direction: column-reverse;
+    margin-top: 30px;
+    height: 736px;
+    /* align-content: center; */
+    /* align-items: center; */
+
+    .background-text {
+      /* margin-right: 50px; */
+      margin-left: 100px;
+      z-index: 0;
+      h1 {
+        font-size: 50px;
+      }
+
+      p{
+        margin-bottom: 36px;
+      }
+    }
+  }
 `;
 
 export const Background = styled.img`
@@ -46,4 +67,10 @@ export const Background = styled.img`
   border: none;
   outline: none;
   border-radius: 50%;
+
+  @media screen and (max-width: 414px) {
+    width: 354px;
+    height: 354px;
+    /* border-radius: 50%; */
+  }
 `;
