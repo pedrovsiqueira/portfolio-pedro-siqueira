@@ -1,12 +1,13 @@
-import img1 from '../assets/portfolio/escape-the-bees.png'
-import img2 from '../assets/portfolio/easy-cooking.png'
-import img3 from '../assets/portfolio/portfolio.png'
-import img4 from '../assets/portfolio/imdb-clone.png'
+import escapeTheBees from '../assets/portfolio/escape-the-bees.png';
+import easyCooking from '../assets/portfolio/easy-cooking.png';
+import portfolio from '../assets/portfolio/portfolio.png';
+import imdb from '../assets/portfolio/imdb-clone.png';
+import speedTyping from '../assets/portfolio/speed-typing.png';
 
 const projects = [
   {
     id: 1,
-    img: img1,
+    img: escapeTheBees,
     title: 'Escape the Bees Game',
     summary:
       'Jogo de sobrevivência desenvolvido com VanillaJS e Canvas onde o objetivo é escapar das abelhas.',
@@ -16,7 +17,7 @@ const projects = [
   },
   {
     id: 2,
-    img: img2,
+    img: easyCooking,
     title: 'Easy Cooking',
     summary:
       'Projeto desenvolvido com a Gabriela Aguiar. O objetivo desse projeto é auxiliar as pessoas na hora de cozinhar. Você digita 3 ingredientes que você possui na sua geladeira, e o nosso site retorna receitas compatíveis com os ingredientes informados.',
@@ -26,7 +27,7 @@ const projects = [
   },
   {
     id: 3,
-    img: img3,
+    img: portfolio,
     title: 'Portfólio - Pedro Siqueira',
     summary:
       'Portfólio desenvolvido para expor os meus projetos e informações de contato',
@@ -36,13 +37,23 @@ const projects = [
   },
   {
     id: 4,
-    img: img4,
+    img: imdb,
     title: 'IMDB - Clone',
     summary: 'Front-end desenvolvido no desafio AceleraDev da Codenation.',
     tech: ['HTML5', 'CSS3'],
     demo:
       'https://pedrovsiqueira.github.io/site-estatico-imdb-clone/public/index.html',
     repo: 'https://github.com/pedrovsiqueira/site-estatico-imdb-clone',
+  },
+  {
+    id: 5,
+    img: speedTyping,
+    title: 'Speed Typing Game',
+    summary: 'Jogo desenvolvido para praticar Javascript a React.',
+    tech: ['Javascript', 'React', 'HTML', 'CSS'],
+    demo:
+      'https://pedrovsiqueira.github.io/speed-typing-game-react/public/index.html',
+    repo: 'https://github.com/pedrovsiqueira/speed-typing-game-react',
   },
 ];
 
