@@ -51,8 +51,7 @@ const projects = [
     title: 'Speed Typing Game',
     summary: 'Jogo desenvolvido para praticar Javascript a React.',
     tech: ['Javascript', 'React', 'HTML', 'CSS'],
-    demo:
-      'https://pedrovsiqueira.github.io/speed-typing-game-react/public/index.html',
+    demo: 'https://speed-typing-game-react.netlify.app/',
     repo: 'https://github.com/pedrovsiqueira/speed-typing-game-react',
   },
 ];
