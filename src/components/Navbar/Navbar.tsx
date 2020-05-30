@@ -2,7 +2,7 @@ import React from 'react';
 import { Content, Links } from './styles';
 import contactSvg from '../../assets/contact.svg';
 import detailSvg from '../../assets/detail.svg';
-import Burger from '../Nav/Burger';
+// import Burger from '../Nav/Burger';
 
 const Navbar: React.FC = () => (
   <>
@@ -23,7 +23,7 @@ const Navbar: React.FC = () => (
         </a>
       </Links>
     </Content>
-    <Burger />
+    {/* <Burger /> */}
   </>
 );
 

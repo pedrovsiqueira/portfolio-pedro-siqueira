@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
 import styled from 'styled-components';
-import RightNav from './RightNav';
-
 
 interface OlProps {
   open: boolean;
 }
 
-const StyledBurger = styled.div<OlProps>`
+export const StyledBurger = styled.div<OlProps>`
   width: 2rem;
   height: 2rem;
   position: fixed;
@@ -44,20 +41,3 @@ const StyledBurger = styled.div<OlProps>`
     }
   }
 `;
-
-const Burger: React.FC = () => {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <>
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>
-        <div />
-        <div />
-        <div />
-      </StyledBurger>
-      <RightNav open={open} />
-    </>
-  );
-};
-
-export default Burger;
