@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const CardContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   margin-bottom: 80px;
 
   .switch-projects {
@@ -67,14 +67,15 @@ export const CardContainer = styled.div`
     .switch-projects-reverse {
       flex-direction: column;
     }
-
-    p {
-    }
   }
 `;
 
 export const CardContent = styled.div`
   width: 550px;
+
+  @media screen and (max-width: 414px) {
+    width: 366px;
+  }
 `;
 
 export const Links = styled.div`

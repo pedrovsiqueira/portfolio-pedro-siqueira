@@ -31,7 +31,7 @@ export const AboutText = styled.div`
     -webkit-text-fill-color: transparent;
   }
 
-  p{
+  p {
     width: 854px;
     height: 80px;
     font-weight: 500;
@@ -40,5 +40,9 @@ export const AboutText = styled.div`
     margin-bottom: 55px;
   }
 
-  
+  @media screen and (max-width: 414px) {
+    p {
+      width: 366px;
+    }
+  }
 `;
