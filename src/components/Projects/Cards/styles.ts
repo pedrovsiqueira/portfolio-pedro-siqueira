@@ -33,12 +33,13 @@ export const CardContainer = styled.div`
     overflow: hidden;
     border-radius: 10px;
   }
-  
+
   .project-img {
     filter: grayscale(100%);
     width: 100%;
     transition: filter 1.2s ease;
-
+    border-radius: 10px;
+    object-fit: cover;
     &:hover {
       filter: none;
     }

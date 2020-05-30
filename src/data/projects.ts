@@ -39,7 +39,7 @@ const projects = [
     id: 4,
     img: imdb,
     title: 'IMDB - Clone',
-    summary: 'Front-end desenvolvido no desafio AceleraDev da Codenation.',
+    summary: 'Front-end desenvolvido no desafio AceleraDev da Codenation. O objetivo do desafio era recriar uma página do site IMDB.',
     tech: ['HTML5', 'CSS3'],
     demo:
       'https://pedrovsiqueira.github.io/site-estatico-imdb-clone/public/index.html',
@@ -49,7 +49,7 @@ const projects = [
     id: 5,
     img: speedTyping,
     title: 'Speed Typing Game',
-    summary: 'Jogo desenvolvido para praticar Javascript a React.',
+    summary: 'Jogo desenvolvido para testar a sua velocidade e habilidade na hora de digitar.',
     tech: ['Javascript', 'React', 'HTML', 'CSS'],
     demo: 'https://speed-typing-game-react.netlify.app/',
     repo: 'https://github.com/pedrovsiqueira/speed-typing-game-react',
