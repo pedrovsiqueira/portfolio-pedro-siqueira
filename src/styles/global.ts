@@ -9,9 +9,9 @@ export default createGlobalStyle`
     outline: 0;
     /* outline: 1px solid red; */
 
-  @media screen and (max-width: 414px) {
+  /* @media screen and (max-width: 414px) {
     overflow-x: hidden;
-    }
+    } */
   }
 
   body{

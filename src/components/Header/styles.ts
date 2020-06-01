@@ -8,6 +8,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 414px) {
     height: 784px;
+    overflow-x: hidden;
   }
 `;
 

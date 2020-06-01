@@ -7,21 +7,23 @@ import hobbies from '../../../data/hobbies';
 
 const CarouselAboutCards: React.FC = () => (
   <Content>
-    {hobbies.map((item) => (
-      <Container>
-        <Carousel>
+    <Content>
+      <Carousel>
+        {hobbies.map((item) => (
           <Carousel.Item key={item.id}>
-            <Card>
-              <IconContainer>
-                <img src={item.img} alt="Icon img" />
-              </IconContainer>
-              <h3>{item.title}</h3>
-              <p>{item.summary}</p>
-            </Card>
+            <Container>
+              <Card>
+                <IconContainer>
+                  <img src={item.img} alt="Icon img" />
+                </IconContainer>
+                <h3>{item.title}</h3>
+                <p>{item.summary}</p>
+              </Card>
+            </Container>
           </Carousel.Item>
-        </Carousel>
-      </Container>
-    ))}
+        ))}
+      </Carousel>
+    </Content>
   </Content>
 );
 

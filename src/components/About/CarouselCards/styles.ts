@@ -1,10 +1,33 @@
 import styled from 'styled-components';
 
 export const Content = styled.div`
-  width: 80vw;
-  max-width: 1366px;
+  /* width: 80vw; */
+  max-width: 912px;
+  /* height: 1000px; */
   display: flex;
   justify-content: space-around;
+
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+  /* .carousel-indicators {
+    display: none;
+  } */
+
+  /* .slide{
+    height: 240px;
+  } */
+
+  .carousel-control-next-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50%/100% 100%;
+  }
 `;
 
 export const Container = styled.div`
@@ -25,8 +48,9 @@ export const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  margin-top: -23px;
-  margin-bottom: 44px;
+  margin-top: 16px;
+  /* z-index: 3; */
+  margin-bottom: 32px;
   width: 50px;
   height: 50px;
   background: transparent linear-gradient(76deg, #00dcec 0%, #53f3ff 100%) 0% 0%
@@ -46,14 +70,13 @@ export const Card = styled.div`
   justify-content: center;
   align-items: center;
 
-  transition: border 0.2s;
-
   h3 {
     margin-bottom: 15px;
     font-size: 20px;
   }
 
   p {
+    height: 130px;
     width: 208px;
     font-size: 14px;
     font-weight: 500;
