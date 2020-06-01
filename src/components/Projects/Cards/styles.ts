@@ -38,7 +38,7 @@ export const CardContainer = styled.div`
 
   h5 {
     display: inline;
-    margin: 0 15px 47px 0;
+    margin: 0 10px 47px 0;
   }
 
   .img-container {

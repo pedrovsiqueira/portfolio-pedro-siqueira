@@ -15,7 +15,7 @@ export const Content = styled.footer`
 
 
   @media screen and (max-width: 414px) {
-    margin: 20px 20px;
+    margin: 20px 0px;
 
     p {
       width: 100%;
