@@ -13,6 +13,10 @@ export const Ol = styled.ol<OlProps>`
     margin-right: 38px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .contact {
     display: flex;
     align-items: center;

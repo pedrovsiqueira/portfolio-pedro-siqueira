@@ -33,9 +33,10 @@ export const IconContainer = styled.div`
     no-repeat padding-box;
   border-radius: 50%;
 
-  svg {
+  img {
     width: 32px;
     height: 32px;
+    filter: brightness(0) invert(1);
   }
 `;
 

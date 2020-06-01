@@ -8,7 +8,9 @@ const AboutCards: React.FC = () => (
     {hobbies.map((item) => (
       <Container>
         <Card>
-          <IconContainer><img src={item.img} alt="Icon img"/></IconContainer>
+          <IconContainer>
+            <img src={item.img} alt="Icon img" />
+          </IconContainer>
           <h3>{item.title}</h3>
           <p>{item.summary}</p>
         </Card>
