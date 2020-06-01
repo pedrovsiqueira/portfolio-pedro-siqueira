@@ -45,6 +45,7 @@ export default createGlobalStyle`
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 600;
   }
 
   h3{
