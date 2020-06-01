@@ -5,6 +5,10 @@ export const Container = styled.div`
   height: 768px;
   width: 100vw;
   max-width: 1366px;
+
+  @media screen and (max-width: 414px) {
+    height: 784px;
+  }
 `;
 
 export const Content = styled.div`

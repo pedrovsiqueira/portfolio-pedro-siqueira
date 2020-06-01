@@ -10,7 +10,7 @@ const Header: React.FC = () => (
       <div className="background-text">
         <h1>desenvolvedor full stack</h1>
         <p>
-          desvolvimento de sites, apps e sistemas para web personalizados e de
+          desenvolvimento de sites, apps e sistemas para web personalizados e de
           alta qualidade.
         </p>
       </div>

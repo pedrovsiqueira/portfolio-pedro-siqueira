@@ -7,8 +7,11 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: 0;
-    overflow-x: hidden;
     /* outline: 1px solid red; */
+
+  @media screen and (max-width: 414px) {
+    overflow-x: hidden;
+    }
   }
 
   body{
