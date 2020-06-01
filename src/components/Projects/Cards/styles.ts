@@ -99,6 +99,7 @@ export const Links = styled.div`
 
   a {
     font-weight: 600;
+    text-decoration: none;
   }
 
   .link-color {
