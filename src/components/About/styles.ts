@@ -44,6 +44,7 @@ export const AboutText = styled.div`
   @media screen and (max-width: 414px) {
     p {
       width: 366px;
+      height: 240px;
     }
   }
 `;
