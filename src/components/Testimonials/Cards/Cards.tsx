@@ -1,56 +1,17 @@
 import React from 'react';
 import { Container, Card } from './styles';
+import testimonials from '../../../data/testimonials';
 
 const Cards: React.FC = () => (
   <Container>
-    <Card>
-      <p>
-        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
-        um exercício muito relevante de comunicação e co-criação. É nítido como
-        seu empenho está estampado em todos os seus projetos. Sucesso!"
-      </p>
-      <h3>Bruno Araújo</h3>
-    </Card>
-    <Card>
-      <p>
-        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
-        um exercício muito relevante de comunicação e co-criação. É nítido como
-        seu empenho está estampado em todos os seus projetos. Sucesso!"
-      </p>
-      <h3>Bruno Araújo</h3>
-    </Card>
-    <Card>
-      <p>
-        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
-        um exercício muito relevante de comunicação e co-criação. É nítido como
-        seu empenho está estampado em todos os seus projetos. Sucesso!"
-      </p>
-      <h3>Bruno Araújo</h3>
-    </Card>
-    <Card>
-      <p>
-        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
-        um exercício muito relevante de comunicação e co-criação. É nítido como
-        seu empenho está estampado em todos os seus projetos. Sucesso!"
-      </p>
-      <h3>Bruno Araújo</h3>
-    </Card>
-    <Card>
-      <p>
-        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
-        um exercício muito relevante de comunicação e co-criação. É nítido como
-        seu empenho está estampado em todos os seus projetos. Sucesso!"
-      </p>
-      <h3>Bruno Araújo</h3>
-    </Card>
-    <Card>
-      <p>
-        "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi
-        um exercício muito relevante de comunicação e co-criação. É nítido como
-        seu empenho está estampado em todos os seus projetos. Sucesso!"
-      </p>
-      <h3>Bruno Araújo</h3>
-    </Card>
+    {testimonials.map((item) => {
+      return (
+        <Card>
+          <p>{item.description}</p>
+          <h3>{item.name}</h3>
+        </Card>
+      );
+    })}
   </Container>
 );
 

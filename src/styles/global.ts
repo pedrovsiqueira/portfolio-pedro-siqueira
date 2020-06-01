@@ -55,7 +55,7 @@ export default createGlobalStyle`
     -webkit-text-fill-color: transparent;
   }
     h5 {
-    font-style: bold;
+    font-weight: 600;
     font-size: 13px;
     letter-spacing: 2.58px;
     color: #fff;

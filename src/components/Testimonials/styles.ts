@@ -4,6 +4,10 @@ export const Container = styled.section`
   height: 768px;
   width: 100vw;
   max-width: 1366px;
+
+  @media screen and (max-width: 414px) {
+    height: 504px;
+  }
 `;
 
 export const Content = styled.div`
@@ -16,5 +20,9 @@ export const Content = styled.div`
   h2 {
     font-size: 30px;
     margin-bottom: 34px;
+  }
+
+  @media screen and (max-width: 414px) {
+    
   }
 `;

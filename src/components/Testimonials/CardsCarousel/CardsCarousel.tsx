@@ -1,97 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Container, Card } from './styles';
-import Slider from 'react-slick';
+import Cards from '../Cards/Cards';
 
-const CardsCarousel: React.FC = () => {
-  const settings = {
-    dots: true,
-    fade: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    arrows: true,
-    slidesToScroll: 1,
-    className: 'slides',
-  };
+import testimonials from '../../../data/testimonials';
 
+const ControlledCarousel: React.FC = () => {
   return (
     <Container>
-      <Slider {...settings}>
-        <div>
-          <h1>Pedro Siqueira</h1>
-          <p>
-            "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          </p>
-        </div>
-        <div>
-          <h1>Pedro Siqueira</h1>
-          <p>
-            "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          </p>
-        </div>
-        <div>
-          <h1>Pedro Siqueira</h1>
-          <p>
-            "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          </p>
-        </div>
-        <div>
-          <h1>Pedro Siqueira</h1>
-          <p>
-            "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          </p>
-        </div>
-      </Slider>
-      {/* <Card>
-        <p>
-          "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          foi um exercício muito relevante de comunicação e co-criação. É nítido
-          como seu empenho está estampado em todos os seus projetos. Sucesso!"
-        </p>
-        <h3>Bruno Araújo</h3>
-      </Card>
       <Card>
-        <p>
-          "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          foi um exercício muito relevante de comunicação e co-criação. É nítido
-          como seu empenho está estampado em todos os seus projetos. Sucesso!"
-        </p>
-        <h3>Bruno Araújo</h3>
+        <Carousel>
+          {testimonials.map((item) => (
+            <Carousel.Item key={item.id} className="carousel-cards">
+              <p>{item.description}</p>
+              <h3>{item.name}</h3>
+            </Carousel.Item>
+          ))}
+        </Carousel>
       </Card>
-      <Card>
-        <p>
-          "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          foi um exercício muito relevante de comunicação e co-criação. É nítido
-          como seu empenho está estampado em todos os seus projetos. Sucesso!"
-        </p>
-        <h3>Bruno Araújo</h3>
-      </Card>
-      <Card>
-        <p>
-          "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          foi um exercício muito relevante de comunicação e co-criação. É nítido
-          como seu empenho está estampado em todos os seus projetos. Sucesso!"
-        </p>
-        <h3>Bruno Araújo</h3>
-      </Card>
-      <Card>
-        <p>
-          "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          foi um exercício muito relevante de comunicação e co-criação. É nítido
-          como seu empenho está estampado em todos os seus projetos. Sucesso!"
-        </p>
-        <h3>Bruno Araújo</h3>
-      </Card>
-      <Card>
-        <p>
-          "Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim
-          foi um exercício muito relevante de comunicação e co-criação. É nítido
-          como seu empenho está estampado em todos os seus projetos. Sucesso!"
-        </p>
-        <h3>Bruno Araújo</h3>
-      </Card> */}
     </Container>
   );
 };
 
-export default CardsCarousel;
+export default ControlledCarousel;
