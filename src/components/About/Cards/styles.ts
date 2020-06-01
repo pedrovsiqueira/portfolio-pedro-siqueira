@@ -18,7 +18,6 @@ export const Container = styled.div`
   width: 240px;
   height: 240px;
   /* border: 1.5px solid #41ebf8; */
-
 `;
 
 export const IconContainer = styled.div`
@@ -34,9 +33,10 @@ export const IconContainer = styled.div`
     no-repeat padding-box;
   border-radius: 50%;
 
-  svg {
+  img {
     width: 32px;
     height: 32px;
+    filter: brightness(0) invert(1);
   }
 `;
 

@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Container, Card } from './styles';
-import Cards from '../Cards/Cards';
 
 import testimonials from '../../../data/testimonials';
 
