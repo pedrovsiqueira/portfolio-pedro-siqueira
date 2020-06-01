@@ -68,6 +68,11 @@ export const CardContainer = styled.div`
     .switch-projects-reverse {
       flex-direction: column;
     }
+
+    .img-container{
+      width: 366px;
+      height: 217px;
+    }
   }
 `;
 

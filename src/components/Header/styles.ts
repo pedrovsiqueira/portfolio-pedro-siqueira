@@ -41,18 +41,18 @@ export const Content = styled.div`
     flex-direction: column-reverse;
     margin-top: 30px;
     height: 736px;
-    /* align-content: center; */
-    /* align-items: center; */
+    width: 100%;
 
     .background-text {
-      /* margin-right: 50px; */
-      margin-left: 100px;
+      text-align: center;
+      margin: 0 auto;
       z-index: 0;
       h1 {
         font-size: 50px;
+        width: 400px;
       }
 
-      p{
+      p {
         margin-bottom: 36px;
       }
     }
@@ -71,6 +71,8 @@ export const Background = styled.img`
   @media screen and (max-width: 414px) {
     width: 354px;
     height: 354px;
+    display: flex;
+    justify-content: center;
     /* border-radius: 50%; */
   }
 `;

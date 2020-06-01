@@ -11,6 +11,14 @@ export const Nav = styled.nav`
   align-items: center;
   z-index: 2;
 
+  @media (max-width: 768px) {
+    justify-content: space-between;
+
+    .logo{
+      margin-left: 20px;
+    }
+  }
+
   .logo {
     background: -webkit-linear-gradient(82deg, #00dcec 0%, #53f3ff 100%);
     -webkit-background-clip: text;
