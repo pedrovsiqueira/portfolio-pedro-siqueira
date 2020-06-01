@@ -6,6 +6,10 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+
+  @media screen and (max-width: 414px) {
+    display: none;
+  }
 `;
 
 export const Card = styled.div`

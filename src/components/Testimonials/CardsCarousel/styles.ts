@@ -6,13 +6,18 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  display: none;
+
+  @media screen and (max-width: 414px) {
+    display: flex;
+  }
 `;
 
 export const Card = styled.div`
   background: #353535 0% 0% no-repeat padding-box;
   border-radius: 10px;
-  width: 304px;
-  height: 288px;
+  width: 364px;
+  height: 348px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -22,9 +27,9 @@ export const Card = styled.div`
 
   p {
     padding: 10px 48px 0px 48px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
-    height: 160px;
+    height: 200px;
   }
 
   h3 {

@@ -9,6 +9,7 @@ const Contact: React.FC = () => (
       <h5>depoimentos</h5>
       <h2>veja qual é a opinião dos clientes</h2>
       <CardsCarousel />
+      <Cards />
     </Content>
   </Container>
 );

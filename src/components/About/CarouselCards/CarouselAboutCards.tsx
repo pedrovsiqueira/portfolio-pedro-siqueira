@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import hobbies from '../../../data/hobbies';
 
 const CarouselAboutCards: React.FC = () => (
-  <Content>
+  <Content className="carousel-about-cards">
     <Content>
       <Carousel>
         {hobbies.map((item) => (

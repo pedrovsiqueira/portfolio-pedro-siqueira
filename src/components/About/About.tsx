@@ -22,6 +22,7 @@ const About: React.FC = () => {
             meu desejo era trabalhar com desenvolvimento.
           </p>
           <SocialIcons />
+          <AboutCards />
           <CarouselAboutCards />
         </AboutText>
       </Content>

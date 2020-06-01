@@ -5,6 +5,11 @@ export const Content = styled.div`
   max-width: 1366px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 414px) {
+    display: none;
+  }
 `;
 
 export const Container = styled.div`

@@ -7,6 +7,12 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-around;
 
+  display: none;
+
+  @media screen and (max-width: 414px) {
+    display: flex;
+  }
+
   .carousel-control-next {
     display: none;
   }
@@ -14,13 +20,6 @@ export const Content = styled.div`
   .carousel-control-prev {
     display: none;
   }
-  /* .carousel-indicators {
-    display: none;
-  } */
-
-  /* .slide{
-    height: 240px;
-  } */
 
   .carousel-control-next-icon {
     display: inline-block;
@@ -38,8 +37,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 240px;
-  height: 240px;
+  width: 314px;
+  height: 314px;
   /* border: 1.5px solid #41ebf8; */
 `;
 
@@ -48,9 +47,9 @@ export const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  margin-top: 16px;
+  margin-top: -67px;
   /* z-index: 3; */
-  margin-bottom: 32px;
+  margin-bottom: 15px;
   width: 50px;
   height: 50px;
   background: transparent linear-gradient(76deg, #00dcec 0%, #53f3ff 100%) 0% 0%
@@ -72,13 +71,13 @@ export const Card = styled.div`
 
   h3 {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 28px;
   }
 
   p {
     height: 130px;
     width: 208px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
   }
 `;
