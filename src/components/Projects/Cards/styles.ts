@@ -32,7 +32,7 @@ export const CardContainer = styled.div`
 
   h4 {
     font-size: 31px;
-    margin: 41px 0px 25px 0px;
+    margin: 20px 0px 25px 0px;
     font-weight: 600;
   }
 
