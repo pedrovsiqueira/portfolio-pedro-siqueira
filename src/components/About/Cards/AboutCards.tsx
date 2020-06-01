@@ -6,7 +6,7 @@ import hobbies from '../../../data/hobbies';
 const AboutCards: React.FC = () => (
   <Content>
     {hobbies.map((item) => (
-      <Container>
+      <Container key={item.id}>
         <Card>
           <IconContainer>
             <img src={item.img} alt="Icon img" />

@@ -69,9 +69,13 @@ export const CardContainer = styled.div`
       flex-direction: column;
     }
 
-    .img-container{
+    .img-container {
       width: 366px;
       height: 217px;
+    }
+
+    h4{
+      margin-top: 0;
     }
   }
 `;
@@ -103,4 +107,8 @@ export const Links = styled.div`
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+    @media screen and (max-width: 414px) {
+      margin-bottom: 41px;
+    }
 `;
