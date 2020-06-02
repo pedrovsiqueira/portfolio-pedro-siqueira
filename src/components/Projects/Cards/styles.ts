@@ -60,6 +60,18 @@ export const CardContainer = styled.div`
     }
   }
 
+  @media screen and (max-width: 1072px) {
+    padding: 0 20px;
+
+    .img-container {
+      margin: 0 30px;
+    }
+
+    p {
+      width: 470px;
+    }
+  }
+
   @media screen and (max-width: 414px) {
     width: 366px;
     .switch-projects {
