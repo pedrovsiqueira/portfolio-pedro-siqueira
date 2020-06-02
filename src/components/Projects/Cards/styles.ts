@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div`
   margin-top: 75px;
@@ -74,7 +75,7 @@ export const CardContainer = styled.div`
       height: 217px;
     }
 
-    h4{
+    h4 {
       margin-top: 0;
     }
   }
@@ -100,6 +101,9 @@ export const Links = styled.div`
   a {
     font-weight: 600;
     text-decoration: none;
+    &:hover {
+      color: ${shade(0.01, '#33E8F6')};
+    }
   }
 
   .link-color {
@@ -109,7 +113,7 @@ export const Links = styled.div`
     -webkit-text-fill-color: transparent;
   }
 
-    @media screen and (max-width: 414px) {
-      margin-bottom: 41px;
-    }
+  @media screen and (max-width: 414px) {
+    margin-bottom: 41px;
+  }
 `;

@@ -25,6 +25,7 @@ export const Icons = styled.div`
     font-size: 16px;
     display: block;
     margin-right: 32px;
+    text-decoration: none;
 
     &:hover {
       color: ${shade(0.01, '#33E8F6')};
