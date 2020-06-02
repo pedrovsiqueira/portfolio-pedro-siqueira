@@ -13,7 +13,7 @@ export const StyledBurger = styled.div<OlProps>`
   z-index: 20;
   display: none;
 
-  @media (max-width: 768px) {
+  @media (max-width: 840px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;

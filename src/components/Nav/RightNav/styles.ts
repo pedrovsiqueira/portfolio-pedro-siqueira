@@ -8,6 +8,8 @@ export const Ol = styled.ol<OlProps>`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  align-content: center;
+  /* justify-content: center; */
 
   li {
     margin-right: 38px;
@@ -35,7 +37,7 @@ export const Ol = styled.ol<OlProps>`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 840px) {
     flex-flow: column nowrap;
     background-color: #0d2538;
     position: fixed;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Content = styled.div`
   width: 80vw;
-  max-width: 1366px;
+  max-width: 1000px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -30,8 +30,8 @@ export const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  margin-top: -23px;
-  margin-bottom: 44px;
+  margin-top: -33px;
+  margin-bottom: 32px;
   width: 50px;
   height: 50px;
   background: transparent linear-gradient(76deg, #00dcec 0%, #53f3ff 100%) 0% 0%

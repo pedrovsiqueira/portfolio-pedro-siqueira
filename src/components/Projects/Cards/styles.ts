@@ -17,7 +17,7 @@ export const CardContainer = styled.div`
   .switch-projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .switch-projects-reverse {
@@ -92,7 +92,8 @@ export const CardContent = styled.div`
 export const Links = styled.div`
   margin-top: 47px;
   display: flex;
-  align-items: center;
+
+  /* align-items: center; */
 
   img {
     margin: 0 32px;

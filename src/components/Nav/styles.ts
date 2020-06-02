@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   align-items: center;
   z-index: 2;
 
-  @media (max-width: 768px) {
+  @media (max-width: 840px) {
     justify-content: space-between;
 
     .logo{
@@ -25,5 +25,6 @@ export const Nav = styled.nav`
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
+    margin-top: -15px
   }
 `;

@@ -6,7 +6,7 @@ export const Container = styled.div`
   width: 100vw;
   max-width: 1366px;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 840px) {
     height: 784px;
     overflow-x: hidden;
   }
@@ -42,15 +42,17 @@ export const Content = styled.div`
     }
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 840px) {
     flex-direction: column-reverse;
     margin-top: 30px;
     height: 736px;
     width: 100%;
 
     .background-text {
-      text-align: center;
-      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 40px;
       z-index: 0;
       h1 {
         font-size: 50px;
@@ -60,6 +62,16 @@ export const Content = styled.div`
       p {
         margin-bottom: 36px;
       }
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    width: 390px;
+    .background-text {
+      margin-left: 20px;
+    }
+    h1 {
+      font-size: 40px;
     }
   }
 `;
@@ -72,6 +84,11 @@ export const Background = styled.img`
   border: none;
   outline: none;
   border-radius: 50%;
+
+  @media screen and (max-width: 840px) {
+    width: 400px;
+    height: 400px;
+  }
 
   @media screen and (max-width: 414px) {
     width: 354px;
