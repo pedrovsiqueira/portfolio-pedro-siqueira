@@ -7,6 +7,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   @media screen and (max-width: 414px) {
     overflow-x: hidden;
   }
@@ -17,8 +18,8 @@ export const Content = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: center;
+
   @media screen and (max-width: 414px) {
-    /* margin-left: 24px; */
     flex-direction: column;
     height: 800px;
     p {
@@ -30,6 +31,7 @@ export const Content = styled.section`
 export const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
+  margin-right: 50px;
 
   h2 {
     margin-bottom: 44px;
