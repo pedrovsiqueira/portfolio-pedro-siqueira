@@ -8,6 +8,14 @@ export const Container = styled.section`
   @media screen and (max-width: 414px) {
     height: 504px;
   }
+
+  @media screen and (max-width: 1139px) {
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 770px) {
+    height: 500px;
+  }
 `;
 
 export const Content = styled.div`
@@ -20,9 +28,5 @@ export const Content = styled.div`
   h2 {
     font-size: 30px;
     margin-bottom: 34px;
-  }
-
-  @media screen and (max-width: 414px) {
-    
   }
 `;

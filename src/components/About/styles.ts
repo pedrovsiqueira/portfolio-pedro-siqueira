@@ -13,10 +13,9 @@ export const Container = styled.div`
     height: 900px;
   }
 
-
-    @media screen and (max-width: 414px) {
-      height: 750px;
-    }
+  @media screen and (max-width: 414px) {
+    height: 750px;
+  }
 `;
 
 export const Content = styled.div`

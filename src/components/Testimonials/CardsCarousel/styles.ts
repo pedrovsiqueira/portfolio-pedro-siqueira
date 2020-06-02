@@ -8,7 +8,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   display: none;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 770px) {
     display: flex;
   }
 `;
