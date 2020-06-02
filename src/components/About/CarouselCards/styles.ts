@@ -9,7 +9,7 @@ export const Content = styled.div`
 
   display: none;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 768px) {
     display: flex;
   }
 

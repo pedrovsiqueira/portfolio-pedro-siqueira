@@ -7,7 +7,7 @@ export const Content = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;

@@ -4,6 +4,19 @@ export const Container = styled.div`
   height: 768px;
   width: 100vw;
   max-width: 1366px;
+
+  @media screen and (max-width: 1200px) {
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 900px;
+  }
+
+
+    @media screen and (max-width: 414px) {
+      height: 750px;
+    }
 `;
 
 export const Content = styled.div`
@@ -40,10 +53,20 @@ export const AboutText = styled.div`
     margin-bottom: 55px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 840px) {
+    .about-me {
+      padding: 0px 50px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
     p {
       width: 366px;
       height: 240px;
+    }
+
+    .about-me {
+      padding: 0;
     }
   }
 `;
