@@ -74,6 +74,17 @@ export const Content = styled.div`
       font-size: 40px;
     }
   }
+
+  @media screen and (max-width: 1920px) {
+    margin-top: 315px;
+  }
+
+  @media screen and (max-width: 1536px) {
+    margin-top: 220px;
+  }
+  @media screen and (max-width: 414px) {
+    margin-top: 20px;
+  }
 `;
 
 export const Background = styled.img`

@@ -12,6 +12,10 @@ export const Container = styled.div`
   @media screen and (max-width: 900px) {
     width: 500px;
   }
+
+  @media screen and (max-width: 414px) {
+    width: 100%;
+  }
 `;
 
 export const CardContainer = styled.div`
@@ -94,7 +98,7 @@ export const CardContainer = styled.div`
       align-items: center;
     }
 
-    .img-container{
+    .img-container {
       width: 560px;
     }
   }
@@ -159,7 +163,7 @@ export const Links = styled.div`
     margin-top: 20px;
   }
 
-    @media screen and (max-width: 900px) {
-      margin-bottom: 20px;
-    }
+  @media screen and (max-width: 900px) {
+    margin-bottom: 20px;
+  }
 `;

@@ -11,6 +11,18 @@ export const Container = styled.section`
   @media screen and (max-width: 414px) {
     overflow-x: hidden;
   }
+
+  @media screen and (max-width: 1920px) {
+    height: 840px;
+  }
+
+  @media screen and (max-width: 1536px) {
+    height: 768px;
+  }
+
+  @media screen and (max-width: 136px) {
+    height: 700px;
+  }
 `;
 
 export const Content = styled.section`
@@ -22,6 +34,8 @@ export const Content = styled.section`
   @media screen and (max-width: 414px) {
     flex-direction: column;
     height: 800px;
+    width: 96vw;
+    margin-left: 10px;
     p {
       width: 366px;
     }
