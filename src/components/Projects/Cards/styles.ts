@@ -8,6 +8,10 @@ export const Container = styled.div`
   @media screen and (max-width: 414px) {
     width: 366px;
   }
+
+  @media screen and (max-width: 900px) {
+    width: 500px;
+  }
 `;
 
 export const CardContainer = styled.div`
@@ -17,7 +21,7 @@ export const CardContainer = styled.div`
   .switch-projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .switch-projects-reverse {
@@ -61,14 +65,37 @@ export const CardContainer = styled.div`
   }
 
   @media screen and (max-width: 1072px) {
-    padding: 0 20px;
+    /* width: 1000px; */
+    margin-left: 100px;
 
+    .switch-projects {
+      width: 100%;
+      justify-content: center;
+    }
+    .switch-projects-reverse {
+      width: 100%;
+    }
     .img-container {
       margin: 0 30px;
     }
+  }
 
-    p {
-      width: 470px;
+  @media screen and (max-width: 900px) {
+    margin-left: 20px;
+    /* width: 800px; */
+
+    .switch-projects {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .switch-projects-reverse {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .img-container{
+      width: 560px;
     }
   }
 
@@ -105,8 +132,6 @@ export const Links = styled.div`
   margin-top: 47px;
   display: flex;
 
-  /* align-items: center; */
-
   img {
     margin: 0 32px;
   }
@@ -129,4 +154,12 @@ export const Links = styled.div`
   @media screen and (max-width: 414px) {
     margin-bottom: 41px;
   }
+
+  @media screen and (max-width: 1072px) {
+    margin-top: 20px;
+  }
+
+    @media screen and (max-width: 900px) {
+      margin-bottom: 20px;
+    }
 `;
