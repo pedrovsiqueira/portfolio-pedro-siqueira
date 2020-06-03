@@ -29,4 +29,16 @@ export const Content = styled.div`
     font-size: 30px;
     margin-bottom: 34px;
   }
+
+  @media screen and (max-width: 375px) {
+    h2 {
+      font-size: 28px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    h2 {
+      font-size: 27px;
+    }
+  }
 `;

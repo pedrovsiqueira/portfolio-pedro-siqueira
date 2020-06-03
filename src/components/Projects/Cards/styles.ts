@@ -5,8 +5,8 @@ export const Container = styled.div`
   margin-top: 75px;
   width: 1088px;
 
-  @media screen and (max-width: 414px) {
-    width: 366px;
+  @media screen and (max-width: 375px) {
+    width: 350px;
   }
 
   @media screen and (max-width: 900px) {
@@ -122,6 +122,24 @@ export const CardContainer = styled.div`
       margin-top: 0;
     }
   }
+
+  @media screen and (max-width: 375px) {
+    width: 330px;
+
+    h5 {
+      margin: 0 10px 30px 0px;
+    }
+    .img-container {
+      width: 340px;
+      height: 217px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    h5 {
+      font-size: 10px;
+    }
+  }
 `;
 
 export const CardContent = styled.div`
@@ -129,6 +147,10 @@ export const CardContent = styled.div`
 
   @media screen and (max-width: 414px) {
     width: 366px;
+  }
+
+  @media screen and (max-width: 360px) {
+    width: 330px;
   }
 `;
 
@@ -165,5 +187,13 @@ export const Links = styled.div`
 
   @media screen and (max-width: 900px) {
     margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 375px) {
+    /* width: 330px; */
+    margin: 20px 0px;
+    a {
+      font-size: 14px;
+    }
   }
 `;

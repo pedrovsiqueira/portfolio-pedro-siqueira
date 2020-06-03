@@ -62,4 +62,20 @@ export const ContactInfo = styled.div`
   a {
     font-weight: bold;
   }
+
+  @media screen and (max-width: 375px) {
+    margin-right: 0px;
+    h2 {
+      font-size: 28px;
+    }
+    p {
+      width: 365px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    h2 {
+      font-size: 27px;
+    }
+  }
 `;

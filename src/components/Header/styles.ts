@@ -66,13 +66,6 @@ export const Content = styled.div`
   }
 
   @media screen and (max-width: 414px) {
-    width: 390px;
-    .background-text {
-      margin-left: 20px;
-    }
-    h1 {
-      font-size: 40px;
-    }
   }
 
   @media screen and (max-width: 1920px) {
@@ -83,7 +76,19 @@ export const Content = styled.div`
     margin-top: 220px;
   }
   @media screen and (max-width: 414px) {
+    width: 390px;
     margin-top: 20px;
+    .background-text {
+      margin-left: 20px;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    .background-text{
+      h1{
+        font-size: 45px;
+      }
+    }
   }
 `;
 

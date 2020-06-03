@@ -34,6 +34,7 @@ export const Card = styled.div`
 
   h3 {
     padding: 30px 0 0 48px;
+    font-size: 24px;
   }
 
   .carousel-indicators {
