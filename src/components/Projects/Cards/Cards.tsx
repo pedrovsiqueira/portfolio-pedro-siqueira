@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, CardContainer, CardContent, Links } from './styles';
 import detailSvg from '../../../assets/Divider_cinza.svg';
+import dividerBolaSvg from '../../../assets/Divider_bola.svg';
 import projects from '../../../data/projects';
 
 const Cards: React.FC = () => (
@@ -17,8 +18,15 @@ const Cards: React.FC = () => (
             <CardContent>
               <h4>{title}</h4>
               <p>{summary}</p>
-              {tech.map((item) => (
-                <h5 key={item}>{item}</h5>
+              {tech.map((item, index) => (
+                <>
+                  <h5 key={item}>{item}</h5>
+                  <img
+                    className="ball-divider"
+                    src={dividerBolaSvg}
+                    alt="divider"
+                  />
+                </>
               ))}
 
               <Links>

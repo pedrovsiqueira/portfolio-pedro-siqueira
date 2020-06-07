@@ -47,7 +47,19 @@ export const CardContainer = styled.div`
 
   h5 {
     display: inline;
-    margin: 0 10px 47px 0;
+    margin: 0 15px 47px 0;
+
+    h5:last-child {
+      display: none;
+    }
+  }
+
+  .ball-divider {
+    margin-right: 15px;
+  }
+
+  [class~='ball-divider']:last-of-type {
+    display: none;
   }
 
   .img-container {
