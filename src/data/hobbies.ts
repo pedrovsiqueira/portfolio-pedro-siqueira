@@ -1,8 +1,3 @@
-import code from '../assets/hobbies/code.png';
-import football from '../assets/hobbies/football-ball-solid.png';
-import books from '../assets/hobbies/book-reader-solid.png';
-import desktop from '../assets/hobbies/desktop-solid.png';
-
 import codeSvg from '../assets/new-hobbies/Icone_codar.svg';
 import footballSvg from '../assets/new-hobbies/Icone_bola fut am.svg';
 import booksSvg from '../assets/new-hobbies/Icone_livro.svg';

@@ -2,7 +2,7 @@ import React, { OlHTMLAttributes } from 'react';
 import { Ol } from './styles';
 
 import contactSvg from '../../../assets/contact.svg';
-import detailSvg from '../../../assets/detail.svg';
+import detailSvg from '../../../assets/Divider_Azul.svg';
 
 interface NavProps extends OlHTMLAttributes<HTMLOListElement> {
   open: boolean;

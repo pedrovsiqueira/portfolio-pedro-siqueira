@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, CardContainer, CardContent, Links } from './styles';
-import detailSvg from '../../../assets/detail-no-color.svg';
+import detailSvg from '../../../assets/Divider_cinza.svg';
 import projects from '../../../data/projects';
 
 const Cards: React.FC = () => (
