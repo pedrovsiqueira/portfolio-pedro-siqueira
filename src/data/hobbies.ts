@@ -3,32 +3,37 @@ import football from '../assets/hobbies/football-ball-solid.png';
 import books from '../assets/hobbies/book-reader-solid.png';
 import desktop from '../assets/hobbies/desktop-solid.png';
 
+import codeSvg from '../assets/new-hobbies/Icone_codar.svg';
+import footballSvg from '../assets/new-hobbies/Icone_bola fut am.svg';
+import booksSvg from '../assets/new-hobbies/Icone_livro.svg';
+import monitorSvg from '../assets/new-hobbies/Icone_monitor.svg';
+
 const hobbies = [
   {
     id: 1,
     title: 'desenvolvimento',
-    img: code,
+    img: codeSvg,
     summary:
       'Cada dia que passa eu fico encantando com o mundo de desenvolvimento. Por esse motivo estou sempre praticando e estudando.',
   },
   {
     id: 2,
     title: 'esportes',
-    img: football,
+    img: footballSvg,
     summary:
       'Sou fã e praticante de esportes em geral, tais como: futebol, futebol americano, musculação, corrida e basquete.',
   },
   {
     id: 3,
     title: 'livros',
-    img: books,
+    img: booksSvg,
     summary:
       'Tenho uma pequena coleção de mais de 200 livros de vários gêneros. Na minha opinião ler é viajar sem sair do lugar.',
   },
   {
     id: 4,
     title: 'novas tecnologias',
-    img: desktop,
+    img: monitorSvg,
     summary:
       'Estou sempre em busca de novos conhecimentos e desafios, principalmente quando se trata da área de tecnologia.',
   },
