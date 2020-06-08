@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Content = styled.div`
   width: 90vw;
-  max-width: 1500px;
+  max-width: 1150px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
