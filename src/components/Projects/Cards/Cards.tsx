@@ -30,11 +30,18 @@ const Cards: React.FC = () => (
               ))}
 
               <Links>
-                <a className="link-color" href={demo}>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-color"
+                  href={demo}
+                >
                   acessar demo
                 </a>
                 <img id="details-logo" src={detailSvg} alt="Details logo" />
-                <a href={repo}>acessar repositório</a>
+                <a target="_blank" rel="noopener noreferrer" href={repo}>
+                  acessar repositório
+                </a>
               </Links>
             </CardContent>
             <div className="img-container">

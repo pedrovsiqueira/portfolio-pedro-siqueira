@@ -7,20 +7,34 @@ import { Icons } from './styles';
 
 const SocialIcons: React.FC = () => (
   <Icons>
-    <a href="https://github.com/pedrovsiqueira">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://github.com/pedrovsiqueira"
+    >
       <FiGithub />
     </a>
 
-    <a href="https://www.linkedin.com/in/pedrovsiqueira/">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://www.linkedin.com/in/pedrovsiqueira/"
+    >
       <FiLinkedin />
     </a>
 
-    <a href="https://www.instagram.com/pedrovsiqueira/">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://www.instagram.com/pedrovsiqueira/"
+    >
       <FiInstagram />
     </a>
 
     <img id="details-logo" src={detailSvg} alt="Details logo" />
-    <a href="teste">download CV</a>
+    <a target="_blank" rel="noopener noreferrer" href="teste">
+      download CV
+    </a>
   </Icons>
 );
 
