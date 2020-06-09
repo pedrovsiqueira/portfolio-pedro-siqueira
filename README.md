@@ -5,7 +5,7 @@
 Personal portfolio created using typescript and react. I created this site so I could publicize my projects.
 
 
-![Desktop views](webpage.png)
+![Desktop views](/webpage.png)
 
 ### Built With:
 
