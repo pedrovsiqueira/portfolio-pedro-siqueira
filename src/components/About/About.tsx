@@ -13,7 +13,7 @@ const About: React.FC = () => {
           <h1>
             olá, sou o <span>Pedro Siqueira</span>
           </h1>
-          <p className="about-me">
+          <p data-aos="fade-up" className="about-me">
             Formado em Ciência da Computação, possuo mais de 8 anos de
             experiência trabalhando na área de TI, com conhecimentos em
             implantação e manutenção de sistemas, suporte técnico,
