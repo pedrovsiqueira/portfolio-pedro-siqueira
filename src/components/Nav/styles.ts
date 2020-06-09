@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  z-index: 2;
+  z-index: 100;
 
   @media (max-width: 840px) {
     justify-content: space-between;
