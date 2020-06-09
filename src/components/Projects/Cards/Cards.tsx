@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import { Container, CardContainer, CardContent, Links } from './styles';
 import detailSvg from '../../../assets/Divider_cinza.svg';
 import dividerBolaSvg from '../../../assets/Divider_bola.svg';
@@ -20,14 +20,14 @@ const Cards: React.FC = (): any => {
                 <h4>{title}</h4>
                 <p>{summary}</p>
                 {tech.map((item, index) => (
-                  <>
-                    <h5 key={item}>{item}</h5>
+                  <Fragment key={item}>
+                    <h5>{item}</h5>
                     <img
                       className="ball-divider"
                       src={dividerBolaSvg}
                       alt="divider"
                     />
-                  </>
+                  </Fragment>
                 ))}
 
                 <Links>

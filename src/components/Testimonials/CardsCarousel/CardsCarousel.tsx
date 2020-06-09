@@ -12,7 +12,10 @@ const ControlledCarousel: React.FC = () => {
       <Card>
         <Carousel>
           {testimonials.map((item) => (
-            <Carousel.Item key={item.id} className="carousel-cards">
+            <Carousel.Item
+              key={item.id}
+              className="carousel-cards"
+            >
               <p>{item.description}</p>
               <h3>{item.name}</h3>
             </Carousel.Item>
