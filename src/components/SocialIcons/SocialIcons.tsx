@@ -1,5 +1,5 @@
 import React from 'react';
-import detailSvg from '../../assets/Divider_Azul.svg';
+import detailSvg from '../../assets/icons/Divider_Azul.svg';
 
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 

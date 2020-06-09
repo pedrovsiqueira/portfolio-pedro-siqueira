@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import { Container, CardContainer, CardContent, Links } from './styles';
-import detailSvg from '../../../assets/Divider_cinza.svg';
-import dividerBolaSvg from '../../../assets/Divider_bola.svg';
+import detailSvg from '../../../assets/icons/Divider_cinza.svg';
+import dividerBolaSvg from '../../../assets/icons/Divider_bola.svg';
 import projects from '../../../data/projects';
 
 const Cards: React.FC = (): any => {

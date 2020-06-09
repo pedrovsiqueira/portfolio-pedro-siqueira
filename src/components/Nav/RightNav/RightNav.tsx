@@ -2,8 +2,8 @@ import React, { OlHTMLAttributes } from 'react';
 import { Link } from 'react-scroll';
 import { Ol } from './styles';
 
-import contactSvg from '../../../assets/contact.svg';
-import detailSvg from '../../../assets/Divider_Azul.svg';
+import contactSvg from '../../../assets/icons/contact.svg';
+import detailSvg from '../../../assets/icons/Divider_Azul.svg';
 import SocialIcons from '../../SocialIcons/SocialIcons';
 
 interface NavProps extends OlHTMLAttributes<HTMLOListElement> {
