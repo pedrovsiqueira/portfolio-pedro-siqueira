@@ -25,15 +25,15 @@ const testimonials = [
   },
   {
     id: '5',
-    name: 'Bruno Araújo',
+    name: 'Gabriela Aguiar',
     description:
-      'Pedro, fiquei muito feliz em contribuir com o seu projeto, pra mim foi um exercício muito relevante de comunicação e co-criação. É nítido como seu empenho está estampado em todos os seus projetos. Sucesso!',
+      'Pedro, tive a oportunidade de trabalhar com você em um projeto e pude ver de perto o profissional excelente que você é, sempre trabalhando com muita dedicação e empenho. Agradeço pela parceria e te desejo muito sucesso!',
   },
   {
     id: '6',
-    name: 'Thiago Pizzuti',
+    name: 'Autímio Filho',
     description:
-      'Tive o prazer de conhecer o Pedro em um Coding Bootcamp. Tivemos várias oportunidades de desenvolvermos atividades juntos. Seu raciocínio lógico e capacidade de resolver problemas são diferenciais inquestionáveis.',
+      'Estudei com o Pedro na universidade, já trabalhamos juntos em várias disciplinas. Sua organização, dedicação e comprometimento em tudo que se envolve é algo muito característico dele. Pude acompanhar sua evolução de perto.',
   },
 ];
 
