@@ -14,6 +14,10 @@ export const Ol = styled.ol<OlProps>`
   li {
     margin-right: 38px;
     cursor: pointer;
+
+    &:last-child {
+      display: none;
+    }
   }
 
   .contact {
@@ -34,7 +38,7 @@ export const Ol = styled.ol<OlProps>`
 
   @media (max-width: 840px) {
     flex-flow: column nowrap;
-    background-color: #0d2538;
+    background-color: #484848;
     position: fixed;
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     top: 0;
@@ -45,7 +49,30 @@ export const Ol = styled.ol<OlProps>`
     transition: transform 0.3s ease-in-out;
 
     li {
+      text-align: center;
       color: #fff;
+      margin-bottom: 20px;
+      font-size: 25px;
+      margin-right: 0;
+
+      &:nth-last-child(2) {
+        margin-top: -20px;
+      }
+
+      &:last-child {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        a {
+          margin-right: 10px;
+        }
+      }
+    }
+    #details-logo {
+      display: none;
     }
   }
 `;
