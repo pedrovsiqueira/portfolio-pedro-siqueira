@@ -35,7 +35,7 @@ const SocialIcons: React.FC = () => (
     <a
       target="_blank"
       rel="noopener noreferrer"
-      href="https://drive.google.com/uc?id=1C01SwPt9VzDgNCdhKbx7MBJx5iaxouwC&export=download"
+      href="https://drive.google.com/uc?id=1av7IxP7QhR3pSnGZtXGdgtwdD1uRLP-4&export=download"
     >
       download CV
     </a>
