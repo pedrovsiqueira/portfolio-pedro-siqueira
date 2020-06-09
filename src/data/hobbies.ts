@@ -9,7 +9,7 @@ const hobbies = [
     title: 'desenvolvimento',
     img: codeSvg,
     summary:
-      'Cada dia que passa eu fico encantando com o mundo de desenvolvimento. Por esse motivo estou sempre praticando e estudando.',
+      'Cada dia que passa eu fico encantado com o mundo de desenvolvimento. Por esse motivo estou sempre praticando e estudando.',
   },
   {
     id: 2,

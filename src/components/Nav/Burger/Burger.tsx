@@ -3,7 +3,7 @@ import RightNav from '../RightNav/RightNav';
 import {StyledBurger} from './styles'
 
 const Burger: React.FC = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState<boolean>(false);
 
   return (
     <>
