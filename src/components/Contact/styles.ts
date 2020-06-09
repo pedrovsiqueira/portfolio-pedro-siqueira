@@ -35,7 +35,7 @@ export const Content = styled.section`
     flex-direction: column;
     height: 800px;
     width: 96vw;
-    margin-left: 10px;
+    margin-left: 20px;
     p {
       width: 366px;
     }

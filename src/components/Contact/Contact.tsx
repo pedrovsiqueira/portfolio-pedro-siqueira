@@ -5,7 +5,7 @@ import { Container, ContactInfo, Content } from './styles';
 const Contact: React.FC = () => (
   <Container>
     <Content>
-      <ContactInfo>
+      <ContactInfo data-aos="fade-up">
         <h5 id="contact">contato</h5>
         <h2>quer conversar comigo?</h2>
         <p>
@@ -19,7 +19,6 @@ const Contact: React.FC = () => (
       </ContactInfo>
       <ContactForm />
     </Content>
-
   </Container>
 );
 

@@ -22,7 +22,7 @@ const projects = [
     title: 'Easy Cooking',
     summary:
       'Projeto desenvolvido com a Gabriela Aguiar. Você digita 3 ingredientes que você possui na sua geladeira, e o nosso site retorna receitas compatíveis com os ingredientes informados.',
-    tech: ['Javascript', 'Node', 'MongoDB', 'Express'],
+    tech: ['Javascript', 'NodeJS', 'MongoDB', 'Express', 'Handlebars', 'Mongoose'],
     demo: 'https://easy-cooking-app.herokuapp.com/',
     repo: 'https://github.com/pedrovsiqueira/easycooking',
   },
