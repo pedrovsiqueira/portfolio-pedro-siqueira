@@ -1,4 +1,5 @@
 import React, { OlHTMLAttributes } from 'react';
+import { Link } from 'react-scroll';
 import { Ol } from './styles';
 
 import contactSvg from '../../../assets/contact.svg';
@@ -12,23 +13,57 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
   return (
     <Ol open={open}>
       <li>
-        <a href="#about">sobre mim</a>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          sobre mim
+        </Link>
       </li>
       <li>
-        <a href="#projects">portfólio</a>
+        <Link
+          activeClass="active"
+          to="portfolio"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          portfólio
+        </Link>
       </li>
       <li>
-        <a href="#testimonials">depoimentos</a>
+        <Link
+          activeClass="active"
+          to="testimonials"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          depoimentos
+        </Link>
       </li>
       <li>
         <img id="details-logo" src={detailSvg} alt="Details logo" />
       </li>
 
       <li>
-        <a className="contact" href="#contact">
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           <img id="contact-logo" src={contactSvg} alt="Contact logo" />
-          <span>entre em contato</span>
-        </a>
+          <span className="contact">entre em contato</span>
+        </Link>
       </li>
     </Ol>
   );

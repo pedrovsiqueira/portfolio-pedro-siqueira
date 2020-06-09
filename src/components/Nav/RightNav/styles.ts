@@ -13,15 +13,10 @@ export const Ol = styled.ol<OlProps>`
 
   li {
     margin-right: 38px;
-  }
-
-  a {
-    text-decoration: none;
+    cursor: pointer;
   }
 
   .contact {
-    display: flex;
-    align-items: center;
     font-weight: 700;
   }
 

@@ -6,7 +6,7 @@ const Contact: React.FC = () => (
   <Container>
     <Content>
       <ContactInfo>
-        <h5>contato</h5>
+        <h5 id="contact">contato</h5>
         <h2>quer conversar comigo?</h2>
         <p>
           Caso tenha se interessado pelo meu trabalho, preencha o formulário que
