@@ -19,7 +19,7 @@ export const Content = styled.div`
     font-size: 30px;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 393px) {
     h2 {
       font-size: 28px;
     }

@@ -63,7 +63,7 @@ export const ContactInfo = styled.div`
     font-weight: bold;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 393px) {
     margin-right: 0px;
     h2 {
       font-size: 28px;

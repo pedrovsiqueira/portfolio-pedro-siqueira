@@ -5,7 +5,7 @@ export const Container = styled.div`
   margin-top: 75px;
   width: 1088px;
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 393px) {
     width: 350px;
   }
 
@@ -135,7 +135,7 @@ export const CardContainer = styled.div`
     }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 393px) {
     width: 330px;
 
     h5 {
@@ -201,7 +201,7 @@ export const Links = styled.div`
     margin-bottom: 20px;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 393px) {
     /* width: 330px; */
     margin: 20px 0px;
     a {

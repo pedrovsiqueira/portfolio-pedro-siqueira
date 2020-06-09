@@ -30,7 +30,7 @@ export const Content = styled.div`
     margin-bottom: 34px;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 393px) {
     h2 {
       font-size: 28px;
     }

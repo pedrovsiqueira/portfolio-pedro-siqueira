@@ -69,7 +69,7 @@ export const AboutText = styled.div`
     }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 393px) {
     h1 {
       font-size: 28px;
     }
