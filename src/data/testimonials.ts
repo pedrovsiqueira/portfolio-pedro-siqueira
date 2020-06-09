@@ -19,9 +19,9 @@ const testimonials = [
   },
   {
     id: '4',
-    name: 'Ricky Almeida',
+    name: 'Fabrício Polato',
     description:
-      'Pedro Siqueira, que projeto! Pude ver de perto o seu trabalho com a Gabriela Aguiar, e a forma que você lida com os desafios é sem dúvidas o seu diferencial e uma grande inspiração pra mim. Parabéns, meu amigo!',
+      'Estudei junto com o Pedro em SP. Fiquei impressionado com sua facilidade de aprendizado durante o curso e creio que sua paciência e didática sejam duas características muito fortes que o distinguem como profissional.',
   },
   {
     id: '5',
