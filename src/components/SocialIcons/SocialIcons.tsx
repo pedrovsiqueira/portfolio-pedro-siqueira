@@ -32,7 +32,11 @@ const SocialIcons: React.FC = () => (
     </a>
 
     <img id="details-logo" src={detailSvg} alt="Details logo" />
-    <a target="_blank" rel="noopener noreferrer" href="teste">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://drive.google.com/uc?id=1C01SwPt9VzDgNCdhKbx7MBJx5iaxouwC&export=download"
+    >
       download CV
     </a>
   </Icons>
