@@ -19,7 +19,7 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={2000}
         >
           sobre mim
         </Link>
@@ -31,7 +31,7 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={2000}
         >
           portfólio
         </Link>
@@ -43,7 +43,7 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={2000}
         >
           depoimentos
         </Link>
@@ -59,7 +59,7 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           spy={true}
           smooth={true}
           offset={-70}
-          duration={500}
+          duration={2000}
         >
           <img id="contact-logo" src={contactSvg} alt="Contact logo" />
           <span className="contact">entre em contato</span>
