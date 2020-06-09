@@ -18,7 +18,7 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           to="about"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-200}
           duration={2000}
         >
           sobre mim
