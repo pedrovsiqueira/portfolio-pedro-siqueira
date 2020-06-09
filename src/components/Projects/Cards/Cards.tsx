@@ -3,12 +3,8 @@ import { Container, CardContainer, CardContent, Links } from './styles';
 import detailSvg from '../../../assets/Divider_cinza.svg';
 import dividerBolaSvg from '../../../assets/Divider_bola.svg';
 import projects from '../../../data/projects';
-import useScroll from '../../../hooks/useScroll';
 
 const Cards: React.FC = (): any => {
-  // eslint-disable-next-line
-  const [effect] = useScroll();
-
   return (
     <Container>
       {projects.map((item, index) => {

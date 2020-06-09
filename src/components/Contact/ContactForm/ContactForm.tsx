@@ -6,7 +6,7 @@ import TextArea from '../TextArea/TextArea';
 import { FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
 
 const ContactForm: React.FC = () => (
-  <Form name="contact" method="post">
+  <Form data-aos="fade-up" name="contact" method="post">
     <input type="hidden" name="form-name" value="contact"></input>
     <Input
       placeholder="Nome"
