@@ -15,11 +15,12 @@ const About: React.FC = () => {
           </h1>
           <p data-aos="fade-up" className="about-me">
             Formado em Ciência da Computação, possuo mais de 8 anos de
-            experiência trabalhando na área de TI, com conhecimentos em
-            implantação e manutenção de sistemas, suporte técnico,
-            infraestrutura e implementação de melhorias na área tecnológica.
-            Recentemente decidi migrar para área de programação ao perceber que
-            meu desejo era trabalhar com desenvolvimento.
+            experiência trabalhando na área de TI. Recentemente decidi migrar
+            para área de programação ao perceber que meu desejo era trabalhar
+            com desenvolvimento. Durante minha formação como Desenvolvedor Web
+            em um Bootcamp da Ironhack tive a oportunidade de aprofundar meus
+            conhecimentos em linguagens e tecnologias como: Javascript, HTML,
+            CSS, React, NodeJS, Express, MongoDB, Git e SCRUM.
           </p>
           <SocialIcons />
           <AboutCards />

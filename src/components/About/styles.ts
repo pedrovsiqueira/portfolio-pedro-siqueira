@@ -61,7 +61,7 @@ export const AboutText = styled.div`
   @media screen and (max-width: 768px) {
     p {
       width: 366px;
-      height: 240px;
+      height: 275px;
     }
 
     .about-me {
