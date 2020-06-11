@@ -1,6 +1,5 @@
 import React from 'react';
 import detailSvg from '../../assets/icons/Divider_Azul.svg';
-import locationIcon from '../../assets/icons/Icon_Location.svg';
 import locationPin from '../../assets/icons/Icon_Pin.svg';
 
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
@@ -43,15 +42,6 @@ const SocialIcons: React.FC = () => (
     >
       <FiInstagram />
     </a>
-    {/*
-    <img id="details-logo" src={detailSvg} alt="Details logo" />
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://drive.google.com/uc?id=1av7IxP7QhR3pSnGZtXGdgtwdD1uRLP-4&export=download"
-    >
-      download CV
-    </a> */}
   </Icons>
 );
 

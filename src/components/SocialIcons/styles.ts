@@ -18,6 +18,10 @@ export const Icons = styled.div`
     margin-right: 32px;
     width: 25px;
     height: 25px;
+
+    &:first-child {
+      margin-right: 16px;
+    }
   }
 
   a {
