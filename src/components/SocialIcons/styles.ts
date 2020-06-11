@@ -36,3 +36,11 @@ export const Icons = styled.div`
     }
   }
 `;
+
+export const Location = styled.div`
+  display: flex;
+`
+
+export const Social = styled.div`
+  display: flex;
+`;

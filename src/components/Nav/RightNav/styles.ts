@@ -47,6 +47,11 @@ export const Ol = styled.ol<OlProps>`
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
+    .social-icons{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
     li {
       text-align: center;
       color: #fff;

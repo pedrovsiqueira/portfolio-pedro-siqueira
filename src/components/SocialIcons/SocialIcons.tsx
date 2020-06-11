@@ -5,7 +5,7 @@ import { RouteComponentProps } from '@reach/router';
 
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
-import { Icons } from './styles';
+import { Icons, Location, Social } from './styles';
 
 interface IconsProps extends RouteComponentProps {
   className: string;
@@ -13,40 +13,44 @@ interface IconsProps extends RouteComponentProps {
 
 const SocialIcons: React.FC<IconsProps> = (): any => (
   <Icons className="social-icons">
-    <img src={locationPin} alt="location icon" />
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://github.com/pedrovsiqueira"
-    >
-      Goiânia - GO
-    </a>
+    <Location>
+      <img src={locationPin} alt="location icon" />
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/pedrovsiqueira"
+      >
+        Goiânia - GO
+      </a>
+    </Location>
 
     <img id="details-logo" src={detailSvg} alt="Details logo" />
 
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://github.com/pedrovsiqueira"
-    >
-      <FiGithub />
-    </a>
+    <Social>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/pedrovsiqueira"
+      >
+        <FiGithub />
+      </a>
 
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://www.linkedin.com/in/pedrovsiqueira/"
-    >
-      <FiLinkedin />
-    </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/pedrovsiqueira/"
+      >
+        <FiLinkedin />
+      </a>
 
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="https://www.instagram.com/pedrovsiqueira/"
-    >
-      <FiInstagram />
-    </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.instagram.com/pedrovsiqueira/"
+      >
+        <FiInstagram />
+      </a>
+    </Social>
   </Icons>
 );
 
