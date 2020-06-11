@@ -22,7 +22,7 @@ const About: React.FC = () => {
             conhecimentos em linguagens e tecnologias como: Javascript, HTML,
             CSS, React, NodeJS, Express, MongoDB, Git e SCRUM.
           </p>
-          <SocialIcons />
+          <SocialIcons className="social-icons" />
           <AboutCards />
           <CarouselAboutCards />
         </AboutText>

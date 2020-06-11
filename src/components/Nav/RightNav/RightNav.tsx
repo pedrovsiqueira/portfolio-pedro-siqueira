@@ -68,7 +68,7 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           </Link>
         </li>
         <li>
-          <SocialIcons />
+          <SocialIcons className="social-icons"/>
         </li>
       </Ol>
     </>
