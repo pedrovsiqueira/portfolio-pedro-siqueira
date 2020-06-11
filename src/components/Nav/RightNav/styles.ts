@@ -47,9 +47,26 @@ export const Ol = styled.ol<OlProps>`
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
-    .social-icons{
+    .social-icons {
       display: flex;
       flex-direction: column-reverse;
+      height: 90px;
+      justify-content: space-between;
+
+      a{
+        margin-top: 11px;
+      }
+
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+
+      img:first-child {
+        width: 30px;
+        height: 30px;
+        margin-right: 6px;
+      }
     }
 
     li {
