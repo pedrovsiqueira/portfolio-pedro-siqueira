@@ -45,7 +45,6 @@ export const AboutText = styled.div`
 
   p {
     width: 854px;
-    height: 80px;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
