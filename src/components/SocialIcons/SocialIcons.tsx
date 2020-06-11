@@ -18,7 +18,7 @@ const SocialIcons: React.FC<IconsProps> = (): any => (
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/pedrovsiqueira"
+        href="https://goo.gl/maps/Q1nNdPAXLzuty4RU9"
       >
         Goiânia - GO
       </a>
