@@ -6,7 +6,7 @@ import CarouselAboutCards from './CarouselCards/CarouselAboutCards';
 
 const About: React.FC = () => {
   return (
-    <Container>
+    <Container data-testid="container">
       <Content>
         <AboutText>
           <h5 id="about">sobre mim</h5>
