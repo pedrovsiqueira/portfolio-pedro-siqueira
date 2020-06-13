@@ -114,7 +114,7 @@ export const Background = styled.img`
     height: 400px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     width: 354px;
     height: 354px;
     display: flex;

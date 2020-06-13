@@ -14,7 +14,7 @@ export const Content = styled.footer`
   background-color: #353535;
 
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     margin-top: 20px;
 
     p {
