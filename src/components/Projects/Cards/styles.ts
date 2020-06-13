@@ -13,7 +13,7 @@ export const Container = styled.div`
     width: 500px;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     width: 100%;
   }
 `;
@@ -115,7 +115,7 @@ export const CardContainer = styled.div`
     }
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     width: 366px;
     .switch-projects {
       flex-direction: column;
@@ -157,7 +157,7 @@ export const CardContainer = styled.div`
 export const CardContent = styled.div`
   width: 550px;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     width: 366px;
   }
 
@@ -189,7 +189,7 @@ export const Links = styled.div`
     -webkit-text-fill-color: transparent;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     margin-bottom: 41px;
   }
 

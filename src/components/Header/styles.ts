@@ -79,6 +79,7 @@ export const Content = styled.div`
 
   @media screen and (max-width: 475px) {
     .background-text {
+      margin-left: 15px;
       h1 {
         font-size: 45px;
       }
@@ -87,7 +88,6 @@ export const Content = styled.div`
 
   @media screen and (max-width: 375px) {
     .background-text {
-      margin-left: 15px;
       h1 {
         font-size: 38px;
         max-width: 345px;

@@ -8,7 +8,7 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     overflow-x: hidden;
   }
 
@@ -31,11 +31,11 @@ export const Content = styled.section`
   flex-direction: row;
   justify-content: center;
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
     height: 800px;
     width: 96vw;
-    margin-left: 20px;
+    margin-left: 15px;
     p {
       width: 366px;
     }
