@@ -85,14 +85,16 @@ export const Content = styled.div`
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 375px) {
     .background-text {
+      margin-left: 15px;
       h1 {
         font-size: 38px;
+        max-width: 345px;
       }
 
-      p{
-        max-width: 384px;
+      p {
+        max-width: 340px;
       }
     }
   }

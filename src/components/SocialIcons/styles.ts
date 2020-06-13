@@ -35,11 +35,18 @@ export const Icons = styled.div`
       color: ${shade(0.01, '#33E8F6')};
     }
   }
+
+  @media screen and (max-width: 375px) {
+    a{
+      font-size: 11.3px;
+      margin-top: 5px;
+    }
+  }
 `;
 
 export const Location = styled.div`
   display: flex;
-`
+`;
 
 export const Social = styled.div`
   display: flex;
