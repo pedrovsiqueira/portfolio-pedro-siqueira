@@ -61,6 +61,10 @@ export const ContactInfo = styled.div`
 
   a {
     font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      color: #41ebf8;
+    }
   }
 
   @media screen and (max-width: 393px) {
