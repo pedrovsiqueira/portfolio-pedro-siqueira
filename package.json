@@ -1,6 +1,6 @@
 {
   "name": "pedro-siqueira-portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@types/reach__router": "^1.3.5",
