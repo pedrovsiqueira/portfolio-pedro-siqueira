@@ -30,7 +30,7 @@ export const IconContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  margin-top: -33px;
+  margin-top: -7px;
   margin-bottom: 32px;
   width: 50px;
   height: 50px;

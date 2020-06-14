@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 export const Content = styled.div`
-  /* width: 80vw; */
   max-width: 912px;
-  /* height: 1000px; */
   display: flex;
   justify-content: space-around;
 
