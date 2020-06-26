@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Content, Background } from './styles';
 import Navbar from '../Nav/Navbar';
+import { FormattedMessage } from 'react-intl';
 
 const Header: React.FC = () => (
   <Container>
@@ -8,10 +9,11 @@ const Header: React.FC = () => (
     <Content>
       <Background />
       <div className="background-text">
-        <h1>desenvolvedor full stack</h1>
+        <h1>
+          <FormattedMessage id="header.title" />
+        </h1>
         <p>
-          desenvolvimento de sites, apps e sistemas para web personalizados e de
-          alta qualidade.
+          <FormattedMessage id="header.message" />
         </p>
       </div>
     </Content>
