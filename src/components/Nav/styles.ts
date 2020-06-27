@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   height: 70px;
-  background: #272727 0% 0% no-repeat padding-box;
+  background: ${(props) => props.theme.backgroundColor} 0% 0% no-repeat
+    padding-box;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -14,17 +15,14 @@ export const Nav = styled.nav`
   @media (max-width: 840px) {
     justify-content: space-between;
 
-    .logo{
+    .logo {
       margin-left: 20px;
     }
   }
 
   .logo {
-    background: -webkit-linear-gradient(82deg, #00dcec 0%, #53f3ff 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    ${(props) => props.theme.mainColor}
     font-weight: 600;
-    margin-top: -15px
+    margin-top: -15px;
   }
 `;
