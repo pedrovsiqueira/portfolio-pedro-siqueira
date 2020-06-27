@@ -37,7 +37,7 @@ export const Ol = styled.ol<OlProps>`
 
   @media (max-width: 840px) {
     flex-flow: column nowrap;
-    background-color: #484848;
+    background-color: ${(props) => props.theme.rightNavBackgroundColor};
     position: fixed;
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     top: 0;
@@ -53,7 +53,7 @@ export const Ol = styled.ol<OlProps>`
       height: 90px;
       justify-content: space-between;
 
-      a{
+      a {
         margin-top: 11px;
       }
 

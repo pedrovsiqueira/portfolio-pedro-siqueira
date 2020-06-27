@@ -12,5 +12,8 @@ declare module 'styled-components' {
     inputBackgroundColor: string;
     inputTextColor: string;
     footerBackgroundColor: string;
+    rightNavBackgroundColor: string;
+    xIconRightNavColor: string;
+    hamburguerIconRightNavColor: string;
   }
 }
