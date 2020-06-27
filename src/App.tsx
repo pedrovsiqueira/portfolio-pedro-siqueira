@@ -6,9 +6,11 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
+import { ThemeProvider } from 'styled-components';
+import { darkTheme } from '../src/styles/theme';
 
 const App: React.FC = () => (
-  <>
+  <ThemeProvider theme={darkTheme}>
     <Header />
     <About />
     <Projects />
@@ -16,7 +18,7 @@ const App: React.FC = () => (
     <Contact />
     <Footer />
     <GlobalStyle />
-  </>
+  </ThemeProvider>
 );
 
 export default App;
