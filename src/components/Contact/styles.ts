@@ -55,7 +55,7 @@ export const ContactInfo = styled.div`
     width: 429px;
     height: 142px;
     font-size: 16px;
-    color: #dcdcdc;
+    color: ${(props) => props.theme.textColor};
     font-weight: 500;
   }
 
@@ -63,7 +63,7 @@ export const ContactInfo = styled.div`
     font-weight: bold;
     text-decoration: none;
     &:hover {
-      color: #41ebf8;
+      color: ${(props) => props.theme.inputColor};
     }
   }
 
