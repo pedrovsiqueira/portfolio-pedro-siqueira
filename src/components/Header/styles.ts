@@ -26,10 +26,7 @@ export const Content = styled.div`
     margin-left: -50px;
 
     h1 {
-      background: -webkit-linear-gradient(82deg, #00dcec 0%, #53f3ff 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
+      ${(props) => props.theme.mainColor}
       margin-bottom: 36px;
       width: 491px;
       font-weight: 800;
