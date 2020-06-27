@@ -3,11 +3,7 @@ import { shade } from 'polished';
 
 export const Container = styled.button`
   color: #fff;
-  background: transparent -webkit-linear-gradient(
-      82deg,
-      #00dcec 0%,
-      #53f3ff 100%
-    ) 0% 0% no-repeat padding-box;
+  ${(props) => props.theme.buttonColor}
   width: 174px;
   height: 48px;
   font-weight: bold;
