@@ -7,5 +7,7 @@ declare module 'styled-components' {
     buttonColor: string;
     inputColor: string;
     iconColor: string;
+    inputBackgroundColor: string;
+    inputTextColor: string;
   }
 }

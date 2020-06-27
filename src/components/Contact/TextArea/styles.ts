@@ -7,7 +7,8 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #353535 0% 0% no-repeat padding-box;
+  background: ${(props) => props.theme.inputBackgroundColor} 0% 0% no-repeat
+    padding-box;
   margin-bottom: 64px;
   display: flex;
   border-radius: 10px;
@@ -15,13 +16,12 @@ export const Container = styled.div<ContainerProps>`
   ${(props) =>
     props.isFocused &&
     css`
-      border: 2px solid #41ebf8;
-      color: #41ebf8;
+      border: 2px solid ${(props) => props.theme.inputColor};
     `}
 
   textarea {
     resize: none;
-    color: #f4ede8;
+    color: ${(props) => props.theme.inputTextColor};
     background: transparent;
     font-size: 14px;
     padding: 20px 20px 20px 15px;
@@ -34,19 +34,19 @@ export const Container = styled.div<ContainerProps>`
   }
 
   svg {
-    color: #dcdcdc;
+    color: ${(props) => props.theme.iconColor};
     margin: 20px 0 0 16px;
 
     ${(props) =>
       props.isFocused &&
       css`
-        color: #41ebf8;
+        color: ${(props) => props.theme.inputColor};
       `}
 
     ${(props) =>
       props.isFilled &&
       css`
-        color: #41ebf8;
+        color: ${(props) => props.theme.inputColor};
       `}
   }
 `;

@@ -7,7 +7,7 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #353535 0% 0%;
+  background: ${(props) => props.theme.inputBackgroundColor} 0% 0%;
   margin-bottom: 32px;
 
   display: flex;
@@ -21,7 +21,7 @@ export const Container = styled.div<ContainerProps>`
     `}
 
   input {
-    color: #f4ede8;
+    color: ${(props) => props.theme.inputTextColor};
     flex: 1;
     background: transparent;
     font-size: 14px;
