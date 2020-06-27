@@ -17,8 +17,7 @@ export const Container = styled.div<ContainerProps>`
   ${(props) =>
     props.isFocused &&
     css`
-      border: 2px solid #41ebf8;
-      color: #41ebf8;
+      border: 2px solid ${(props) => props.theme.inputColor};
     `}
 
   input {
@@ -36,19 +35,19 @@ export const Container = styled.div<ContainerProps>`
   }
 
   svg {
-    color: #f4ede8;
+    color: ${(props) => props.theme.iconColor};
     margin-left: 16px;
 
     ${(props) =>
       props.isFocused &&
       css`
-        color: #41ebf8;
+        color: ${(props) => props.theme.inputColor};
       `}
 
     ${(props) =>
       props.isFilled &&
       css`
-        color: #41ebf8;
+        color: ${(props) => props.theme.inputColor};
       `}
   }
 `;

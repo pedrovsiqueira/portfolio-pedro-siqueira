@@ -4,6 +4,7 @@ export const darkTheme = {
   iconBackgroundColor:
     'transparent linear-gradient(76deg, #00dcec 0%, #53f3ff 100%) 0% 0% no-repeat padding-box;',
   buttonColor:
-    '  background: transparent -webkit-linear-gradient(82deg, #00dcec 0%, #53f3ff 100%) 0% 0% no-repeat padding-box;',
-  inputColor: '41ebf8',
+    'background: transparent -webkit-linear-gradient(82deg, #00dcec 0%, #53f3ff 100%) 0% 0% no-repeat padding-box;',
+  inputColor: '#41ebf8',
+  iconColor: '#f4ede8',
 };
