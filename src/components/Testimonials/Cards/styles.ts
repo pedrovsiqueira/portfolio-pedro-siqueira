@@ -13,7 +13,8 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
-  background: #353535 0% 0% no-repeat padding-box;
+  background: ${(props) => props.theme.cardsBackgroundColor} 0% 0% no-repeat
+    padding-box;
   border-radius: 10px;
   width: 304px;
   height: 288px;
@@ -22,8 +23,6 @@ export const Card = styled.div`
   justify-content: space-evenly;
   border-radius: 10px;
   margin-bottom: 32px;
-  /* border: 1.5px solid #41ebf8; */
-  /* border: 2px solid #41ebf8; */
 
   p {
     padding: 10px 48px 0px 48px;

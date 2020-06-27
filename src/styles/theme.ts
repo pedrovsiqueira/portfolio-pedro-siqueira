@@ -12,6 +12,7 @@ export const darkTheme = {
   inputBackgroundColor: '#353535',
   inputTextColor: '#f4ede8',
   footerBackgroundColor: '#353535',
+  cardsBackgroundColor: '#353535',
   rightNavBackgroundColor: '#484848',
   xIconRightNavColor: '#ccc',
   hamburguerIconRightNavColor: '#fff',

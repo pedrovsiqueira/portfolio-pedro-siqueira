@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100vw;
-  /* max-width: 1000px; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -14,7 +13,8 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
-  background: #353535 0% 0% no-repeat padding-box;
+  background: ${(props) => props.theme.cardsBackgroundColor} 0% 0% no-repeat
+    padding-box;
   border-radius: 10px;
   width: 364px;
   height: 348px;
@@ -22,8 +22,6 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 10px;
-  /* border: 1.5px solid #41ebf8; */
-  /* border: 2px solid #41ebf8; */
 
   p {
     padding: 10px 48px 0px 48px;
