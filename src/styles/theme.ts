@@ -11,4 +11,5 @@ export const darkTheme = {
   iconColor: '#f4ede8',
   inputBackgroundColor: '#353535',
   inputTextColor: '#f4ede8',
+  footerBackgroundColor: '#353535',
 };

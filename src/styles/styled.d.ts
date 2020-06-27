@@ -11,5 +11,6 @@ declare module 'styled-components' {
     iconColor: string;
     inputBackgroundColor: string;
     inputTextColor: string;
+    footerBackgroundColor: string;
   }
 }

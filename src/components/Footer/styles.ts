@@ -11,8 +11,7 @@ export const Content = styled.footer`
   flex-direction: column;
   align-items: center;
   padding: 25px 0 20px 0;
-  background-color: #353535;
-
+  background-color: ${(props) => props.theme.footerBackgroundColor};
 
   @media screen and (max-width: 480px) {
     margin-top: 20px;
