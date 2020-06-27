@@ -28,7 +28,8 @@ export const Content = styled.div`
 `;
 
 export const Container = styled.div`
-  background: #353535 0% 0% no-repeat padding-box;
+  background: ${(props) => props.theme.cardsBackgroundColor} 0% 0% no-repeat
+    padding-box;
   margin-top: 104px;
   display: flex;
   flex-direction: column;
@@ -37,7 +38,6 @@ export const Container = styled.div`
   border-radius: 10px;
   width: 314px;
   height: 314px;
-  /* border: 1.5px solid #41ebf8; */
 `;
 
 export const IconContainer = styled.div`

@@ -13,7 +13,8 @@ export const Content = styled.div`
 `;
 
 export const Container = styled.div`
-  background: #353535 0% 0% no-repeat padding-box;
+  background: ${(props) => props.theme.cardsBackgroundColor} 0% 0% no-repeat
+    padding-box;
   margin-top: 104px;
   display: flex;
   flex-direction: column;
