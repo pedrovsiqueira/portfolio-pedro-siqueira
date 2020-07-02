@@ -26,7 +26,7 @@ export default createGlobalStyle`
 
   a{
     text-decoration: none;
-    color: #FFF;
+    color: #C97310;
     letter-spacing: 0px;
     opacity: 1;
   }
@@ -52,7 +52,7 @@ export default createGlobalStyle`
     font-weight: 600;
     font-size: 13px;
     letter-spacing: 2.58px;
-    color: #fff;
+    color: ${(props) => props.theme.h5TextColor};
     text-transform: uppercase;
     margin-bottom: 17px;
   }

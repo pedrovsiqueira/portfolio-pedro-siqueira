@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 interface OlProps {
   open: boolean;
 }
@@ -12,6 +11,11 @@ export const Ol = styled.ol<OlProps>`
 
   li {
     margin-right: 38px;
+
+    span {
+      margin-left: 5px;
+    }
+
     cursor: pointer;
 
     &:last-child {
@@ -31,7 +35,7 @@ export const Ol = styled.ol<OlProps>`
     font-weight: 500;
     transition: color 0.6s ease;
     &:hover {
-      color: ${shade(0.01, '#33E8F6')};
+      color: ${(props) => props.theme.inputColor};
     }
   }
 
@@ -61,17 +65,11 @@ export const Ol = styled.ol<OlProps>`
         width: 30px;
         height: 30px;
       }
-
-      img:first-child {
-        width: 30px;
-        height: 30px;
-        margin-right: 6px;
-      }
     }
 
     li {
       text-align: center;
-      color: #fff;
+      color: ${(props) => props.theme.textColor};
       margin-bottom: 20px;
       font-size: 25px;
       margin-right: 0;

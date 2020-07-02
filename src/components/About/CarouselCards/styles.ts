@@ -50,8 +50,7 @@ export const IconContainer = styled.div`
   margin-bottom: 15px;
   width: 50px;
   height: 50px;
-  background: transparent linear-gradient(76deg, #00dcec 0%, #53f3ff 100%) 0% 0%
-    no-repeat padding-box;
+  background: ${(props) => props.theme.iconBackgroundColor};
   border-radius: 50%;
 
   img {

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 export const Container = styled.div`
   margin-top: 75px;
@@ -81,7 +80,6 @@ export const CardContainer = styled.div`
   }
 
   @media screen and (max-width: 1072px) {
-    /* width: 1000px; */
     margin-left: 100px;
 
     .switch-projects {
@@ -98,7 +96,6 @@ export const CardContainer = styled.div`
 
   @media screen and (max-width: 900px) {
     margin-left: 20px;
-    /* width: 800px; */
 
     .switch-projects {
       flex-direction: column;
@@ -178,7 +175,7 @@ export const Links = styled.div`
     font-weight: 600;
     text-decoration: none;
     &:hover {
-      color: ${shade(0.01, '#33E8F6')};
+      color: ${(props) => props.theme.inputColor};
     }
   }
 
@@ -199,7 +196,6 @@ export const Links = styled.div`
   }
 
   @media screen and (max-width: 393px) {
-    /* width: 330px; */
     margin: 20px 0px;
     a {
       font-size: 14px;

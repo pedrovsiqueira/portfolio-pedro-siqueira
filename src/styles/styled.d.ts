@@ -16,5 +16,9 @@ declare module 'styled-components' {
     xIconRightNavColor: string;
     hamburguerIconRightNavColor: string;
     cardsBackgroundColor: string;
+    h5TextColor: string;
+    inputPlaceholderColor: string;
+    buttonHover: string;
+    iconHoverColor: string;
   }
 }

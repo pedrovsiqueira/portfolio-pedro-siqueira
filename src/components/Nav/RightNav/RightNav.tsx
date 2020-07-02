@@ -2,9 +2,9 @@ import React, { OlHTMLAttributes } from 'react';
 import { Link } from 'react-scroll';
 import { Ol } from './styles';
 
-import contactSvg from '../../../assets/icons/contact.svg';
 import detailSvg from '../../../assets/icons/Divider_Azul.svg';
 import SocialIcons from '../../SocialIcons/SocialIcons';
+import { IoMdChatbubbles } from 'react-icons/io';
 
 interface NavProps extends OlHTMLAttributes<HTMLOListElement> {
   open: boolean;
@@ -63,7 +63,7 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
             offset={-70}
             duration={2000}
           >
-            <img id="contact-logo" src={contactSvg} alt="Contact logo" />
+            <IoMdChatbubbles size={24} />
             <span className="contact">entre em contato</span>
           </Link>
         </li>

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 export const Icons = styled.div`
   display: flex;
@@ -10,7 +9,7 @@ export const Icons = styled.div`
     width: 20px;
     height: 20px;
     &:hover {
-      color: ${shade(0.01, '#33E8F6')};
+      color: ${(props) => props.theme.iconHoverColor};
     }
   }
 
@@ -32,12 +31,12 @@ export const Icons = styled.div`
     text-decoration: none;
 
     &:hover {
-      color: ${shade(0.01, '#33E8F6')};
+      color: ${(props) => props.theme.iconHoverColor};
     }
   }
 
   @media screen and (max-width: 375px) {
-    a{
+    a {
       font-size: 11.3px;
       margin-top: 5px;
     }

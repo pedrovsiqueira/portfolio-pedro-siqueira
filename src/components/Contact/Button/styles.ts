@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 export const Container = styled.button`
   color: #fff;
@@ -11,6 +10,6 @@ export const Container = styled.button`
   border-radius: 10px;
 
   &:hover {
-    background: ${shade(0.1, '#33E8F6')};
+    background: ${(props) => props.theme.buttonHover};
   }
 `;

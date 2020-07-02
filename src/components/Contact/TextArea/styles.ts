@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import { shade } from 'polished';
 
 interface ContainerProps {
   isFocused: boolean;
@@ -29,7 +28,7 @@ export const Container = styled.div<ContainerProps>`
     height: 128px;
 
     &::placeholder {
-      color: ${shade(20, '#f4ede8')};
+      color: ${(props) => props.theme.inputPlaceholderColor};
     }
   }
 
