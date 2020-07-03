@@ -6,6 +6,8 @@
   "nav.third.li.element": "testimonies",
   "nav.fourth.li.element": "contact me",
   "about.title": "about me",
-  "about.message": "hello, i'm Pedro Siqueira",
-  "about.paragraph": "Graduated in Computer Science, I have more than 8 years of experience working in the IT industry. I recently decided to switch fields and head towards programming when I realized that my passion was to work with software development. During my training as a Web Developer at a bootcamp called Ironhack, I had the opportunity to deepen my knowledge in languages and technologies such as: Javascript, HTML, CSS, React, NodeJS, Express, MongoDB, Git and SCRUM."
+  "about.message": "hello, i'm <span>Pedro Siqueira</span>",
+  "about.paragraph": "Graduated in Computer Science, I have more than 8 years of experience working in the IT industry. I recently decided to switch fields and head towards programming when I realized that my passion was to work with software development. During my training as a Web Developer at a bootcamp called Ironhack, I had the opportunity to deepen my knowledge in languages and technologies such as: Javascript, HTML, CSS, React, NodeJS, Express, MongoDB, Git and SCRUM.",
+  "portfolio.title": "portfolio",
+  "portfolio.message": "check out my work"
 }
