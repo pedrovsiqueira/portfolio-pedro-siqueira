@@ -9,7 +9,6 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import { ThemeProvider } from 'styled-components';
 import { Context } from './hooks/context';
-import dark from './styles/themes/dark';
 
 const App: React.FC = () => {
   const { theme } = useContext(Context);

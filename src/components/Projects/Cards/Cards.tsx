@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import { Container, CardContainer, CardContent, Links } from './styles';
 import detailSvg from '../../../assets/icons/Divider_cinza.svg';
 import dividerBolaSvg from '../../../assets/icons/Divider_bola.svg';

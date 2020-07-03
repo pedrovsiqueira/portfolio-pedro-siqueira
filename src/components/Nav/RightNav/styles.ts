@@ -95,3 +95,9 @@ export const Ol = styled.ol<OlProps>`
     }
   }
 `;
+
+export const StyledToggle = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+`;

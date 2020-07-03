@@ -13,7 +13,7 @@ local !== 'pt-BR' ? (lang = English) : (lang = Portuguese);
 
 ReactDOM.render(
   <ContextProvider>
-    <IntlProvider locale={local} messages={lang}>
+    <IntlProvider locale={local} messages={English}>
       <App />
     </IntlProvider>
   </ContextProvider>,

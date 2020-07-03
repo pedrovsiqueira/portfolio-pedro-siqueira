@@ -1,4 +1,11 @@
 {
   "header.title": "full stack developer",
-  "header.message": "development of personalized, high quality websites, apps and web systems."
+  "header.message": "development of personalized, high quality websites, apps and web systems.",
+  "nav.first.li.element": "about me",
+  "nav.second.li.element": "portfolio",
+  "nav.third.li.element": "testimonies",
+  "nav.fourth.li.element": "contact me",
+  "about.title": "about me",
+  "about.message": "hello, i'm Pedro Siqueira",
+  "about.paragraph": "Graduated in Computer Science, I have more than 8 years of experience working in the IT industry. I recently decided to switch fields and head towards programming when I realized that my passion was to work with software development. During my training as a Web Developer at a bootcamp called Ironhack, I had the opportunity to deepen my knowledge in languages and technologies such as: Javascript, HTML, CSS, React, NodeJS, Express, MongoDB, Git and SCRUM."
 }
