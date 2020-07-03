@@ -1,9 +1,11 @@
-import 'styled-components';
+import React, { createContext, useState } from 'react';
+import light from '../styles/themes/light';
+import dark from '../styles/themes/dark';
 
-declare module 'styled-components' {
-  export interface DefaultTheme {
+interface ContextData {
+  toggleTheme(): void;
+  theme: {
     title: string;
-
     colors: {
       backgroundColor: string;
       textColor: string;
@@ -24,5 +26,23 @@ declare module 'styled-components' {
       buttonHover: string;
       iconHoverColor: string;
     };
-  }
+  };
 }
+
+const Context = createContext<ContextData>({} as ContextData);
+
+const ContextProvider: React.FC = ({ children }) => {
+  const [theme, setTheme] = useState(dark);
+
+  const toggleTheme = () => {
+    setTheme(theme.title === 'dark' ? light : dark);
+  };
+
+  return (
+    <Context.Provider value={{ toggleTheme, theme }}>
+      {children}
+    </Context.Provider>
+  );
+};
+
+export { ContextProvider, Context };

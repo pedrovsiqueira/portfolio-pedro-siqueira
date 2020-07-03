@@ -13,8 +13,8 @@ export const Content = styled.div`
 `;
 
 export const Container = styled.div`
-  background: ${(props) => props.theme.cardsBackgroundColor} 0% 0% no-repeat
-    padding-box;
+  background: ${(props) => props.theme.colors.cardsBackgroundColor} 0% 0%
+    no-repeat padding-box;
   margin-top: 104px;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ export const IconContainer = styled.div`
   margin-bottom: 32px;
   width: 50px;
   height: 50px;
-  background: ${(props) => props.theme.iconBackgroundColor};
+  background: ${(props) => props.theme.colors.iconBackgroundColor};
   border-radius: 50%;
 
   img {

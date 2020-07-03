@@ -37,7 +37,7 @@ export const AboutText = styled.div`
 
   span {
     font-weight: 600;
-    ${(props) => props.theme.mainColor}
+    ${(props) => props.theme.colors.mainColor}
   }
 
   p {

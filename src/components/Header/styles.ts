@@ -26,7 +26,7 @@ export const Content = styled.div`
     margin-left: -50px;
 
     h1 {
-      ${(props) => props.theme.mainColor}
+      ${(props) => props.theme.colors.mainColor}
       margin-bottom: 36px;
       width: 491px;
       font-weight: 800;

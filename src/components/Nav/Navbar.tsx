@@ -1,6 +1,6 @@
 import React from 'react';
 import Burger from './Burger/Burger';
-import { Nav } from './styles'
+import { Nav } from './styles';
 
 const Navbar: React.FC = () => {
   return (

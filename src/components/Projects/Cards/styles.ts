@@ -175,12 +175,12 @@ export const Links = styled.div`
     font-weight: 600;
     text-decoration: none;
     &:hover {
-      color: ${(props) => props.theme.inputColor};
+      color: ${(props) => props.theme.colors.inputColor};
     }
   }
 
   .link-color {
-    ${(props) => props.theme.mainColor}
+    ${(props) => props.theme.colors.mainColor}
   }
 
   @media screen and (max-width: 480px) {

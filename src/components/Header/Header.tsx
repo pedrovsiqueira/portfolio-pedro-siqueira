@@ -1,11 +1,9 @@
 import React from 'react';
 import { Container, Content, Background } from './styles';
-import Navbar from '../Nav/Navbar';
 import { FormattedMessage } from 'react-intl';
 
 const Header: React.FC = () => (
   <Container>
-    <Navbar />
     <Content>
       <Background />
       <div className="background-text">

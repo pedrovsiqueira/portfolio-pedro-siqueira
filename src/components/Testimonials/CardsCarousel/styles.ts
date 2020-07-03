@@ -13,8 +13,8 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
-  background: ${(props) => props.theme.cardsBackgroundColor} 0% 0% no-repeat
-    padding-box;
+  background: ${(props) => props.theme.colors.cardsBackgroundColor} 0% 0%
+    no-repeat padding-box;
   border-radius: 10px;
   width: 364px;
   height: 348px;

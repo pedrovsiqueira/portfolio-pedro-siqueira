@@ -19,9 +19,9 @@ export default {
     rightNavBackgroundColor: '#484848',
     xIconRightNavColor: '#ccc',
     hamburguerIconRightNavColor: '#fff',
-    h5TextColor: '#C97310',
-    inputPlaceholderColor: '#BC915E',
+    h5TextColor: '#fff',
+    inputPlaceholderColor: 'rgb(100,100,100)',
     buttonHover: '#68BBB1',
-    iconHoverColor: '#54A79D',
+    iconHoverColor: '#41ebf8',
   },
 };

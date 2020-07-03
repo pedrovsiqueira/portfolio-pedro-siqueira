@@ -35,13 +35,13 @@ export const Ol = styled.ol<OlProps>`
     font-weight: 500;
     transition: color 0.6s ease;
     &:hover {
-      color: ${(props) => props.theme.inputColor};
+      color: ${(props) => props.theme.colors.inputColor};
     }
   }
 
   @media (max-width: 840px) {
     flex-flow: column nowrap;
-    background-color: ${(props) => props.theme.rightNavBackgroundColor};
+    background-color: ${(props) => props.theme.colors.rightNavBackgroundColor};
     position: fixed;
     transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     top: 0;
@@ -69,7 +69,7 @@ export const Ol = styled.ol<OlProps>`
 
     li {
       text-align: center;
-      color: ${(props) => props.theme.textColor};
+      color: ${(props) => props.theme.colors.textColor};
       margin-bottom: 20px;
       font-size: 25px;
       margin-right: 0;

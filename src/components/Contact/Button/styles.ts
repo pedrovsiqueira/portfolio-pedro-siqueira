@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.button`
   color: #fff;
-  ${(props) => props.theme.buttonColor}
+  ${(props) => props.theme.colors.buttonColor}
   width: 174px;
   height: 48px;
   font-weight: bold;
@@ -10,6 +10,6 @@ export const Container = styled.button`
   border-radius: 10px;
 
   &:hover {
-    background: ${(props) => props.theme.buttonHover};
+    background: ${(props) => props.theme.colors.buttonHover};
   }
 `;

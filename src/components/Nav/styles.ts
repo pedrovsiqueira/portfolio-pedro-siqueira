@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   height: 70px;
-  background: ${(props) => props.theme.backgroundColor} 0% 0% no-repeat
+  background: ${(props) => props.theme.colors.backgroundColor} 0% 0% no-repeat
     padding-box;
   position: fixed;
   top: 0;
@@ -21,7 +21,7 @@ export const Nav = styled.nav`
   }
 
   .logo {
-    ${(props) => props.theme.mainColor}
+    ${(props) => props.theme.colors.mainColor}
     font-weight: 600;
     margin-top: -15px;
   }

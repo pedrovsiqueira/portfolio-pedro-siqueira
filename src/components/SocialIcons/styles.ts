@@ -9,7 +9,7 @@ export const Icons = styled.div`
     width: 20px;
     height: 20px;
     &:hover {
-      color: ${(props) => props.theme.iconHoverColor};
+      color: ${(props) => props.theme.colors.iconHoverColor};
     }
   }
 
@@ -31,7 +31,7 @@ export const Icons = styled.div`
     text-decoration: none;
 
     &:hover {
-      color: ${(props) => props.theme.iconHoverColor};
+      color: ${(props) => props.theme.colors.iconHoverColor};
     }
   }
 

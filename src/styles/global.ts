@@ -10,8 +10,8 @@ export default createGlobalStyle`
   }
 
   body{
-    background: ${(props) => props.theme.backgroundColor};
-    color: ${(props) => props.theme.textColor};
+    background: ${(props) => props.theme.colors.backgroundColor};
+    color: ${(props) => props.theme.colors.textColor};
     -webkit-font-smoothing: antialiased;
   }
 
@@ -26,7 +26,7 @@ export default createGlobalStyle`
 
   a{
     text-decoration: none;
-    color: #C97310;
+    color: ${(props) => props.theme.colors.textColor};
     letter-spacing: 0px;
     opacity: 1;
   }
@@ -40,19 +40,19 @@ export default createGlobalStyle`
   }
 
   h2{
-    ${(props) => props.theme.mainColor}
+    ${(props) => props.theme.colors.mainColor}
     font-weight: 600;
   }
 
   h3{
     font-weight: 600;
-    ${(props) => props.theme.mainColor}
+    ${(props) => props.theme.colors.mainColor}
   }
     h5 {
     font-weight: 600;
     font-size: 13px;
     letter-spacing: 2.58px;
-    color: ${(props) => props.theme.h5TextColor};
+    color: ${(props) => props.theme.colors.h5TextColor};
     text-transform: uppercase;
     margin-bottom: 17px;
   }
