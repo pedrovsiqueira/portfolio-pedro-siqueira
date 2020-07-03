@@ -8,6 +8,8 @@ import { ThemeContext } from 'styled-components';
 import Switch from 'react-switch';
 import { Context } from '../../../hooks/context';
 
+import { FaToggleOn, FaToggleOff } from 'react-icons/fa';
+
 interface NavProps extends OlHTMLAttributes<HTMLOListElement> {
   open: boolean;
 }
@@ -79,11 +81,11 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
             checked={title === 'light'}
             checkedIcon={false}
             uncheckedIcon={false}
+            handleDiameter={15}
             height={10}
-            width={40}
-            handleDiameter={20}
-            offColor={colors.backgroundColor}
-            onColor={colors.backgroundColor}
+            width={30}
+            offColor={'#54A79D'}
+            onColor={'#353535'}
           />
         </li>
         <li>

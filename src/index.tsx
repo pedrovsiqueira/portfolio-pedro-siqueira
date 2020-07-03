@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { ContextProvider } from './hooks/context';
+
 import { IntlProvider } from 'react-intl';
 import Portuguese from './languages/pt-BR.json';
 import English from './languages/en-US.json';
@@ -10,8 +12,10 @@ let lang;
 local !== 'pt-BR' ? (lang = English) : (lang = Portuguese);
 
 ReactDOM.render(
-  <IntlProvider locale={local} messages={lang}>
-    <App />
-  </IntlProvider>,
+  <ContextProvider>
+    <IntlProvider locale={local} messages={lang}>
+      <App />
+    </IntlProvider>
+  </ContextProvider>,
   document.getElementById('root'),
 );
