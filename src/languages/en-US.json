@@ -9,5 +9,15 @@
   "about.message": "hello, i'm <span>Pedro Siqueira</span>",
   "about.paragraph": "Graduated in Computer Science, I have more than 8 years of experience working in the IT industry. I recently decided to switch fields and head towards programming when I realized that my passion was to work with software development. During my training as a Web Developer at a bootcamp called Ironhack, I had the opportunity to deepen my knowledge in languages and technologies such as: Javascript, HTML, CSS, React, NodeJS, Express, MongoDB, Git and SCRUM.",
   "portfolio.title": "portfolio",
-  "portfolio.message": "check out my work"
+  "portfolio.message": "check out my work",
+  "testimony.title": "testimonies",
+  "testimony.message": "see some testimonies",
+  "contact.title": "contact",
+  "contact.message": "want to chat?",
+  "contact.first.paragraph": "If you are interested in my work, fill out the form and I'll get in touch with you as soon as possible.",
+  "contact.second.paragraph": "If you prefer, you can send me an email",
+  "contact.placeholder.name": "Name",
+  "contact.placeholder.email": "E-mail",
+  "contact.placeholder.message": "Message",
+  "contact.button": "send message"
 }

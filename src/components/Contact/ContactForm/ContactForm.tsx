@@ -4,6 +4,7 @@ import Input from '../Input/Input';
 import Button from '../Button/Button';
 import TextArea from '../TextArea/TextArea';
 import { FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
+import { FormattedMessage } from 'react-intl';
 
 const ContactForm: React.FC = () => (
   <Form name="contact" method="post">
@@ -33,7 +34,9 @@ const ContactForm: React.FC = () => (
       icon={FiMessageSquare}
       required
     />
-    <Button type="submit">enviar mensagem</Button>
+    <Button type="submit">
+      <FormattedMessage id="contact.button" />
+    </Button>
   </Form>
 );
 

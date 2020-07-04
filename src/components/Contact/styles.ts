@@ -73,7 +73,7 @@ export const ContactInfo = styled.div`
       font-size: 28px;
     }
     p {
-      width: 365px;
+      width: 348px;
     }
   }
 
