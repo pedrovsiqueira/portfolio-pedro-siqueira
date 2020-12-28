@@ -4,6 +4,7 @@ import portfolio from '../assets/portfolio/portfolio.png';
 import imdb from '../assets/portfolio/imdb-clone.png';
 import speedTyping from '../assets/portfolio/speed-typing.png';
 import pictures from '../assets/portfolio/pictures.png';
+import calculator from '../assets/portfolio/calculator.png';
 
 const projects = [
   {
@@ -35,6 +36,16 @@ const projects = [
   },
   {
     id: 3,
+    img: calculator,
+    title: 'Calculator - React',
+    summary:
+      'Aplicativo desenvolvido para simular uma calculadora. Design realizado baseado no figma https://gumroad.com/l/VlPokA',
+    tech: ['Typescript', 'React', 'HTML5', 'Styled Components'],
+    demo: 'https://ps-react-calculator.netlify.app/',
+    repo: 'https://github.com/pedrovsiqueira/react-calculator',
+  },
+  {
+    id: 4,
     img: pictures,
     title: 'Photos E-Commerce - React',
     summary:
@@ -44,7 +55,7 @@ const projects = [
     repo: 'https://github.com/pedrovsiqueira/get-pictures-app-react',
   },
   {
-    id: 4,
+    id: 5,
     img: speedTyping,
     title: 'Speed Typing Game',
     summary:
@@ -54,7 +65,7 @@ const projects = [
     repo: 'https://github.com/pedrovsiqueira/speed-typing-game-react',
   },
   {
-    id: 5,
+    id: 6,
     img: escapeTheBees,
     title: 'Escape the Bees Game',
     summary:
@@ -64,7 +75,7 @@ const projects = [
     repo: 'https://github.com/pedrovsiqueira/javascript-airplane-game',
   },
   {
-    id: 6,
+    id: 7,
     img: imdb,
     title: 'IMDB - Clone',
     summary:
