@@ -33,8 +33,6 @@ const Context = createContext<ContextData>({} as ContextData);
 
 const ContextProvider: React.FC = ({ children }) => {
   const [theme, setTheme] = useState(dark);
-  console.log(theme, `theme from context`);
-  console.log(dark, `dark from context`);
 
   const toggleTheme = () => {
     setTheme(theme.title === 'dark' ? light : dark);
