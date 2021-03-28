@@ -2,6 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 
+  html {
+    overflow-x: hidden;
+  }
+
   *{
     margin: 0;
     padding: 0;
@@ -34,6 +38,7 @@ export default createGlobalStyle`
   input{
     border: none;
   }
+
   textarea{
     border: none;
     border-radius: 10px;
