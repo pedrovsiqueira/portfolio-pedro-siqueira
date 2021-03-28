@@ -5,11 +5,11 @@ import { ContextProvider } from './hooks/context';
 
 import { IntlProvider } from 'react-intl';
 import Portuguese from './languages/pt-BR.json';
-import English from './languages/en-US.json';
+// import English from './languages/en-US.json';
 
 const local = navigator.language;
-let lang;
-local !== 'pt-BR' ? (lang = English) : (lang = Portuguese);
+// let lang;
+// local !== 'pt-BR' ? (lang = English) : (lang = Portuguese);
 
 ReactDOM.render(
   <ContextProvider>
