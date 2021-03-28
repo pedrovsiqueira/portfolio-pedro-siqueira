@@ -13,6 +13,8 @@ export const Container = styled.div<ContainerProps>`
   align-items: center;
   border-radius: 10px;
 
+  border: 2px solid ${(props) => props.theme.colors.inputBackgroundColor};
+
   ${(props) =>
     props.isFocused &&
     css`

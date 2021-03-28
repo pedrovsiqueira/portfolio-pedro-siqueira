@@ -12,6 +12,8 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   border-radius: 10px;
 
+  border: 2px solid ${(props) => props.theme.colors.inputBackgroundColor};
+
   ${(props) =>
     props.isFocused &&
     css`
