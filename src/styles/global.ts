@@ -56,4 +56,24 @@ export default createGlobalStyle`
     text-transform: uppercase;
     margin-bottom: 17px;
   }
+
+  ::-webkit-scrollbar {
+    background-color: ${(props) => props.theme.colors.backgroundColor};
+    width: 14px !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: ${(props) => props.theme.colors.backgroundColor};
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${(props) => props.theme.colors.inputColor} !important;
+    border-radius: 16px !important;
+    border: 4px solid ${(props) =>
+      props.theme.colors.backgroundColor} !important;
+  }
+
+  ::-webkit-scrollbar-button {
+    display: none !important;
+  }
 `;
