@@ -1,6 +1,6 @@
 import React, { OlHTMLAttributes, useContext } from 'react';
 import { Link } from 'react-scroll';
-import { Ol, StyledToggle } from './styles';
+import { Ol, StyledToggle, StyledLanguages } from './styles';
 import detailSvg from '../../../assets/icons/Divider_Azul.svg';
 import SocialIcons from '../../SocialIcons/SocialIcons';
 import { IoMdChatbubbles } from 'react-icons/io';
@@ -17,7 +17,7 @@ interface NavProps extends OlHTMLAttributes<HTMLOListElement> {
 
 const RightNav: React.FC<NavProps> = ({ open }) => {
   const { title } = useContext(ThemeContext);
-  const { toggleTheme } = useContext(Context);
+  const { toggleTheme, language, handleSetLanguage } = useContext(Context);
 
   return (
     <>
@@ -76,6 +76,23 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
               <FormattedMessage id="nav.fourth.li.element" />
             </span>
           </Link>
+        </li>
+
+        <li>
+          <StyledLanguages id="lang-switch">
+            <img
+              className={language === 'pt' ? 'active-flag' : ''}
+              src="https://cdn3.iconfinder.com/data/icons/finalflags/256/Brazil-Flag.png"
+              alt="Brazil Flag"
+              onClick={() => handleSetLanguage('pt')}
+            />
+            <img
+              className={language === 'en' ? 'active-flag' : ''}
+              src="https://cdn3.iconfinder.com/data/icons/finalflags/256/United-States-Flag.png"
+              alt="American Flag"
+              onClick={() => handleSetLanguage('en')}
+            />
+          </StyledLanguages>
         </li>
 
         <StyledToggle>

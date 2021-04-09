@@ -101,3 +101,27 @@ export const StyledToggle = styled.div`
   flex-direction: column;
   margin-top: 2px;
 `;
+
+export const StyledLanguages = styled.div`
+  img {
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    transition: all 0.5s;
+    margin: auto 3px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  img:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .active-flag {
+    transition: all 0.5s;
+    opacity: 1 !important;
+  }
+`;
