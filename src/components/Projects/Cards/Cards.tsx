@@ -1,10 +1,13 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useContext } from 'react';
 import { Container, CardContainer, CardContent, Links } from './styles';
 import detailSvg from '../../../assets/icons/Divider_cinza.svg';
 import dividerBolaSvg from '../../../assets/icons/Divider_bola.svg';
-import projects from '../../../data/projects';
+import translate from '../../../i18n/translate';
+import { Context } from '../../../hooks/context';
 
-const Cards: React.FC = (): any => {
+const Cards = () => {
+  const { projects } = useContext(Context);
+
   return (
     <Container>
       {projects.map((item, index) => {
@@ -37,11 +40,11 @@ const Cards: React.FC = (): any => {
                     className="link-color"
                     href={demo}
                   >
-                    acessar demo
+                    {translate('demo')}
                   </a>
                   <img id="details-logo" src={detailSvg} alt="Details logo" />
                   <a target="_blank" rel="noopener noreferrer" href={repo}>
-                    acessar repositório
+                    {translate('repository')}
                   </a>
                 </Links>
               </CardContent>

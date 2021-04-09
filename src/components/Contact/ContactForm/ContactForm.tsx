@@ -5,12 +5,13 @@ import Button from '../Button/Button';
 import TextArea from '../TextArea/TextArea';
 import { FiUser, FiMail, FiMessageSquare } from 'react-icons/fi';
 import { FormattedMessage } from 'react-intl';
+import translate from '../../../i18n/translate';
 
 const ContactForm: React.FC = () => (
   <Form name="contact" method="post">
     <input type="hidden" name="form-name" value="contact"></input>
     <Input
-      placeholder="Nome"
+      placeholder={translate('contact.placeholder.name')}
       type="text"
       name="name"
       id="name"
@@ -19,7 +20,7 @@ const ContactForm: React.FC = () => (
     />
 
     <Input
-      placeholder="E-mail"
+      placeholder={translate('contact.placeholder.email')}
       type="email"
       name="email"
       id="email"
@@ -28,7 +29,7 @@ const ContactForm: React.FC = () => (
     />
 
     <TextArea
-      placeholder="Mensagem"
+      placeholder={translate('contact.placeholder.message')}
       name="message"
       id="message"
       icon={FiMessageSquare}

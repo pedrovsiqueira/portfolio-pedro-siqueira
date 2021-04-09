@@ -1,13 +1,15 @@
 import React from 'react';
 import { Container, Content } from './styles';
 import SocialIcons from '../SocialIcons/SocialIcons';
+import translate from '../../i18n/translate';
 
 const Footer: React.FC = () => (
   <Container>
     <Content>
       <p>
-        Copyright 2020 &copy; - Todos os direitos reservados à
-        <em> Pedro Siqueira</em>. Design por <em>Diego Tavares</em>.
+        Copyright 2021 &copy; - {translate('footer.text')}
+        <em> Pedro Siqueira</em>. {translate('footer.design')}
+        <em> Diego Tavares</em>.
       </p>
       <SocialIcons className="social-icons" />
     </Content>

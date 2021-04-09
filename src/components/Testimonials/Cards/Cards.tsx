@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Container, Card } from './styles';
-import testimonials from '../../../data/testimonials';
+import { Context } from '../../../hooks/context';
 
 const Cards: React.FC = () => {
+  const { testimonials } = useContext(Context);
+
   return (
     <Container>
       {testimonials.map((item) => (
