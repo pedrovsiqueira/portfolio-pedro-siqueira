@@ -8,7 +8,7 @@ export const messages: { [key: string]: any } = {
     'nav.first.li.element': 'about me',
     'nav.second.li.element': 'portfolio',
     'nav.third.li.element': 'testimonies',
-    'nav.fourth.li.element': 'contact me',
+    'nav.fourth.li.element': 'contact',
     'about.title': 'about me',
     'about.message': "hello, i'm <span>Pedro Siqueira</span>",
     'about.paragraph':
@@ -78,7 +78,7 @@ export const messages: { [key: string]: any } = {
     'nav.first.li.element': 'sobre mim',
     'nav.second.li.element': 'portfólio',
     'nav.third.li.element': 'depoimentos',
-    'nav.fourth.li.element': 'entre em contato',
+    'nav.fourth.li.element': 'contato',
     'about.title': 'sobre mim',
     'about.message': 'olá, sou o <span>Pedro Siqueira</span>',
     'about.paragraph':
