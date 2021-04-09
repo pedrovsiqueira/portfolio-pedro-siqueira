@@ -1,9 +1,9 @@
 import React from 'react';
 import detailSvg from '../../assets/icons/Divider_Azul.svg';
-import locationPin from '../../assets/icons/Icon_Pin.svg';
 import { RouteComponentProps } from '@reach/router';
 
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { GoLocation } from 'react-icons/go';
 
 import { Icons, Location, Social } from './styles';
 
@@ -14,12 +14,12 @@ interface IconsProps extends RouteComponentProps {
 const SocialIcons: React.FC<IconsProps> = (): any => (
   <Icons className="social-icons">
     <Location>
-      <img src={locationPin} alt="location icon" />
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://goo.gl/maps/Q1nNdPAXLzuty4RU9"
       >
+        <GoLocation />
         Goiânia - GO
       </a>
     </Location>

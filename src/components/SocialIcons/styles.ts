@@ -44,6 +44,10 @@ export const Icons = styled.div`
 `;
 
 export const Location = styled.div`
+  svg {
+    margin-right: 5px;
+  }
+
   display: flex;
 `;
 
