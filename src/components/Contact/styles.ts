@@ -52,7 +52,7 @@ export const ContactInfo = styled.div`
   }
 
   p {
-    width: 429px;
+    max-width: 429px;
     height: 142px;
     font-size: 16px;
     color: ${(props) => props.theme.colors.textColor};
