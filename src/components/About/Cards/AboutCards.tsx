@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Content, Card, Container, IconContainer } from './styles';
-
-import hobbies from '../../../data/hobbies';
-
+import { Context } from '../../../hooks/context';
 import useScroll from '../../../hooks/useScroll';
 
 const AboutCards: React.FC = () => {
   // eslint-disable-next-line
   const [effect] = useScroll();
+  const { hobbies } = useContext(Context);
 
   return (
     <Content>
