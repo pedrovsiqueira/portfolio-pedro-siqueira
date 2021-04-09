@@ -1,15 +1,13 @@
 import React, { OlHTMLAttributes, useContext } from 'react';
 import { Link } from 'react-scroll';
-import { Ol, StyledToggle, StyledLanguages } from './styles';
+import { Ol, StyledLanguages, ModeContainer } from './styles';
 import detailSvg from '../../../assets/icons/Divider_Azul.svg';
 import SocialIcons from '../../SocialIcons/SocialIcons';
 import { IoMdChatbubbles } from 'react-icons/io';
 import { ThemeContext } from 'styled-components';
-import Switch from 'react-switch';
 import { Context } from '../../../hooks/context';
-
-import { RiContrastLine } from 'react-icons/ri';
 import { FormattedMessage } from 'react-intl';
+import { FiMoon, FiSun } from 'react-icons/fi';
 
 interface NavProps extends OlHTMLAttributes<HTMLOListElement> {
   open: boolean;
@@ -100,24 +98,16 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           </StyledLanguages>
         </li>
 
-        <StyledToggle>
-          <li>
-            <Switch
-              onChange={toggleTheme}
-              checked={title === 'light'}
-              checkedIcon={false}
-              uncheckedIcon={false}
-              handleDiameter={15}
-              height={10}
-              width={30}
-              offColor={'#54A79D'}
-              onColor={'#353535'}
-            />
-          </li>
-          <li>
-            <RiContrastLine size={20} />
-          </li>
-        </StyledToggle>
+        <li>
+          <ModeContainer>
+            {title === 'dark' ? (
+              <FiMoon onClick={toggleTheme} />
+            ) : (
+              <FiSun onClick={toggleTheme} />
+            )}
+          </ModeContainer>
+        </li>
+
         <li>
           <SocialIcons className="social-icons" />
         </li>

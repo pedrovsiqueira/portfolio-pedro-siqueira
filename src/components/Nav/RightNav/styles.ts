@@ -96,12 +96,6 @@ export const Ol = styled.ol<OlProps>`
   }
 `;
 
-export const StyledToggle = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-top: 2px;
-`;
-
 export const StyledLanguages = styled.div`
   img {
     width: 25px;
@@ -123,5 +117,13 @@ export const StyledLanguages = styled.div`
   .active-flag {
     transition: all 0.5s;
     opacity: 1 !important;
+  }
+`;
+
+export const ModeContainer = styled.div`
+  svg {
+    :hover {
+      cursor: pointer;
+    }
   }
 `;
