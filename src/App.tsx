@@ -9,20 +9,24 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import { ThemeProvider } from 'styled-components';
 import { Context } from './hooks/context';
+import { IntlProvider } from 'react-intl';
+import { messages } from './i18n/translate';
 
 const App: React.FC = () => {
-  const { theme } = useContext(Context);
+  const { theme, language } = useContext(Context);
 
   return (
     <ThemeProvider theme={theme}>
-      <Navbar />
-      <Header />
-      <About />
-      <Projects />
-      <Testimonials />
-      <Contact />
-      <Footer />
-      <GlobalStyle />
+      <IntlProvider locale={language} messages={messages[language]}>
+        <Navbar />
+        <Header />
+        <About />
+        <Projects />
+        <Testimonials />
+        <Contact />
+        <Footer />
+        <GlobalStyle />
+      </IntlProvider>
     </ThemeProvider>
   );
 };
