@@ -59,7 +59,12 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           </Link>
         </li>
         <li>
-          <img id="details-logo" src={detailSvg} alt="Details logo" />
+          <img
+            style={{ cursor: 'auto' }}
+            id="details-logo"
+            src={detailSvg}
+            alt="Details logo"
+          />
         </li>
 
         <li>
