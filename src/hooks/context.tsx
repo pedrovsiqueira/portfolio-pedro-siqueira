@@ -7,6 +7,7 @@ import footballSvg from '../assets/new-hobbies/Icone_bola fut am.svg';
 import booksSvg from '../assets/new-hobbies/Icone_livro.svg';
 import monitorSvg from '../assets/new-hobbies/Icone_monitor.svg';
 import escapeTheBees from '../assets/portfolio/escape-the-bees.png';
+import twoSow from '../assets/portfolio/2sow.png';
 import easyCooking from '../assets/portfolio/easy-cooking.png';
 import portfolio from '../assets/portfolio/portfolio.png';
 import imdb from '../assets/portfolio/imdb-clone.png';
@@ -100,6 +101,23 @@ const ContextProvider: React.FC = ({ children }) => {
   const projects = [
     {
       id: 1,
+      img: twoSow,
+      title: '2Sow System',
+      summary: translate('projects.2sow.description'),
+      tech: [
+        'Typescript',
+        'React',
+        'NodeJS',
+        'MongoDB',
+        'Styled Components',
+        'Passport',
+        'Express',
+      ],
+      demo: 'https://2sow.vercel.app/',
+      repo: 'https://github.com/pedrovsiqueira/2sow',
+    },
+    {
+      id: 2,
       img: easyCooking,
       title: 'Easy Cooking',
       summary: translate('projects.easy.cooking.description'),
@@ -115,7 +133,7 @@ const ContextProvider: React.FC = ({ children }) => {
       repo: 'https://github.com/pedrovsiqueira/easycooking',
     },
     {
-      id: 2,
+      id: 3,
       img: portfolio,
       title: 'Portfólio - Pedro Siqueira',
       summary: translate('projects.portfolio.description'),
@@ -124,7 +142,7 @@ const ContextProvider: React.FC = ({ children }) => {
       repo: 'https://github.com/pedrovsiqueira/portfolio-pedro-siqueira',
     },
     {
-      id: 3,
+      id: 4,
       img: calculator,
       title: 'Calculator - React',
       summary: translate('projects.calculator.description'),
@@ -133,7 +151,7 @@ const ContextProvider: React.FC = ({ children }) => {
       repo: 'https://github.com/pedrovsiqueira/react-calculator',
     },
     {
-      id: 4,
+      id: 5,
       img: pictures,
       title: 'Photos E-Commerce - React',
       summary: translate('projects.photos.description'),
@@ -142,7 +160,7 @@ const ContextProvider: React.FC = ({ children }) => {
       repo: 'https://github.com/pedrovsiqueira/get-pictures-app-react',
     },
     {
-      id: 5,
+      id: 6,
       img: speedTyping,
       title: 'Speed Typing Game',
       summary: translate('projects.speed.description'),
@@ -151,7 +169,7 @@ const ContextProvider: React.FC = ({ children }) => {
       repo: 'https://github.com/pedrovsiqueira/speed-typing-game-react',
     },
     {
-      id: 6,
+      id: 7,
       img: escapeTheBees,
       title: 'Escape the Bees Game',
       summary: translate('projects.bees.description'),
@@ -160,7 +178,7 @@ const ContextProvider: React.FC = ({ children }) => {
       repo: 'https://github.com/pedrovsiqueira/javascript-airplane-game',
     },
     {
-      id: 7,
+      id: 8,
       img: imdb,
       title: 'IMDB - Clone',
       summary: translate('projects.imdb.description'),

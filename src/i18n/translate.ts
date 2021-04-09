@@ -40,6 +40,8 @@ export const messages: { [key: string]: any } = {
       'I am always in search of new knowledge and challenges, especially when it comes to my field of expertise which is technology.',
     demo: 'access demo',
     repository: 'access repository',
+    'projects.2sow.description':
+      'The challenge was to build a system for user registration. There is a page to list, add, edit, remove and search for users.',
     'projects.easy.cooking.description':
       'Project developed with Gabriela Aguiar. You type 3 ingredients that you have in your refrigerator, and our website returns recipes compatible with the ingredients informed.',
     'projects.portfolio.description':
@@ -108,6 +110,8 @@ export const messages: { [key: string]: any } = {
       'Estou sempre em busca de novos conhecimentos e desafios, principalmente quando se trata da área de tecnologia.',
     demo: 'acessar demo',
     repository: 'acessar repositório',
+    'projects.2sow.description':
+      'O desafio era construir um sistema de cadastro de usuários. Existe uma página para listar, adicionar, editar, remover e procurar usuários',
     'projects.easy.cooking.description':
       'Projeto desenvolvido com a Gabriela Aguiar. Você digita 3 ingredientes que você possui na sua geladeira, e o nosso site retorna receitas compatíveis com os ingredientes informados.',
     'projects.portfolio.description':
