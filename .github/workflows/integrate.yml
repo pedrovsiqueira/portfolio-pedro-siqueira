@@ -1,19 +1,22 @@
-name: React Continuous Integration
+- name: GitHub Action for Yarn
+  uses: Borales/actions-yarn@v2.3.0
 
+name: CI
 on:
   pull_request:
     branches: [master]
-
 jobs:
-  test:
-    name: Running Units Tests
+  build:
+    name: Test
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: borales/actions-yarn@v2.0.0
         with:
-          node-version: 12
-      - cmd: install
-      - cmd: build
-      - cmd: test
+          cmd: install # will run `yarn install` command
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: build # will run `yarn build` command
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: test # will run `yarn test` command
