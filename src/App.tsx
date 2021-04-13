@@ -18,7 +18,6 @@ const App: React.FC = () => {
 
   useEffect(() => {
     ReactGa.initialize('UA-169278232-1');
-
     ReactGa.pageview('/');
   }, []);
 
