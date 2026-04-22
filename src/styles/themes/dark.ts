@@ -23,5 +23,6 @@ export default {
     inputPlaceholderColor: 'rgb(100,100,100)',
     buttonHover: '#68BBB1',
     iconHoverColor: '#41ebf8',
+    tagBackgroundColor: '#272727',
   },
 };

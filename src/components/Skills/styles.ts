@@ -53,7 +53,7 @@ export const TagList = styled.div`
 `;
 
 export const Tag = styled.span`
-  background: ${(props) => props.theme.colors.inputBackgroundColor};
+  background: ${(props) => props.theme.colors.tagBackgroundColor};
   color: ${(props) => props.theme.colors.textColor};
   font-size: 12px;
   font-weight: 500;

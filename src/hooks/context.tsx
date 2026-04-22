@@ -39,6 +39,7 @@ interface ContextData {
       inputPlaceholderColor: string;
       buttonHover: string;
       iconHoverColor: string;
+      tagBackgroundColor: string;
     };
   };
   language: string;

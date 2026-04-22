@@ -125,10 +125,10 @@ export const StyledLanguages = styled.div`
 `;
 
 export const ModeContainer = styled.div`
-  color: #ffffff;
+  color: ${(props) => props.theme.colors.hamburguerIconRightNavColor};
 
   svg {
-    color: #ffffff;
+    color: ${(props) => props.theme.colors.hamburguerIconRightNavColor};
     :hover {
       cursor: pointer;
     }

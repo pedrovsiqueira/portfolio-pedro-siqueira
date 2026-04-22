@@ -22,5 +22,6 @@ export default {
     inputPlaceholderColor: '#999999',
     buttonHover: '#009aaa',
     iconHoverColor: '#00b8c8',
+    tagBackgroundColor: '#E8E8E8',
   },
 };

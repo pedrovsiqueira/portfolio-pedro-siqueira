@@ -23,6 +23,7 @@ declare module 'styled-components' {
       inputPlaceholderColor: string;
       buttonHover: string;
       iconHoverColor: string;
+      tagBackgroundColor: string;
     };
   }
 }
