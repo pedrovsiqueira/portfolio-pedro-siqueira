@@ -1,4 +1,4 @@
-export default {
+const lightTheme = {
   title: 'light',
   colors: {
     backgroundColor: '#F5F5F5',
@@ -25,3 +25,5 @@ export default {
     tagBackgroundColor: '#E8E8E8',
   },
 };
+
+export default lightTheme;

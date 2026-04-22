@@ -1,4 +1,4 @@
-export default {
+const darkTheme = {
   title: 'dark',
 
   colors: {
@@ -26,3 +26,5 @@ export default {
     tagBackgroundColor: '#272727',
   },
 };
+
+export default darkTheme;
