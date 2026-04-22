@@ -9,6 +9,7 @@ export const messages: { [key: string]: any } = {
     'nav.second.li.element': 'portfolio',
     'nav.third.li.element': 'testimonies',
     'nav.fourth.li.element': 'contact',
+    'nav.skills.element': 'skills',
     'about.title': 'professional profile',
     'about.message': 'Pedro Siqueira, <span>senior software engineer</span>',
     'about.paragraph':
@@ -58,6 +59,17 @@ export const messages: { [key: string]: any } = {
       "Front-end developed in Codenation's AceleraDev challenge. The goal of the challenge was to recreate an IMDB website page.",
     'footer.text': 'Designed and built by',
     'footer.stack': 'Built with React and TypeScript.',
+    'skills.title': 'skills',
+    'skills.message': 'my tech stack',
+    'skills.group.languages': 'Languages & Frameworks',
+    'skills.group.databases': 'Databases',
+    'skills.group.apis': 'APIs',
+    'skills.group.cloud': 'Deployment & CI/CD',
+    'skills.group.frontend': 'Front-end Technologies',
+    'skills.group.testing': 'Testing',
+    'skills.group.vcs': 'Version Control',
+    'skills.group.methodologies': 'Methodologies',
+    'skills.group.ai': 'Agentic Code Development',
     'testimonial.ricky':
       'Pedro Siqueira, what a project! I was able to see your work closely with Gabriela Aguiar, and the way you deal with challenges is undoubtedly your differential and a great inspiration for me. Congratulations my friend!',
     'testimonial.bruno':
@@ -79,6 +91,7 @@ export const messages: { [key: string]: any } = {
     'nav.second.li.element': 'portfólio',
     'nav.third.li.element': 'depoimentos',
     'nav.fourth.li.element': 'contato',
+    'nav.skills.element': 'habilidades',
     'about.title': 'perfil profissional',
     'about.message':
       'Pedro Siqueira, <span>engenheiro de software sênior</span>',
@@ -129,6 +142,17 @@ export const messages: { [key: string]: any } = {
       'Front-end desenvolvido no desafio AceleraDev da Codenation. O objetivo do desafio era recriar uma página do site IMDB.',
     'footer.text': 'Design e desenvolvimento por',
     'footer.stack': 'Construído com React e TypeScript.',
+    'skills.title': 'habilidades',
+    'skills.message': 'meu stack de tecnologias',
+    'skills.group.languages': 'Linguagens & Frameworks',
+    'skills.group.databases': 'Bancos de Dados',
+    'skills.group.apis': 'APIs',
+    'skills.group.cloud': 'Deploy & CI/CD',
+    'skills.group.frontend': 'Tecnologias Front-end',
+    'skills.group.testing': 'Testes',
+    'skills.group.vcs': 'Controle de Versão',
+    'skills.group.methodologies': 'Metodologias',
+    'skills.group.ai': 'Desenvolvimento Agêntico',
     'testimonial.ricky':
       'Pedro Siqueira, que projeto! Pude ver de perto o seu trabalho com a Gabriela Aguiar, e a forma que você lida com os desafios é sem dúvidas o seu diferencial e uma grande inspiração pra mim. Parabéns, meu amigo!',
     'testimonial.bruno':

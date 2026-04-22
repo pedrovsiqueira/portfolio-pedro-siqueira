@@ -4,6 +4,7 @@ import Navbar from './components/Nav/Navbar';
 import Header from './components/Header/Header';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
 import { ThemeProvider } from 'styled-components';
 import { Context } from './hooks/context';
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <Navbar />
         <Header />
         <About />
+        <Skills />
         <Contact />
         <Footer />
         <GlobalStyle />
