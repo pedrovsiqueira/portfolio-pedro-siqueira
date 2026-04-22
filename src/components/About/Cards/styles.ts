@@ -40,10 +40,8 @@ export const IconContainer = styled.div`
   background: ${(props) => props.theme.colors.iconBackgroundColor};
   border-radius: 50%;
 
-  img {
-    width: 32px;
-    height: 32px;
-    filter: brightness(0) invert(1);
+  svg {
+    color: #ffffff;
   }
 `;
 
