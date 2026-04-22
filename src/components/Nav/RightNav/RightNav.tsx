@@ -57,7 +57,9 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
               aria-label="Switch language to Portuguese"
               onClick={() => handleSetLanguage('pt')}
             >
-              PT
+              <span aria-hidden="true" className="flag-icon">
+                🇧🇷
+              </span>
             </button>
             <button
               type="button"
@@ -65,7 +67,9 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
               aria-label="Switch language to English"
               onClick={() => handleSetLanguage('en')}
             >
-              EN
+              <span aria-hidden="true" className="flag-icon">
+                🇺🇸
+              </span>
             </button>
           </StyledLanguages>
         </li>
