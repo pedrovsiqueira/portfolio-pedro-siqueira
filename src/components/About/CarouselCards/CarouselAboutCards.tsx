@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Content, Card, Container, IconContainer } from './styles';
-import Carousel from 'react-bootstrap/Carousel';
+import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FiLayout, FiServer, FiCpu, FiCloud } from 'react-icons/fi';
 

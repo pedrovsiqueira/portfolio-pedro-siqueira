@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Container, Card } from './styles';
