@@ -1,11 +1,30 @@
 import React from 'react';
-import { Container, Content, Grid, Card, CategoryTitle, TagList, Tag } from './styles';
+import {
+  Container,
+  Content,
+  Grid,
+  Card,
+  CategoryTitle,
+  TagList,
+  Tag,
+} from './styles';
 import { FormattedMessage } from 'react-intl';
 
 const skillGroups = [
   {
     titleId: 'skills.group.languages',
-    tags: ['JavaScript', 'TypeScript', 'Node.js', 'Express.js', 'React', 'Next.js', 'Vue3', 'React Native', 'Electron', 'Sails.js'],
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'Node.js',
+      'Express.js',
+      'React',
+      'Next.js',
+      'Vue3',
+      'React Native',
+      'Electron',
+      'Sails.js',
+    ],
   },
   {
     titleId: 'skills.group.databases',
@@ -21,7 +40,14 @@ const skillGroups = [
   },
   {
     titleId: 'skills.group.frontend',
-    tags: ['HTML5', 'CSS3', 'SASS', 'Tailwind CSS', 'Styled Components', 'Redux'],
+    tags: [
+      'HTML5',
+      'CSS3',
+      'SASS',
+      'Tailwind CSS',
+      'Styled Components',
+      'Redux',
+    ],
   },
   {
     titleId: 'skills.group.testing',
@@ -37,7 +63,14 @@ const skillGroups = [
   },
   {
     titleId: 'skills.group.ai',
-    tags: ['Cursor', 'Claude Code', 'GitHub Copilot', 'MCP', 'Sub-agents', 'Context management'],
+    tags: [
+      'Cursor',
+      'Claude Code',
+      'GitHub Copilot',
+      'MCP',
+      'Sub-agents',
+      'Context management',
+    ],
   },
 ];
 
