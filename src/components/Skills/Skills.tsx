@@ -75,11 +75,11 @@ const skillGroups = [
 ];
 
 const Skills: React.FC = () => (
-  <Container>
+  <Container id="skills">
     <Content>
-      <h5 id="skills">
+      <span className="section-eyebrow">
         <FormattedMessage id="skills.title" />
-      </h5>
+      </span>
       <h2 style={{ marginBottom: '48px' }}>
         <FormattedMessage id="skills.message" />
       </h2>

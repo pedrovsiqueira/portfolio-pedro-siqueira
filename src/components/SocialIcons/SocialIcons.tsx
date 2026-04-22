@@ -18,37 +18,41 @@ const SocialIcons: React.FC<IconsProps> = (): any => (
         target="_blank"
         rel="noopener noreferrer"
         href="https://goo.gl/maps/Q1nNdPAXLzuty4RU9"
+        aria-label="Open Pedro Siqueira location in Google Maps"
       >
-        <GoLocation />
+        <GoLocation aria-hidden="true" focusable="false" />
         Goiânia - GO
       </a>
     </Location>
 
-    <img id="details-logo" src={detailSvg} alt="Details logo" />
+    <img id="details-logo" src={detailSvg} alt="" aria-hidden="true" />
 
     <Social>
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://github.com/pedrovsiqueira"
+        aria-label="Open Pedro Siqueira GitHub profile"
       >
-        <FiGithub />
+        <FiGithub aria-hidden="true" focusable="false" />
       </a>
 
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.linkedin.com/in/pedrovsiqueira/"
+        aria-label="Open Pedro Siqueira LinkedIn profile"
       >
-        <FiLinkedin />
+        <FiLinkedin aria-hidden="true" focusable="false" />
       </a>
 
       <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.instagram.com/pedrovsiqueira/"
+        aria-label="Open Pedro Siqueira Instagram profile"
       >
-        <FiInstagram />
+        <FiInstagram aria-hidden="true" focusable="false" />
       </a>
     </Social>
   </Icons>

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 100%;
   max-width: 1366px;
   margin: 0 auto;
@@ -12,6 +12,16 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  .section-eyebrow {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2.58px;
+    color: ${(props) => props.theme.colors.h5TextColor};
+    text-transform: uppercase;
+    margin-bottom: 17px;
+  }
 `;
 
 export const Grid = styled.div`

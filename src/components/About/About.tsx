@@ -7,20 +7,20 @@ import { FormattedMessage } from 'react-intl';
 
 const About: React.FC = () => {
   return (
-    <Container data-testid="container">
+    <Container id="about" data-testid="container">
       <Content>
         <AboutText>
-          <h5 id="about">
+          <span className="section-eyebrow">
             <FormattedMessage id="about.title" />
-          </h5>
-          <h1>
+          </span>
+          <h2>
             <FormattedMessage
               id="about.message"
               values={{
                 span: (word: string) => <span>{word}</span>,
               }}
             />
-          </h1>
+          </h2>
           <p data-aos="fade-up" className="about-me">
             <FormattedMessage id="about.paragraph" />
           </p>

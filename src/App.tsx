@@ -24,10 +24,12 @@ const App: React.FC = () => {
     <ThemeProvider theme={theme}>
       <IntlProvider locale={language} messages={messages[language]}>
         <Navbar />
-        <Header />
-        <About />
-        <Skills />
-        <Contact />
+        <main>
+          <Header />
+          <About />
+          <Skills />
+          <Contact />
+        </main>
         <Footer />
         <GlobalStyle />
       </IntlProvider>

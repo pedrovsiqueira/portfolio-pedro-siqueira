@@ -106,14 +106,21 @@ export const Content = styled.div`
   }
 `;
 
-export const Background = styled.img`
-  background: url(${bgImg}) no-repeat;
-  background-size: cover;
+export const Background = styled.img.attrs({
+  src: bgImg,
+  alt: 'Pedro Siqueira portrait holding his dog',
+  loading: 'eager',
+  decoding: 'async',
+  fetchpriority: 'high',
+  width: 492,
+  height: 492,
+} as any)`
   width: 492px;
   height: 492px;
   border: none;
   outline: none;
   border-radius: 50%;
+  object-fit: cover;
 
   @media screen and (max-width: 840px) {
     width: 400px;

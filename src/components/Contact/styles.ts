@@ -35,6 +35,16 @@ export const ContactInfo = styled.div`
   flex-direction: column;
   max-width: 429px;
 
+  .section-eyebrow {
+    display: block;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2.58px;
+    color: ${(props) => props.theme.colors.h5TextColor};
+    text-transform: uppercase;
+    margin-bottom: 17px;
+  }
+
   h2 {
     margin-bottom: 44px;
   }

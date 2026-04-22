@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 100%;
   max-width: 1366px;
   margin: 0 auto;
@@ -19,11 +19,18 @@ export const AboutText = styled.div`
   align-items: center;
   padding: 0 20px;
 
-  h5 {
+  .section-eyebrow {
+    display: block;
     text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 2.58px;
+    color: ${(props) => props.theme.colors.h5TextColor};
+    text-transform: uppercase;
+    margin-bottom: 17px;
   }
 
-  h1 {
+  h2 {
     font-size: 31px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -47,7 +54,7 @@ export const AboutText = styled.div`
   }
 
   @media screen and (max-width: 840px) {
-    h1 {
+    h2 {
       max-width: 520px;
     }
 
@@ -59,7 +66,7 @@ export const AboutText = styled.div`
   @media screen and (max-width: 480px) {
     padding: 0 16px;
 
-    h1 {
+    h2 {
       font-size: 26px;
       max-width: 320px;
       margin-bottom: 24px;
@@ -78,7 +85,7 @@ export const AboutText = styled.div`
   }
 
   @media screen and (max-width: 393px) {
-    h1 {
+    h2 {
       font-size: 24px;
       max-width: 290px;
     }

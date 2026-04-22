@@ -4,12 +4,12 @@ import { Container, ContactInfo, Content } from './styles';
 import { FormattedMessage } from 'react-intl';
 
 const Contact: React.FC = () => (
-  <Container>
+  <Container id="contact">
     <Content>
       <ContactInfo>
-        <h5 id="contact">
+        <span className="section-eyebrow">
           <FormattedMessage id="contact.title" />
-        </h5>
+        </span>
         <h2>
           <FormattedMessage id="contact.message" />
         </h2>
