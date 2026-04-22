@@ -33,7 +33,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Avenir Next', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   }
 
   button {

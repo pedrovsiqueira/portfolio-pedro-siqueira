@@ -35,6 +35,8 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
             id="details-logo"
             src={detailSvg}
             alt="Details logo"
+            width="24"
+            height="24"
           />
         </li>
 
@@ -49,18 +51,22 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
 
         <li>
           <StyledLanguages id="lang-switch">
-            <img
-              className={language === 'pt' ? 'active-flag' : ''}
-              src="https://cdn3.iconfinder.com/data/icons/finalflags/256/Brazil-Flag.png"
-              alt="Brazil Flag"
+            <button
+              type="button"
+              className={language === 'pt' ? 'active-language' : ''}
+              aria-label="Switch language to Portuguese"
               onClick={() => handleSetLanguage('pt')}
-            />
-            <img
-              className={language === 'en' ? 'active-flag' : ''}
-              src="https://cdn3.iconfinder.com/data/icons/finalflags/256/United-States-Flag.png"
-              alt="American Flag"
+            >
+              PT
+            </button>
+            <button
+              type="button"
+              className={language === 'en' ? 'active-language' : ''}
+              aria-label="Switch language to English"
               onClick={() => handleSetLanguage('en')}
-            />
+            >
+              EN
+            </button>
           </StyledLanguages>
         </li>
 

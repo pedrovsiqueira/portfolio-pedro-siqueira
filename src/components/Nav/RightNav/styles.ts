@@ -101,26 +101,38 @@ export const Ol = styled.ol<OlProps>`
 `;
 
 export const StyledLanguages = styled.div`
-  img {
-    width: 25px;
-    height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  button {
+    min-width: 36px;
+    height: 28px;
+    border-radius: 999px;
+    border: 1px solid ${(props) => props.theme.colors.inputColor};
+    background: transparent;
+    color: ${(props) => props.theme.colors.textColor};
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
     opacity: 0.5;
     transition: all 0.5s;
-    margin: auto 3px;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
   }
 
-  img:hover {
+  button:hover {
     cursor: pointer;
     opacity: 1;
   }
 
-  .active-flag {
+  .active-language {
     transition: all 0.5s;
     opacity: 1 !important;
+    background: ${(props) => props.theme.colors.inputColor};
+    color: #ffffff;
   }
 `;
 
