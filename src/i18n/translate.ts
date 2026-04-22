@@ -2,17 +2,17 @@ import { createIntl, createIntlCache } from 'react-intl';
 
 export const messages: { [key: string]: any } = {
   en: {
-    'header.title': 'full stack developer',
-    'header.message':
-      'development of personalized, high quality websites, apps and web systems.',
+    'header.title': 'senior software engineer',
+    'header.message': 'React · Node.js · TypeScript · Next.js · GraphQL · AWS',
+
     'nav.first.li.element': 'profile',
     'nav.second.li.element': 'portfolio',
     'nav.third.li.element': 'testimonies',
     'nav.fourth.li.element': 'contact',
     'about.title': 'professional profile',
-    'about.message': 'Pedro Siqueira, <span>full stack developer</span>',
+    'about.message': 'Pedro Siqueira, <span>senior software engineer</span>',
     'about.paragraph':
-      "Bilingual IT professional with a Bachelor's degree in Computer Science and 15 years of experience across systems implementation, support, infrastructure and software delivery. I currently work as a full stack developer, creating maintainable web solutions with JavaScript, TypeScript, React, Java, Spring Boot, Git, GitLab, Scrum and agile methodologies.",
+      'Senior Fullstack Software Engineer with a Computer Science degree and over 14 years of IT experience, including 7+ years dedicated to software development. Proven track record building scalable web, mobile and desktop applications in the React and Node.js ecosystems. Focused on high-performance backend APIs, pixel-perfect responsive interfaces, and delivering high-impact products with cross-functional distributed teams. Also an AI-native developer experienced with agentic workflows using Cursor, Claude Code and GitHub Copilot.',
     'portfolio.title': 'portfolio',
     'portfolio.message': 'check out my work',
     'testimony.title': 'testimonies',
@@ -26,18 +26,18 @@ export const messages: { [key: string]: any } = {
     'contact.placeholder.email': 'E-mail',
     'contact.placeholder.message': 'Message',
     'contact.button': 'send message',
-    'hobbies.development': 'software development',
+    'hobbies.development': 'frontend engineering',
     'hobbies.development.summary':
-      'I build robust web applications with a strong focus on code quality, maintainability and user experience.',
-    'hobbies.sports': 'teamwork',
+      'Building pixel-perfect, responsive UIs with React, Next.js, TypeScript, Tailwind CSS, Redux and component-driven design systems.',
+    'hobbies.sports': 'backend & APIs',
     'hobbies.sports.summary':
-      'I value collaboration, clear communication and agile delivery across multidisciplinary teams.',
-    'hobbies.books': 'continuous learning',
+      'Designing robust REST and GraphQL APIs with Node.js, Express, Nest.js, PostgreSQL, MySQL and MongoDB.',
+    'hobbies.books': 'AI-native development',
     'hobbies.books.summary':
-      'I stay current through hands-on study and practical experimentation with modern tools and frameworks.',
-    'hobbies.technology': 'digital solutions',
+      'Accelerating delivery with agentic workflows using Cursor, Claude Code, GitHub Copilot, MCP and LLM-powered tooling.',
+    'hobbies.technology': 'cloud & devops',
     'hobbies.technology.summary':
-      'My background in infrastructure, support and development helps me design solutions with an end-to-end perspective.',
+      'Deploying and maintaining applications on AWS (Lambda, S3) with CI/CD pipelines via GitHub Actions and GitLab.',
     demo: 'access demo',
     repository: 'access repository',
     'projects.2sow.description':
@@ -72,17 +72,18 @@ export const messages: { [key: string]: any } = {
       'We studied together at college and worked together in various projects. His organization, dedication and commitment in everything he is involved is something very characteristic of him. I was able to follow his evolution closely.',
   },
   pt: {
-    'header.title': 'desenvolvedor full stack',
-    'header.message':
-      '15 anos em TI, criando produtos confiáveis com React, Java e Spring Boot.',
+    'header.title': 'engenheiro de software sênior',
+    'header.message': 'React · Node.js · TypeScript · Next.js · GraphQL · AWS',
+
     'nav.first.li.element': 'perfil',
     'nav.second.li.element': 'portfólio',
     'nav.third.li.element': 'depoimentos',
     'nav.fourth.li.element': 'contato',
     'about.title': 'perfil profissional',
-    'about.message': 'Pedro Siqueira, <span>desenvolvedor full stack</span>',
+    'about.message':
+      'Pedro Siqueira, <span>engenheiro de software sênior</span>',
     'about.paragraph':
-      'Profissional de TI bilíngue, com bacharelado em Ciência da Computação e 15 anos de experiência em implantação de sistemas, suporte, infraestrutura e entrega de software. Atualmente atuo como desenvolvedor full stack, criando soluções web sustentáveis com JavaScript, TypeScript, React, Java, Spring Boot, Git, GitLab, Scrum e metodologias ágeis.',
+      'Engenheiro de Software Fullstack Sênior com bacharelado em Ciência da Computação e mais de 14 anos de experiência em TI, sendo 7+ anos dedicados ao desenvolvimento de software. Experiência comprovada em arquitetura de aplicações web, mobile e desktop nos ecossistemas React e Node.js. Focado em APIs backend de alta performance, interfaces responsivas pixel-perfect e entrega de produtos de alto impacto em times distribuídos. Também atuo como desenvolvedor AI-native, com experiência em fluxos agênticos com Cursor, Claude Code e GitHub Copilot.',
     'portfolio.title': 'portfólio',
     'portfolio.message': 'conheça o meu trabalho',
     'testimony.title': 'depoimentos',
@@ -96,18 +97,18 @@ export const messages: { [key: string]: any } = {
     'contact.placeholder.email': 'E-mail',
     'contact.placeholder.message': 'Mensagem',
     'contact.button': 'enviar mensagem',
-    'hobbies.development': 'desenvolvimento de software',
+    'hobbies.development': 'engenharia frontend',
     'hobbies.development.summary':
-      'Desenvolvo aplicações web robustas com foco em qualidade de código, manutenção e experiência do usuário.',
-    'hobbies.sports': 'trabalho em equipe',
+      'Construção de interfaces responsivas e pixel-perfect com React, Next.js, TypeScript, Tailwind CSS, Redux e design systems.',
+    'hobbies.sports': 'backend & APIs',
     'hobbies.sports.summary':
-      'Valorizo colaboração, comunicação clara e entregas ágeis em times multidisciplinares.',
-    'hobbies.books': 'aprendizado contínuo',
+      'Criação de APIs REST e GraphQL robustas com Node.js, Express, Nest.js, PostgreSQL, MySQL e MongoDB.',
+    'hobbies.books': 'desenvolvimento AI-native',
     'hobbies.books.summary':
-      'Mantenho meu repertório técnico atualizado com estudo prático e experimentação constante de novas ferramentas.',
-    'hobbies.technology': 'soluções digitais',
+      'Acelero entregas com fluxos agênticos usando Cursor, Claude Code, GitHub Copilot, MCP e ferramentas baseadas em LLMs.',
+    'hobbies.technology': 'cloud & devops',
     'hobbies.technology.summary':
-      'Minha experiência em infraestrutura, suporte e desenvolvimento me ajuda a pensar soluções de ponta a ponta.',
+      'Implantação e manutenção de aplicações na AWS (Lambda, S3) com pipelines CI/CD via GitHub Actions e GitLab.',
     demo: 'acessar demo',
     repository: 'acessar repositório',
     'projects.2sow.description':

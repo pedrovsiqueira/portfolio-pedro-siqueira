@@ -69,10 +69,14 @@ export const Ol = styled.ol<OlProps>`
 
     li {
       text-align: center;
-      color: ${(props) => props.theme.colors.textColor};
+      color: #ffffff;
       margin-bottom: 20px;
       font-size: 25px;
       margin-right: 0;
+
+      a {
+        color: #ffffff;
+      }
 
       &:nth-last-child(2) {
         margin-top: -20px;
@@ -121,7 +125,10 @@ export const StyledLanguages = styled.div`
 `;
 
 export const ModeContainer = styled.div`
+  color: #ffffff;
+
   svg {
+    color: #ffffff;
     :hover {
       cursor: pointer;
     }
