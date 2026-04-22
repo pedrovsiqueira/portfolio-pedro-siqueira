@@ -6,6 +6,7 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 16px;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -13,25 +14,27 @@ export const Content = styled.div`
 `;
 
 export const Container = styled.div`
+  position: relative;
   background: ${(props) => props.theme.colors.cardsBackgroundColor} 0% 0%
     no-repeat padding-box;
-  margin-top: 104px;
+  margin-top: 60px;
+  padding: 48px 20px 28px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border-radius: 10px;
   width: 240px;
-  height: 240px;
+  min-height: 220px;
 `;
 
 export const IconContainer = styled.div`
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-top: -7px;
-  margin-bottom: 32px;
   width: 50px;
   height: 50px;
   background: ${(props) => props.theme.colors.iconBackgroundColor};
@@ -47,19 +50,18 @@ export const IconContainer = styled.div`
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-
-  transition: border 0.2s;
+  text-align: center;
 
   h3 {
-    margin-bottom: 15px;
-    font-size: 20px;
+    margin-bottom: 12px;
+    font-size: 18px;
   }
 
   p {
-    width: 208px;
-    font-size: 14px;
+    width: 200px;
+    font-size: 13px;
     font-weight: 500;
+    line-height: 1.6;
   }
 `;

@@ -7,9 +7,8 @@ const Footer: React.FC = () => (
   <Container>
     <Content>
       <p>
-        Copyright 2021 &copy; - {translate('footer.text')}
-        <em> Pedro Siqueira</em>. {translate('footer.design')}
-        <em> Diego Tavares</em>.
+        Copyright 2026 &copy; {translate('footer.text')}
+        <em> Pedro Siqueira</em>. {translate('footer.stack')}
       </p>
       <SocialIcons className="social-icons" />
     </Content>

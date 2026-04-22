@@ -15,10 +15,10 @@ const CarouselAboutCards: React.FC = () => {
           {hobbies.map((item) => (
             <Carousel.Item key={item.id}>
               <Container>
+                <IconContainer>
+                  <img src={item.img} alt="Icon img" />
+                </IconContainer>
                 <Card>
-                  <IconContainer>
-                    <img src={item.img} alt="Icon img" />
-                  </IconContainer>
                   <h3>{item.title}</h3>
                   <p>{item.summary}</p>
                 </Card>

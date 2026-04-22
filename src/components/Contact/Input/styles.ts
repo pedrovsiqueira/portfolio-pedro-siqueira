@@ -27,7 +27,7 @@ export const Container = styled.div<ContainerProps>`
     background: transparent;
     font-size: 14px;
     padding: 20px 20px 20px 15px;
-    width: 448px;
+    width: min(448px, calc(100vw - 80px));
     height: 56px;
 
     &::placeholder {

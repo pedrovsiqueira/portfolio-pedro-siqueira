@@ -1,19 +1,20 @@
 import styled from 'styled-components';
-import bgImg from '../../assets/main-pictures/bg-img1.jpg';
+import bgImg from '../../assets/main-pictures/bg-img1.png';
 
 export const Container = styled.div`
-  height: 768px;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
   max-width: 1366px;
+  margin: 0 auto;
+  overflow: hidden;
 
   @media screen and (max-width: 840px) {
-    height: 784px;
-    margin-top: 0px;
+    min-height: auto;
   }
 `;
 
 export const Content = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,12 +24,12 @@ export const Content = styled.div`
 
   .background-text {
     z-index: 1;
-    margin-left: -50px;
 
     h1 {
       ${(props) => props.theme.colors.mainColor}
       margin-bottom: 36px;
-      width: 491px;
+      max-width: 491px;
+      width: 100%;
       font-weight: 800;
       font-size: 60px;
     }
@@ -36,29 +37,6 @@ export const Content = styled.div`
       font-size: 16px;
       max-width: 365px;
       font-weight: 500;
-    }
-  }
-
-  @media screen and (max-width: 840px) {
-    flex-direction: column-reverse;
-    margin-top: 30px;
-    height: 736px;
-    width: 100%;
-
-    .background-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-left: 40px;
-      z-index: 0;
-      h1 {
-        font-size: 50px;
-        width: 400px;
-      }
-
-      p {
-        margin-bottom: 36px;
-      }
     }
   }
 
@@ -71,10 +49,33 @@ export const Content = styled.div`
   }
 
   @media screen and (max-width: 840px) {
-    margin-top: 30px;
+    flex-direction: column-reverse;
+    margin-top: 90px;
+    padding-bottom: 48px;
+    width: 100%;
+
+    .background-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 40px;
+      z-index: 0;
+      h1 {
+        font-size: 50px;
+        max-width: 400px;
+        width: 100%;
+      }
+
+      p {
+        margin-bottom: 36px;
+        max-width: 400px;
+      }
+    }
   }
 
   @media screen and (max-width: 475px) {
+    margin-top: 80px;
+
     .background-text {
       margin-left: 15px;
       h1 {

@@ -5,7 +5,7 @@ import { Nav } from './styles';
 const Navbar: React.FC = () => {
   return (
     <Nav>
-      <div className="logo">pedro siqueira</div>
+      <div className="logo">Pedro Siqueira</div>
       <Burger />
     </Nav>
   );

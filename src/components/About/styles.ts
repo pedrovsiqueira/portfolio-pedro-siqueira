@@ -1,30 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 768px;
-  width: 100vw;
+  width: 100%;
   max-width: 1366px;
-
-  @media screen and (max-width: 1200px) {
-    height: 1000px;
-  }
-
-  @media screen and (max-width: 768px) {
-    height: 900px;
-  }
-
-  @media screen and (max-width: 480px) {
-    height: 750px;
-  }
+  margin: 0 auto;
+  padding-bottom: 80px;
 `;
 
 export const Content = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
 `;
 
 export const AboutText = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +30,7 @@ export const AboutText = styled.div`
   }
 
   p {
-    width: 854px;
+    width: min(854px, 90%);
     font-weight: 500;
     font-size: 16px;
     text-align: center;
@@ -54,10 +43,9 @@ export const AboutText = styled.div`
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 480px) {
     p {
-      width: 366px;
-      height: 275px;
+      width: min(366px, 90%);
     }
 
     .about-me {

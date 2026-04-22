@@ -1,43 +1,31 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  height: 768px;
-  width: 100vw;
+  width: 100%;
   max-width: 1366px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  @media screen and (max-width: 480px) {
-    overflow-x: hidden;
-  }
-
-  @media screen and (max-width: 1920px) {
-    height: 840px;
-  }
-
-  @media screen and (max-width: 1536px) {
-    height: 768px;
-  }
-
-  @media screen and (max-width: 136px) {
-    height: 700px;
-  }
+  padding: 80px 0;
 `;
 
 export const Content = styled.section`
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
-    height: 800px;
-    width: 96vw;
-    margin-left: 15px;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+
     p {
-      width: 366px;
+      max-width: 100%;
     }
   }
 `;
@@ -45,7 +33,7 @@ export const Content = styled.section`
 export const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
+  max-width: 429px;
 
   h2 {
     margin-bottom: 44px;
@@ -53,10 +41,10 @@ export const ContactInfo = styled.div`
 
   p {
     max-width: 429px;
-    height: 142px;
     font-size: 16px;
     color: ${(props) => props.theme.colors.textColor};
     font-weight: 500;
+    line-height: 1.7;
   }
 
   a {
@@ -67,13 +55,16 @@ export const ContactInfo = styled.div`
     }
   }
 
+  @media screen and (max-width: 768px) {
+    margin-right: 0;
+  }
+
   @media screen and (max-width: 393px) {
-    margin-right: 0px;
     h2 {
       font-size: 28px;
     }
     p {
-      width: 348px;
+      max-width: 100%;
     }
   }
 

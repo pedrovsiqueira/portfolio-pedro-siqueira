@@ -33,30 +33,6 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
           </Link>
         </li>
         <li>
-          <Link
-            activeClass="active"
-            to="portfolio"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={2000}
-          >
-            <FormattedMessage id="nav.second.li.element" />{' '}
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="testimonials"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={2000}
-          >
-            <FormattedMessage id="nav.third.li.element" />{' '}
-          </Link>
-        </li>
-        <li>
           <img
             style={{ cursor: 'auto' }}
             id="details-logo"

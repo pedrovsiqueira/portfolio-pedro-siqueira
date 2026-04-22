@@ -2,52 +2,42 @@ import styled from 'styled-components';
 
 export const Content = styled.div`
   max-width: 912px;
-  display: flex;
-  justify-content: space-around;
-
   display: none;
 
   @media screen and (max-width: 768px) {
     display: flex;
+    justify-content: center;
+    width: 100%;
   }
 
-  .carousel-control-next {
-    display: none;
-  }
-
+  .carousel-control-next,
   .carousel-control-prev {
     display: none;
-  }
-
-  .carousel-control-next-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: no-repeat 50%/100% 100%;
   }
 `;
 
 export const Container = styled.div`
+  position: relative;
   background: ${(props) => props.theme.colors.cardsBackgroundColor} 0% 0%
     no-repeat padding-box;
-  margin-top: 104px;
+  margin-top: 60px;
+  padding: 48px 20px 28px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 314px;
-  height: 314px;
+  width: 300px;
+  min-height: 240px;
 `;
 
 export const IconContainer = styled.div`
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-top: -67px;
-  /* z-index: 3; */
-  margin-bottom: 15px;
   width: 50px;
   height: 50px;
   background: ${(props) => props.theme.colors.iconBackgroundColor};
@@ -63,18 +53,18 @@ export const IconContainer = styled.div`
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  text-align: center;
 
   h3 {
-    margin-bottom: 15px;
-    font-size: 28px;
+    margin-bottom: 12px;
+    font-size: 22px;
   }
 
   p {
-    height: 130px;
-    width: 208px;
-    font-size: 17px;
+    width: 240px;
+    font-size: 15px;
     font-weight: 500;
+    line-height: 1.6;
   }
 `;

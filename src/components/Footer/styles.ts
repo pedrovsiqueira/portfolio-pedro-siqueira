@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 100%;
   max-width: 1366px;
+  margin: 0 auto;
 `;
 
 export const Content = styled.footer`
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

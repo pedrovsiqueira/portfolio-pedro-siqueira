@@ -5,39 +5,39 @@ export const messages: { [key: string]: any } = {
     'header.title': 'full stack developer',
     'header.message':
       'development of personalized, high quality websites, apps and web systems.',
-    'nav.first.li.element': 'about me',
+    'nav.first.li.element': 'profile',
     'nav.second.li.element': 'portfolio',
     'nav.third.li.element': 'testimonies',
     'nav.fourth.li.element': 'contact',
-    'about.title': 'about me',
-    'about.message': "hello, i'm <span>Pedro Siqueira</span>",
+    'about.title': 'professional profile',
+    'about.message': 'Pedro Siqueira, <span>full stack developer</span>',
     'about.paragraph':
-      "Bilingual IT professional with a Bachelor's degree in Computer Science. I recently decided to switch fields and head towards programming when I realized that my passion was to work with software development. During my training as a Web Developer at a bootcamp called Ironhack, I had the opportunity to deepen my knowledge in languages and technologies such as: Javascript, HTML, CSS, React, NodeJS, Express, MongoDB, Git and SCRUM.",
+      "Bilingual IT professional with a Bachelor's degree in Computer Science and 15 years of experience across systems implementation, support, infrastructure and software delivery. I currently work as a full stack developer, creating maintainable web solutions with JavaScript, TypeScript, React, Java, Spring Boot, Git, GitLab, Scrum and agile methodologies.",
     'portfolio.title': 'portfolio',
     'portfolio.message': 'check out my work',
     'testimony.title': 'testimonies',
     'testimony.message': 'see some testimonies',
     'contact.title': 'contact',
-    'contact.message': 'want to chat?',
+    'contact.message': "let's talk",
     'contact.first.paragraph':
-      "If you are interested in my work, fill out the form and I'll get in touch with you as soon as possible.",
-    'contact.second.paragraph': 'If you prefer, you can send me an email',
+      'If you would like to discuss a role, a product idea or a technical partnership, send me a message and I will get back to you soon.',
+    'contact.second.paragraph': 'You can also reach me directly at',
     'contact.placeholder.name': 'Name',
     'contact.placeholder.email': 'E-mail',
     'contact.placeholder.message': 'Message',
     'contact.button': 'send message',
-    'hobbies.development': 'development',
+    'hobbies.development': 'software development',
     'hobbies.development.summary':
-      'Each day that passes I get more excited with the world of development. For this reason, I am always practicing and studying.',
-    'hobbies.sports': 'sports',
+      'I build robust web applications with a strong focus on code quality, maintainability and user experience.',
+    'hobbies.sports': 'teamwork',
     'hobbies.sports.summary':
-      'I am a fan and practitioner of sports in general, such as: soccer, American football, weight training, running and basketball.',
-    'hobbies.books': 'books',
+      'I value collaboration, clear communication and agile delivery across multidisciplinary teams.',
+    'hobbies.books': 'continuous learning',
     'hobbies.books.summary':
-      'I have a small collection of more than 200 books of various different genres. Books are a uniquely portable magic.',
-    'hobbies.technology': 'technologies',
+      'I stay current through hands-on study and practical experimentation with modern tools and frameworks.',
+    'hobbies.technology': 'digital solutions',
     'hobbies.technology.summary':
-      'I am always in search of new knowledge and challenges, especially when it comes to my field of expertise which is technology.',
+      'My background in infrastructure, support and development helps me design solutions with an end-to-end perspective.',
     demo: 'access demo',
     repository: 'access repository',
     'projects.2sow.description':
@@ -56,8 +56,8 @@ export const messages: { [key: string]: any } = {
       'Survival game developed with VanillaJS and Canvas where the goal is to escape the bees.',
     'projects.imdb.description':
       "Front-end developed in Codenation's AceleraDev challenge. The goal of the challenge was to recreate an IMDB website page.",
-    'footer.text': 'All rights reserved to',
-    'footer.design': 'Design by',
+    'footer.text': 'Designed and built by',
+    'footer.stack': 'Built with React and TypeScript.',
     'testimonial.ricky':
       'Pedro Siqueira, what a project! I was able to see your work closely with Gabriela Aguiar, and the way you deal with challenges is undoubtedly your differential and a great inspiration for me. Congratulations my friend!',
     'testimonial.bruno':
@@ -74,40 +74,40 @@ export const messages: { [key: string]: any } = {
   pt: {
     'header.title': 'desenvolvedor full stack',
     'header.message':
-      'desenvolvimento de sites, apps e sistemas para web personalizados e de alta qualidade.',
-    'nav.first.li.element': 'sobre mim',
+      '15 anos em TI, criando produtos confiáveis com React, Java e Spring Boot.',
+    'nav.first.li.element': 'perfil',
     'nav.second.li.element': 'portfólio',
     'nav.third.li.element': 'depoimentos',
     'nav.fourth.li.element': 'contato',
-    'about.title': 'sobre mim',
-    'about.message': 'olá, sou o <span>Pedro Siqueira</span>',
+    'about.title': 'perfil profissional',
+    'about.message': 'Pedro Siqueira, <span>desenvolvedor full stack</span>',
     'about.paragraph':
-      'Profissional de TI bilíngue com bacharelado em Ciência da Computação. Recentemente decidi migrar para área de programação ao perceber que meu desejo era trabalhar com desenvolvimento. Durante minha formação como Desenvolvedor Web em um Bootcamp da Ironhack tive a oportunidade de aprofundar meus conhecimentos em linguagens e tecnologias como: Javascript, HTML, CSS, React, NodeJS, Express, MongoDB, Git e SCRUM.',
+      'Profissional de TI bilíngue, com bacharelado em Ciência da Computação e 15 anos de experiência em implantação de sistemas, suporte, infraestrutura e entrega de software. Atualmente atuo como desenvolvedor full stack, criando soluções web sustentáveis com JavaScript, TypeScript, React, Java, Spring Boot, Git, GitLab, Scrum e metodologias ágeis.',
     'portfolio.title': 'portfólio',
     'portfolio.message': 'conheça o meu trabalho',
     'testimony.title': 'depoimentos',
     'testimony.message': 'veja alguns depoimentos',
     'contact.title': 'contato',
-    'contact.message': 'quer conversar comigo?',
+    'contact.message': 'vamos conversar',
     'contact.first.paragraph':
-      'Caso tenha se interessado pelo meu trabalho, preencha o formulário que em breve conversaremos.',
-    'contact.second.paragraph': 'Se preferir, pode me enviar um e-mail',
+      'Se você quiser conversar sobre uma oportunidade, um produto digital ou uma parceria técnica, envie uma mensagem e eu retorno em breve.',
+    'contact.second.paragraph': 'Se preferir, fale comigo diretamente em',
     'contact.placeholder.name': 'Nome',
     'contact.placeholder.email': 'E-mail',
     'contact.placeholder.message': 'Mensagem',
     'contact.button': 'enviar mensagem',
-    'hobbies.development': 'desenvolvimento',
+    'hobbies.development': 'desenvolvimento de software',
     'hobbies.development.summary':
-      'Cada dia que passa eu fico encantado com o mundo de desenvolvimento. Por esse motivo estou sempre praticando e estudando.',
-    'hobbies.sports': 'esportes',
+      'Desenvolvo aplicações web robustas com foco em qualidade de código, manutenção e experiência do usuário.',
+    'hobbies.sports': 'trabalho em equipe',
     'hobbies.sports.summary':
-      'Sou fã e praticante de esportes em geral, tais como: futebol, futebol americano, musculação, corrida e basquete.',
-    'hobbies.books': 'livros',
+      'Valorizo colaboração, comunicação clara e entregas ágeis em times multidisciplinares.',
+    'hobbies.books': 'aprendizado contínuo',
     'hobbies.books.summary':
-      'Tenho uma pequena coleção de mais de 200 livros de vários gêneros diferentes. Os livros são uma magia portátil única.',
-    'hobbies.technology': 'tecnologias',
+      'Mantenho meu repertório técnico atualizado com estudo prático e experimentação constante de novas ferramentas.',
+    'hobbies.technology': 'soluções digitais',
     'hobbies.technology.summary':
-      'Estou sempre em busca de novos conhecimentos e desafios, principalmente quando se trata da área de tecnologia.',
+      'Minha experiência em infraestrutura, suporte e desenvolvimento me ajuda a pensar soluções de ponta a ponta.',
     demo: 'acessar demo',
     repository: 'acessar repositório',
     'projects.2sow.description':
@@ -126,8 +126,8 @@ export const messages: { [key: string]: any } = {
       'Jogo de sobrevivência desenvolvido com VanillaJS e Canvas onde o objetivo é escapar das abelhas.',
     'projects.imdb.description':
       'Front-end desenvolvido no desafio AceleraDev da Codenation. O objetivo do desafio era recriar uma página do site IMDB.',
-    'footer.text': 'Todos os direitos reservados à',
-    'footer.design': 'Design por',
+    'footer.text': 'Design e desenvolvimento por',
+    'footer.stack': 'Construído com React e TypeScript.',
     'testimonial.ricky':
       'Pedro Siqueira, que projeto! Pude ver de perto o seu trabalho com a Gabriela Aguiar, e a forma que você lida com os desafios é sem dúvidas o seu diferencial e uma grande inspiração pra mim. Parabéns, meu amigo!',
     'testimonial.bruno':
