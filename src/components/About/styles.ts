@@ -17,11 +17,20 @@ export const AboutText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 20px;
+
+  h5 {
+    text-align: center;
+  }
 
   h1 {
     font-size: 31px;
     font-weight: 500;
     margin-bottom: 40px;
+    max-width: 680px;
+    text-align: center;
+    line-height: 1.25;
+    text-wrap: balance;
   }
 
   span {
@@ -38,14 +47,29 @@ export const AboutText = styled.div`
   }
 
   @media screen and (max-width: 840px) {
+    h1 {
+      max-width: 520px;
+    }
+
     .about-me {
-      padding: 0px 50px;
+      padding: 0 24px;
     }
   }
 
   @media screen and (max-width: 480px) {
+    padding: 0 16px;
+
+    h1 {
+      font-size: 26px;
+      max-width: 320px;
+      margin-bottom: 24px;
+      line-height: 1.2;
+    }
+
     p {
-      width: min(366px, 90%);
+      width: min(366px, 100%);
+      font-size: 15px;
+      line-height: 1.55;
     }
 
     .about-me {
@@ -55,7 +79,12 @@ export const AboutText = styled.div`
 
   @media screen and (max-width: 393px) {
     h1 {
-      font-size: 28px;
+      font-size: 24px;
+      max-width: 290px;
+    }
+
+    p {
+      font-size: 14px;
     }
   }
 `;

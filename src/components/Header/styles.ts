@@ -58,8 +58,12 @@ export const Content = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-left: 40px;
+      align-items: center;
+      margin-left: 0;
+      padding: 0 24px;
+      text-align: center;
       z-index: 0;
+
       h1 {
         font-size: 50px;
         max-width: 400px;
@@ -77,9 +81,13 @@ export const Content = styled.div`
     margin-top: 80px;
 
     .background-text {
-      margin-left: 15px;
       h1 {
-        font-size: 45px;
+        font-size: 42px;
+        max-width: 320px;
+      }
+
+      p {
+        max-width: 320px;
       }
     }
   }
@@ -87,12 +95,12 @@ export const Content = styled.div`
   @media screen and (max-width: 375px) {
     .background-text {
       h1 {
-        font-size: 38px;
-        max-width: 345px;
+        font-size: 36px;
+        max-width: 290px;
       }
 
       p {
-        max-width: 340px;
+        max-width: 290px;
       }
     }
   }
