@@ -24,11 +24,15 @@ Personal portfolio created using typescript and react. I created this site so I 
 ```sh
 git clone https://github.com/pedrovsiqueira/portfolio-pedro-siqueira
 ```
-2. Install Yarn packages
+2. Use Node.js 22 LTS
 ```sh
-yarn add
+nvm use
 ```
-3. Run the app
+3. Install Yarn packages
+```sh
+yarn install
+```
+4. Run the app
 ```sh
 yarn start
 ```
