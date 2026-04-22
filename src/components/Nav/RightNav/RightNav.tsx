@@ -1,5 +1,4 @@
 import React, { OlHTMLAttributes, useContext } from 'react';
-import { Link } from 'react-scroll';
 import { Ol, StyledLanguages, ModeContainer } from './styles';
 import detailSvg from '../../../assets/icons/Divider_Azul.svg';
 import SocialIcons from '../../SocialIcons/SocialIcons';
@@ -21,28 +20,14 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
     <>
       <Ol open={open}>
         <li>
-          <Link
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-200}
-            duration={2000}
-          >
+          <a href="#about">
             <FormattedMessage id="nav.first.li.element" />
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
-            activeClass="active"
-            to="skills"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={2000}
-          >
+          <a href="#skills">
             <FormattedMessage id="nav.skills.element" />
-          </Link>
+          </a>
         </li>
         <li>
           <img
@@ -54,19 +39,12 @@ const RightNav: React.FC<NavProps> = ({ open }) => {
         </li>
 
         <li>
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={2000}
-          >
+          <a href="#contact">
             <IoMdChatbubbles size={24} />
             <span className="contact">
               <FormattedMessage id="nav.fourth.li.element" />
             </span>
-          </Link>
+          </a>
         </li>
 
         <li>

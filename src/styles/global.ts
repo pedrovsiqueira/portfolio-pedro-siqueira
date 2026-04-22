@@ -4,6 +4,19 @@ export default createGlobalStyle`
 
   html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  #about,
+  #skills,
+  #contact {
+    scroll-margin-top: 90px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 
   *{
